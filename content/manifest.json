@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "min_app_version": "1.0.0",
+  "updated": "2026-11-19",
+  "game": {
+    "release_date": "2026-11-19",
+    "platforms": ["ps5", "xsx"],
+    "story_missions": 91
+  },
+  "sections": {
+    "cheats": { "enabled": true, "file": "cheats.json" },
+    "missions": { "enabled": false, "file": "missions.json" },
+    "secrets": { "enabled": false, "file": "secrets.json" },
+    "catalog": { "enabled": false, "file": "catalog.json" },
+    "pc": { "enabled": false }
+  },
+  "input_method": {
+    "status": "yellow",
+    "steps": {
+      "ps5": ["Press Up on the D-pad to open the phone.", "Hold L1 and press R1.", "Enter the D-pad code."],
+      "xsx": ["Press Up on the D-pad to open the phone.", "Hold LB and press RB.", "Enter the D-pad code."]
+    },
+    "notes": "Altchar: hold L1, press R1. Earlier reports differed (hold L1+R1 together). Yellow until confirmed by players.",
+    "evidence": [
+      "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ"
+    ]
+  },
+  "warnings": {
+    "en": [
+      "Cheats only work after you finish the story.",
+      "Using a cheat turns off saving and disables trophies and achievements. Save before you try one."
+    ]
+  }
+}

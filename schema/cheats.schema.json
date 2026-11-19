@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "cheats.schema.json",
+  "title": "Cheats file",
+  "type": "object",
+  "required": ["schema_version", "updated", "items"],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": { "const": 1 },
+    "updated": { "type": "string", "format": "date" },
+    "items": { "type": "array", "items": { "$ref": "#/$defs/cheat" } }
+  },
+  "$defs": {
+    "locales": {
+      "description": "Text per locale. en is required, others are optional and fall back to en in the app.",
+      "type": "object",
+      "required": ["en"],
+      "additionalProperties": false,
+      "properties": {
+        "en": { "type": ["string", "null"] },
+        "es": { "type": ["string", "null"] },
+        "es-ES": { "type": ["string", "null"] },
+        "pt-BR": { "type": ["string", "null"] },
+        "de": { "type": ["string", "null"] },
+        "it": { "type": ["string", "null"] },
+        "fr": { "type": ["string", "null"] },
+        "ru": { "type": ["string", "null"] },
+        "ja": { "type": ["string", "null"] },
+        "ko": { "type": ["string", "null"] }
+      }
+    },
+    "localeLists": {
+      "type": "object",
+      "required": ["en"],
+      "additionalProperties": false,
+      "patternProperties": {
+        "^(en|es|es-ES|pt-BR|de|it|fr|ru|ja|ko)$": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "evidence": {
+      "type": "object",
+      "required": ["url", "source", "source_type", "date", "claims", "stance"],
+      "additionalProperties": false,
+      "properties": {
+        "url": { "type": "string", "format": "uri" },
+        "source": { "type": "string", "description": "Publisher name, e.g. Game Rant" },
+        "source_type": { "enum": ["outlet", "wiki", "fansite", "video", "forum", "patch_notes", "user_reports"] },
+        "date": { "type": "string", "format": "date" },
+        "claims": {
+          "type": "array", "minItems": 1,
+          "items": { "enum": ["exists", "sequence", "unlock", "effect", "input_method"] }
+        },
+        "stance": { "enum": ["supports", "refutes", "conflicts"] },
+        "note": { "type": "string" }
+      }
+    },
+    "cheat": {
+      "type": "object",
+      "required": ["id", "type", "category", "name", "sequence", "unlock", "free", "status", "evidence", "last_checked"],
+      "additionalProperties": false,
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+        "type": { "const": "cheat" },
+        "category": { "enum": ["player", "combat", "vehicle", "environment", "filter"] },
+        "name": { "$ref": "#/$defs/locales", "description": "Official in-game name per game locale. Never translate it ourselves: null until the localized name is confirmed." },
+        "effect": { "$ref": "#/$defs/locales", "description": "Our own wording." },
+        "sequence": {
+          "description": "D-pad sequence after the cheat entry chord. null = not confirmed yet.",
+          "type": ["array", "null"],
+          "items": { "enum": ["up", "down", "left", "right"] }
+        },
+        "unlock": {
+          "type": "object",
+          "required": ["after_story", "challenge"],
+          "additionalProperties": false,
+          "properties": {
+            "after_story": { "type": "boolean" },
+            "challenge": {
+              "type": ["object", "null"],
+              "required": ["text"],
+              "additionalProperties": false,
+              "properties": {
+                "metric": { "type": ["string", "null"], "description": "Machine key for the tracker, e.g. base_jumps_300ft" },
+                "target": { "type": ["integer", "null"], "minimum": 1 },
+                "unit": { "enum": ["count", "minutes", "hours", "dollars", null] },
+                "text": { "$ref": "#/$defs/locales", "description": "Our own wording of the requirement." }
+              }
+            }
+          }
+        },
+        "steps": { "$ref": "#/$defs/localeLists", "description": "Paid: our step-by-step guide." },
+        "method": { "$ref": "#/$defs/locales", "description": "Paid: fastest way to finish the challenge. null until written and checked." },
+        "platforms": { "type": "array", "items": { "enum": ["ps5", "xsx", "pc"] }, "minItems": 1 },
+        "free": { "type": "boolean" },
+        "status": { "enum": ["green", "yellow", "red"] },
+        "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
+        "game_patch": { "type": ["string", "null"] },
+        "last_checked": { "type": "string", "format": "date" },
+        "notes": { "type": "string", "description": "Internal. Never shipped to the app." }
+      }
+    }
+  }
+}

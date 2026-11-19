@@ -1,0 +1,4024 @@
+{
+  "schema_version": 1,
+  "updated": "2026-11-19",
+  "items": [
+    {
+      "id": "money-250k",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "$250,000"
+      },
+      "effect": {
+        "en": "Adds $250,000 to your cash."
+      },
+      "sequence": [
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "left",
+        "down",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": null
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "drunk",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Drunk"
+      },
+      "effect": {
+        "en": "Makes you and your partner drunk."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "alcohol_spent",
+          "target": 2500,
+          "unit": "dollars",
+          "text": {
+            "en": "Spend $2,500 on alcohol."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "raise-heat-level",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Raise Heat Level"
+      },
+      "effect": {
+        "en": "Raises your heat level across the map."
+      },
+      "sequence": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "down",
+        "up"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "escape_3_stars",
+          "target": 25,
+          "unit": "count",
+          "text": {
+            "en": "Escape a 3-star wanted level 25 times."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "raise-wanted-level",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Raise Wanted Level"
+      },
+      "effect": {
+        "en": "Raises your wanted level."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "escape_3_stars",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Escape a 3-star wanted level 50 times."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "unlimited-focus",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Unlimited Focus"
+      },
+      "effect": {
+        "en": "Focus never runs out."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "up",
+        "down",
+        "up",
+        "down",
+        "up",
+        "down",
+        "up",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": null
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "no-fall-damage",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "No Fall Damage"
+      },
+      "effect": {
+        "en": "You take no damage from falls."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "falls_40ft",
+          "target": 20,
+          "unit": "count",
+          "text": {
+            "en": "Survive a fall from 40 ft or higher 20 times."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "parachute",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Parachute"
+      },
+      "effect": {
+        "en": "Puts a parachute in your loadout."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "jumps_300ft",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Do 50 skydives or BASE jumps from 300 ft (91.5 m) or higher."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "body-armor",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Body Armor"
+      },
+      "effect": {
+        "en": "Gives you body armor."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "left",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "down",
+        "down"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "workouts",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Finish 100 workouts."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "repair-vehicle",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Repair Vehicle"
+      },
+      "effect": {
+        "en": "Fully repairs the vehicle you are in."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "race_wins",
+          "target": 10,
+          "unit": "count",
+          "text": {
+            "en": "Take 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "unlimited-nitrous",
+      "type": "cheat",
+      "category": "player",
+      "name": {
+        "en": "Unlimited Nitrous"
+      },
+      "effect": {
+        "en": "Nitrous and fuel never run out."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "stunt_jumps",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Land 50 stunt jumps."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "max-ammo",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Max Ammo"
+      },
+      "effect": {
+        "en": "Refills all your ammo to the max."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "up",
+        "down",
+        "left"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "range_medals_bronze",
+          "target": 25,
+          "unit": "count",
+          "text": {
+            "en": "Earn 25 shooting range medals, bronze or better."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "infinite-ammo",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Infinite Ammo"
+      },
+      "effect": {
+        "en": "Your ammo never runs out."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "down",
+        "down"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "range_medals_silver",
+          "target": 25,
+          "unit": "count",
+          "text": {
+            "en": "Earn 25 shooting range medals, silver or better."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "no-reload",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "No Reload"
+      },
+      "effect": {
+        "en": "Unlimited ammo and no reloading."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "down",
+        "down",
+        "up"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "range_medals_gold",
+          "target": 25,
+          "unit": "count",
+          "text": {
+            "en": "Earn 25 gold medals at shooting ranges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "all-explosive-weapons",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "All Explosive Weapons"
+      },
+      "effect": {
+        "en": "Gives every explosive weapon with full ammo."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "grenades_thrown",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Throw 100 grenades."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "incendiary-ammo",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Incendiary Ammo"
+      },
+      "effect": {
+        "en": "All your bullets set targets on fire."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "fire_kills",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Kill 100 enemies with fire."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "exploding-bottles",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Exploding Bottles"
+      },
+      "effect": {
+        "en": "Bottles explode when they take damage."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "molotovs_thrown",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Throw 100 Molotovs."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "explosive-shotgun",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Explosive Shotgun"
+      },
+      "effect": {
+        "en": "Gives a shotgun loaded with explosive shells."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "explosive_hits",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Hit 100 enemies with explosives."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "hauners-h-at",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Hauners H-AT"
+      },
+      "effect": {
+        "en": "Adds the Hauners H-AT to your loadout."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "vehicles_destroyed",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Destroy 100 vehicles."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "attack-force",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Attack Force"
+      },
+      "effect": {
+        "en": "Shots and melee hits send targets flying."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "down"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": null
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "A search snippet showed GameSpot with a different code (D,U,L,R,D,D,U,D); page returned 403, not verified. Keep yellow until checked. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "exploding-balls",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Exploding Balls"
+      },
+      "effect": {
+        "en": "Sports balls blow up on impact."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "explosive_hits",
+          "target": 20,
+          "unit": "count",
+          "text": {
+            "en": "Hit 20 enemies with explosives."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "vehicle-force",
+      "type": "cheat",
+      "category": "combat",
+      "name": {
+        "en": "Vehicle Force"
+      },
+      "effect": {
+        "en": "Ramming with a vehicle sends targets flying."
+      },
+      "sequence": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "left",
+        "up",
+        "down"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "vehicle_kills",
+          "target": 25,
+          "unit": "count",
+          "text": {
+            "en": "Kill 25 people with a vehicle (civilians count)."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "interstate-ambulance",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Interstate Ambulance"
+      },
+      "effect": {
+        "en": "Spawns the Interstate Ambulance."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Discover the Interstate Ambulance (Progress menu)."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "airboat-09",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Airboat 09"
+      },
+      "effect": {
+        "en": "Spawns the Airboat 09."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "survival_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 survival challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "bravado-banshee",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Bravado Banshee"
+      },
+      "effect": {
+        "en": "Spawns the Bravado Banshee."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "combat_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every combat challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "tuff-bmx",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Tuff BMX"
+      },
+      "effect": {
+        "en": "Spawns the Tuff BMX."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "fitness_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 fitness challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "maibatsu-boomazoom",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Maibatsu Boomazoom"
+      },
+      "effect": {
+        "en": "Spawns the Maibatsu Boomazoom."
+      },
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "left"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "shopping_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 shopping challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "nagasaki-carbon-rs",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Nagasaki Carbon RS"
+      },
+      "effect": {
+        "en": "Spawns the Nagasaki Carbon RS."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "exploration_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every exploration challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "65-vapid-dominator",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "'65 Vapid Dominator"
+      },
+      "effect": {
+        "en": "Spawns the '65 Vapid Dominator."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "fitness_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every fitness challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "progen-emerus",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Progen Emerus"
+      },
+      "effect": {
+        "en": "Spawns the Progen Emerus."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "vehicle_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every vehicle challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "inflatable-flamingo",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Inflatable Flamingo"
+      },
+      "effect": {
+        "en": "Spawns the Inflatable Flamingo."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "cocaine_flamingos",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Destroy 50 cocaine flamingos."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "mtl-pumper",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "MTL Pumper"
+      },
+      "effect": {
+        "en": "Spawns the MTL Pumper."
+      },
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "right",
+        "up"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Discover the MTL Pumper (Progress menu)."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Unlock condition from one source only. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "vapid-stanier-g2-taxi",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Vapid Stanier G2 Taxi"
+      },
+      "effect": {
+        "en": "Spawns the Vapid Stanier G2 Taxi."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "sports_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 sports challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "hauners-p-996-lazer",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Hauners P-996 Lazer"
+      },
+      "effect": {
+        "en": "Spawns the Hauners P-996 Lazer."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "all_challenges",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every challenge in the game."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "hvy-bulldozer",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "HVY Bulldozer"
+      },
+      "effect": {
+        "en": "Spawns the HVY Bulldozer."
+      },
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "right",
+        "down"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Discover the HVY Bulldozer (Progress menu)."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "lapwing-mallard",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Lapwing Mallard"
+      },
+      "effect": {
+        "en": "Spawns the Lapwing Mallard."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "vehicle_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 vehicle challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "brimstone-golfer",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Brimstone Golfer"
+      },
+      "effect": {
+        "en": "Spawns the Brimstone Golfer."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "sports_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every sports challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "hauners-rhino-tank",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Hauners Rhino Tank"
+      },
+      "effect": {
+        "en": "Spawns the Hauners Rhino Tank."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "survival_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every survival challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "maibatsu-sanchez",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Maibatsu Sanchez"
+      },
+      "effect": {
+        "en": "Spawns the Maibatsu Sanchez."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "criminal_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 criminal challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "nagasaki-sea-sparrow",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Nagasaki Sea Sparrow"
+      },
+      "effect": {
+        "en": "Spawns the Nagasaki Sea Sparrow."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "exploration_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 exploration challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "speeder-700-gt",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Speeder 700 GT"
+      },
+      "effect": {
+        "en": "Spawns the Speeder 700 GT."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "combat_challenges",
+          "target": 5,
+          "unit": "count",
+          "text": {
+            "en": "Finish 5 combat challenges."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "truffade-thrax",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Truffade Thrax"
+      },
+      "effect": {
+        "en": "Spawns the Truffade Thrax."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "shopping_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every shopping challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "western-zombie-bobber",
+      "type": "cheat",
+      "category": "vehicle",
+      "name": {
+        "en": "Western Zombie Bobber"
+      },
+      "effect": {
+        "en": "Spawns the Western Zombie Bobber."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "criminal_challenges_all",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Finish every criminal challenge."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "move-time-forward",
+      "type": "cheat",
+      "category": "environment",
+      "name": {
+        "en": "Move Time Forward"
+      },
+      "effect": {
+        "en": "Skips the clock ahead."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "watches_found",
+          "target": 10,
+          "unit": "count",
+          "text": {
+            "en": "Find 10 collectible watches."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "pause-time-of-day",
+      "type": "cheat",
+      "category": "environment",
+      "name": {
+        "en": "Pause Time of Day"
+      },
+      "effect": {
+        "en": "Freezes the time of day."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "watches_found",
+          "target": 20,
+          "unit": "count",
+          "text": {
+            "en": "Find 20 collectible watches."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "cycle-weather",
+      "type": "cheat",
+      "category": "environment",
+      "name": {
+        "en": "Cycle Weather"
+      },
+      "effect": {
+        "en": "Switches to the next weather type."
+      },
+      "sequence": [
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "up",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": null
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "golden-hour",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Golden Hour"
+      },
+      "effect": {
+        "en": "Warm golden filter with a widescreen frame."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "hand_holding_hours",
+          "target": 4,
+          "unit": "hours",
+          "text": {
+            "en": "Hold hands with your partner for 4 hours in total."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "powdered-sugar",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Powdered Sugar"
+      },
+      "effect": {
+        "en": "Turns the world white and sparkly."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "space_debris_scanned",
+          "target": null,
+          "unit": "count",
+          "text": {
+            "en": "Scan every piece of space debris with WAiNK."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "pinhole",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Pinhole"
+      },
+      "effect": {
+        "en": "Pinhole-camera look."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "gang_ops_partner",
+          "target": 25,
+          "unit": "count",
+          "text": {
+            "en": "Clear 25 gang operations together with your partner."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "neon-jungle",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Neon Jungle"
+      },
+      "effect": {
+        "en": "Adds neon glow to the world."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "girlypop_vehicles",
+          "target": 16,
+          "unit": "count",
+          "text": {
+            "en": "Find all 16 Girlypop vehicles."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "yesteryear",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Yesteryear"
+      },
+      "effect": {
+        "en": "Black-and-white old TV look."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Discover the Ridgeway."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "cataclysm",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Cataclysm"
+      },
+      "effect": {
+        "en": "Covers the world in dark smoke."
+      },
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "right",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Discover Martha's Vamos (Progress menu)."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "videotape",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Videotape"
+      },
+      "effect": {
+        "en": "Old videotape look."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "partner_activities",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Do 50 activities with your partner."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "dark-mirror",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Dark Mirror"
+      },
+      "effect": {
+        "en": "Flips the world upside down and darkens it."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "vehicle_sales",
+          "target": 500000,
+          "unit": "dollars",
+          "text": {
+            "en": "Make $500,000 selling vehicles."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "migraine",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Migraine"
+      },
+      "effect": {
+        "en": "Blurry, warped filter."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "six_star_minutes",
+          "target": 6,
+          "unit": "minutes",
+          "text": {
+            "en": "Survive 6 minutes at a 6-star wanted level."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "dollhouse",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Dollhouse"
+      },
+      "effect": {
+        "en": "Bright colors with a narrow frame."
+      },
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "partner_hours",
+          "target": 8,
+          "unit": "hours",
+          "text": {
+            "en": "Spend 8 hours in total with your partner."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "bubblegum",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Bubblegum"
+      },
+      "effect": {
+        "en": "Purple-and-yellow world with sparkles."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "flamingos_cards",
+          "target": 24,
+          "unit": "count",
+          "text": {
+            "en": "Collect all 24 Vice City Flamingos cards."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "fast-forward",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Fast Forward"
+      },
+      "effect": {
+        "en": "Motion blur and fast-moving clouds."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "meditations",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Finish 50 meditations."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "fisheye",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Fisheye"
+      },
+      "effect": {
+        "en": "Fisheye-lens view."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "fish_caught",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Catch 100 fish."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "faded-glory",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Faded Glory"
+      },
+      "effect": {
+        "en": "Color old TV look."
+      },
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "left",
+        "right"
+      ],
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "stores_robbed_partner",
+          "target": 50,
+          "unit": "count",
+          "text": {
+            "en": "Rob 50 stores together with your partner."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "pixel-art",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Pixel Art"
+      },
+      "effect": {
+        "en": "Pixelated view."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "collectible_sales",
+          "target": 250000,
+          "unit": "dollars",
+          "text": {
+            "en": "Make $250,000 selling collectibles."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    },
+    {
+      "id": "hellscape",
+      "type": "cheat",
+      "category": "filter",
+      "name": {
+        "en": "Hellscape"
+      },
+      "effect": {
+        "en": "Red-orange world with heat haze."
+      },
+      "sequence": null,
+      "unlock": {
+        "after_story": true,
+        "challenge": {
+          "metric": "cop_cars_stolen",
+          "target": 100,
+          "unit": "count",
+          "text": {
+            "en": "Steal 100 police vehicles."
+          }
+        }
+      },
+      "steps": {
+        "en": []
+      },
+      "method": {
+        "en": null
+      },
+      "platforms": [
+        "ps5",
+        "xsx"
+      ],
+      "free": false,
+      "status": "yellow",
+      "evidence": [
+        {
+          "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.altchar.com/guides/gta-vi-cheats-list-every-code-unlock-requirement-and-how-to-use-them-aRfDb4o7avIJ",
+          "source": "Altchar",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "last_checked": "2026-11-19",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+    }
+  ]
+}

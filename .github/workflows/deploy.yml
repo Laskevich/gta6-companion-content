@@ -3,7 +3,7 @@ name: deploy
 on:
   push:
     branches: [main]
-    paths: ["content/**", "scripts/**", "schema/**"]
+    paths: ["content/**", "scripts/**", "schema/**", "site/**"]
   workflow_dispatch:
 
 permissions:

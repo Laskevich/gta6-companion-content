@@ -42,6 +42,9 @@ def main():
     manifest["hashes"] = hashes
     (DIST / "manifest.json").write_text(json.dumps(manifest, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
     (ROOT / "dist" / ".nojekyll").write_text("")
+    # Static pages (privacy policy) are served from the site root.
+    for page in (ROOT / "site").glob("*.html"):
+        shutil.copyfile(page, ROOT / "dist" / page.name)
     print("built", ", ".join(f"{k}={v}" for k, v in hashes.items()))
 
 

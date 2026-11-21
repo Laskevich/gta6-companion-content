@@ -48,7 +48,7 @@
 - План Б (отказ по 4.1/5.2.1): «CheatVault: Codes & Secrets», «Unlockd — Cheats & Guides», «Code Atlas: Cheats & Unlocks». Проверить имя и домен ДО первой отправки.
 - План В: убрать GTA из подзаголовка и ключевых слов, одно упоминание в описании.
 - Никаких артов, логотипов, шрифта Pricedown, карты Rockstar. В бренде без Leonida, Vice City и т. п.
-- «Unofficial guide. Not affiliated with Rockstar Games or Take-Two Interactive.»
+- «Unofficial guide. Not affiliated with Rockstar Games or Take-Two Interactive.» — в описании стора, на страницах privacy и support. В самом приложении не показываем (решение 21.11.2026); вернуть, если придёт жалоба.
 - ЕС: статус трейдера (DSA) → адрес и телефон публичны. Решить до отправки (отдельный номер).
 - Возрастной рейтинг и privacy label («Data Not Collected», если без трекинга).
 - Категория стора — Reference/Utilities, не Games.
@@ -67,6 +67,23 @@ https://claude.ai/artifact/Sm48q7YUzgCqqjBAxeeJXi — список читов, �
 - Заставка при запуске и после 15+ минут в фоне; онбординг при первом запуске: 2 бесплатных экрана, 1 «полный доступ», затем paywall, который можно закрыть. Это разовая покупка, не подписка.
 - Проверка `ios-screenshots` в Codemagic (запуск вручную): iPhone SE, Pro Max, iPad, iPhone Duo — заставка, онбординг, все экраны.
 - Идеи на потом: `docs/IDEAS.md`.
+
+## Сделано 21.11.2026, вторая половина (app PR release-features, content PR #7–#8)
+- «Не сработало? Напишите нам» в карточке чита и гайда → письмо в поддержку с читом, консолью, версией.
+- Метка NEW: поле `added` у читов и гайдов, 7 дней.
+- Избранное (бесплатно): звезда в карточке, свайп в списке, секция сверху.
+- Siri / Spotlight: «Открой <чит> в Cheats for GTA 6» на 9 языках, читы и гайды в поиске iPhone.
+- Уведомления по согласию: о новинках (фоновое обновление, без сервера) и о GTA 6 Online.
+- Вкладка «Секреты»: `content/guides.json` (схема `schema/guides.schema.json`, `mode` story/online). Появляется, когда `sections.guides.enabled = true` и есть записи.
+- Карточка «GTA 6 Online» в «Ещё»: `manifest.online` (`unannounced` / `announced` / `released`, `release_date`), кнопка «Напомнить о выходе».
+- Онбординг: 4 экрана, третий — «Всегда что-то новое» с кнопкой уведомлений.
+- Тексты стора на 9 языках: `store/listing.json`; страница поддержки `site/support.html`.
+
+## Как добавить гайд (секрет, награду, пасхалку)
+1. Запись в `content/guides.json`: `id`, `kind` (secret / collectible / reward / easter_egg / tip), `mode: "story"`, `title`, `summary` (бесплатно, без точного места), `location` и `steps` (платно), `reward`, `free`, `status`, `evidence`, `added` (сегодня), `last_checked`.
+2. Тексты своими словами; статус по тем же правилам, что у читов.
+3. Первый раз: `manifest.sections.guides.enabled = true`.
+4. `python scripts/validate.py` → PR → merge. Приложение подхватит без обновления.
 
 ## Не забыть (позже)
 - PC-раздел — когда выйдет PC-версия (`sections.pc` в manifest).

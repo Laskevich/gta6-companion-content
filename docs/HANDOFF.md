@@ -62,6 +62,12 @@
 ## UI (макет)
 https://claude.ai/artifact/Sm48q7YUzgCqqjBAxeeJXi — список читов, карточка с испытанием, режим ввода, «План», Live Activity, paywall.
 
+## Сделано 21.11.2026 (app PR #6–#13)
+- Сборка: Codemagic → TestFlight (внутренняя группа «Team»), подпись через сертификат `cairn_distribution` и профили `gta6_app_store` / `gta6_widgets_app_store`, Xcode 27.2. Только iPhone (`TARGETED_DEVICE_FAMILY = 1` в каждой цели).
+- Заставка при запуске и после 15+ минут в фоне; онбординг при первом запуске: 2 бесплатных экрана, 1 «полный доступ», затем paywall, который можно закрыть. Это разовая покупка, не подписка.
+- Проверка `ios-screenshots` в Codemagic (запуск вручную): iPhone SE, Pro Max, iPad, iPhone Duo — заставка, онбординг, все экраны.
+- Идеи на потом: `docs/IDEAS.md`.
+
 ## Не забыть (позже)
 - PC-раздел — когда выйдет PC-версия (`sections.pc` в manifest).
 - GTA 6 Online — отдельное приложение: трекер бизнесов, пуши, AlarmKit. В этом приложении собирать подписку «сообщить, когда выйдет».

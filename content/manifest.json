@@ -1,24 +1,147 @@
 {
   "schema_version": 1,
   "min_app_version": "1.0.0",
-  "updated": "2026-11-19",
+  "updated": "2026-11-21",
   "game": {
     "release_date": "2026-11-19",
-    "platforms": ["ps5", "xsx"],
+    "platforms": [
+      "ps5",
+      "xsx"
+    ],
     "story_missions": 91
   },
   "sections": {
-    "cheats": { "enabled": true, "file": "cheats.json" },
-    "missions": { "enabled": false, "file": "missions.json" },
-    "secrets": { "enabled": false, "file": "secrets.json" },
-    "catalog": { "enabled": false, "file": "catalog.json" },
-    "pc": { "enabled": false }
+    "cheats": {
+      "enabled": true,
+      "file": "cheats.json"
+    },
+    "missions": {
+      "enabled": false,
+      "file": "missions.json"
+    },
+    "secrets": {
+      "enabled": false,
+      "file": "secrets.json"
+    },
+    "catalog": {
+      "enabled": false,
+      "file": "catalog.json"
+    },
+    "pc": {
+      "enabled": false
+    }
   },
   "input_method": {
     "status": "yellow",
     "steps": {
-      "ps5": ["Press Up on the D-pad to open the phone.", "Hold L1 and press R1.", "Enter the D-pad code."],
-      "xsx": ["Press Up on the D-pad to open the phone.", "Hold LB and press RB.", "Enter the D-pad code."]
+      "ps5": [
+        "Press Up on the D-pad to open the phone.",
+        "Hold L1 and press R1.",
+        "Enter the D-pad code."
+      ],
+      "xsx": [
+        "Press Up on the D-pad to open the phone.",
+        "Hold LB and press RB.",
+        "Enter the D-pad code."
+      ]
+    },
+    "steps_localized": {
+      "es": {
+        "ps5": [
+          "Presiona arriba en la cruceta para abrir el teléfono.",
+          "Mantén L1 y presiona R1.",
+          "Ingresa el código con la cruceta."
+        ],
+        "xsx": [
+          "Presiona arriba en la cruceta para abrir el teléfono.",
+          "Mantén LB y presiona RB.",
+          "Ingresa el código con la cruceta."
+        ]
+      },
+      "pt-BR": {
+        "ps5": [
+          "Aperte para cima no direcional para abrir o celular.",
+          "Segure L1 e aperte R1.",
+          "Insira o código no direcional."
+        ],
+        "xsx": [
+          "Aperte para cima no direcional para abrir o celular.",
+          "Segure LB e aperte RB.",
+          "Insira o código no direcional."
+        ]
+      },
+      "de": {
+        "ps5": [
+          "Drücke auf dem Steuerkreuz nach oben, um das Handy zu öffnen.",
+          "Halte L1 gedrückt und drücke R1.",
+          "Gib den Code mit dem Steuerkreuz ein."
+        ],
+        "xsx": [
+          "Drücke auf dem Steuerkreuz nach oben, um das Handy zu öffnen.",
+          "Halte LB gedrückt und drücke RB.",
+          "Gib den Code mit dem Steuerkreuz ein."
+        ]
+      },
+      "it": {
+        "ps5": [
+          "Premi su sulla croce direzionale per aprire il telefono.",
+          "Tieni premuto L1 e premi R1.",
+          "Inserisci il codice con la croce direzionale."
+        ],
+        "xsx": [
+          "Premi su sulla croce direzionale per aprire il telefono.",
+          "Tieni premuto LB e premi RB.",
+          "Inserisci il codice con la croce direzionale."
+        ]
+      },
+      "fr": {
+        "ps5": [
+          "Appuyez vers le haut sur la croix directionnelle pour ouvrir le téléphone.",
+          "Maintenez L1 et appuyez sur R1.",
+          "Saisissez le code avec la croix directionnelle."
+        ],
+        "xsx": [
+          "Appuyez vers le haut sur la croix directionnelle pour ouvrir le téléphone.",
+          "Maintenez LB et appuyez sur RB.",
+          "Saisissez le code avec la croix directionnelle."
+        ]
+      },
+      "ru": {
+        "ps5": [
+          "Нажмите вверх на крестовине, чтобы открыть телефон.",
+          "Зажмите L1 и нажмите R1.",
+          "Введите код на крестовине."
+        ],
+        "xsx": [
+          "Нажмите вверх на крестовине, чтобы открыть телефон.",
+          "Зажмите LB и нажмите RB.",
+          "Введите код на крестовине."
+        ]
+      },
+      "ja": {
+        "ps5": [
+          "十字キーの上を押してスマホを開きます。",
+          "L1を押したままR1を押します。",
+          "十字キーでコードを入力します。"
+        ],
+        "xsx": [
+          "十字キーの上を押してスマホを開きます。",
+          "LBを押したままRBを押します。",
+          "十字キーでコードを入力します。"
+        ]
+      },
+      "ko": {
+        "ps5": [
+          "방향 버튼 위쪽을 눌러 휴대폰을 여세요.",
+          "L1을(를) 누른 채로 R1을(를) 누르세요.",
+          "방향 버튼으로 코드를 입력하세요."
+        ],
+        "xsx": [
+          "방향 버튼 위쪽을 눌러 휴대폰을 여세요.",
+          "LB을(를) 누른 채로 RB을(를) 누르세요.",
+          "방향 버튼으로 코드를 입력하세요."
+        ]
+      }
     },
     "notes": "Altchar: hold L1, press R1. Earlier reports differed (hold L1+R1 together). Yellow until confirmed by players.",
     "evidence": [
@@ -49,6 +172,18 @@
     "fr": [
       "Les codes ne fonctionnent qu'après avoir terminé l'histoire.",
       "Utiliser un code désactive la sauvegarde ainsi que les trophées et succès. Sauvegardez avant d'en essayer un."
+    ],
+    "ru": [
+      "Читы работают только после прохождения сюжета.",
+      "Чит отключает сохранение, трофеи и достижения. Сохранитесь, прежде чем пробовать."
+    ],
+    "ja": [
+      "チートはストーリークリア後にのみ使えます。",
+      "チートを使うとセーブ、トロフィー、実績が無効になります。試す前にセーブしてください。"
+    ],
+    "ko": [
+      "치트는 스토리를 완료한 뒤에만 작동해요.",
+      "치트를 사용하면 저장과 트로피, 도전 과제가 비활성화돼요. 사용하기 전에 저장하세요."
     ]
   }
 }

@@ -96,6 +96,7 @@
         "evidence": { "type": "array", "items": { "$ref": "#/$defs/evidence" } },
         "game_patch": { "type": ["string", "null"] },
         "last_checked": { "type": "string", "format": "date" },
+        "added": { "type": "string", "format": "date", "description": "Publish date. The app shows a NEW badge for 7 days. Set it on new items only." },
         "notes": { "type": "string", "description": "Internal. Never shipped to the app." }
       }
     }

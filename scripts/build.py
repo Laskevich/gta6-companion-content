@@ -14,8 +14,8 @@ DIST = ROOT / "dist" / "v1"
 PRIVATE_FIELDS = {"evidence", "notes"}
 
 
-def public_cheats():
-    data = json.loads((CONTENT / "cheats.json").read_text(encoding="utf-8"))
+def public_items(file_name):
+    data = json.loads((CONTENT / file_name).read_text(encoding="utf-8"))
     data["items"] = [
         {k: v for k, v in it.items() if k not in PRIVATE_FIELDS}
         for it in data["items"]
@@ -32,7 +32,12 @@ def main():
     manifest["input_method"].pop("evidence", None)
     manifest["input_method"].pop("notes", None)
 
-    files = {"cheats.json": public_cheats()}
+    files = {"cheats.json": public_items("cheats.json")}
+    # Published only once there is something to show; the app treats it as optional.
+    if (CONTENT / "guides.json").exists():
+        guides = public_items("guides.json")
+        if guides["items"]:
+            files["guides.json"] = guides
     hashes = {}
     for name, obj in files.items():
         raw = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).encode("utf-8")

@@ -19,9 +19,9 @@
       "enabled": false,
       "file": "missions.json"
     },
-    "secrets": {
+    "guides": {
       "enabled": false,
-      "file": "secrets.json"
+      "file": "guides.json"
     },
     "catalog": {
       "enabled": false,
@@ -30,6 +30,11 @@
     "pc": {
       "enabled": false
     }
+  },
+  "online": {
+    "status": "unannounced",
+    "release_date": null,
+    "note": null
   },
   "input_method": {
     "status": "yellow",

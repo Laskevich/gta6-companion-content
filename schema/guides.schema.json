@@ -1,0 +1,121 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "guides.schema.json",
+  "title": "Guides file: secrets, collectibles, rewards, easter eggs, tips (story and online)",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "updated",
+    "items"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "updated": {
+      "type": "string",
+      "format": "date"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/guide"
+      }
+    }
+  },
+  "$defs": {
+    "guide": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "mode",
+        "title",
+        "free",
+        "status",
+        "evidence",
+        "added",
+        "last_checked"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$"
+        },
+        "kind": {
+          "enum": [
+            "secret",
+            "collectible",
+            "reward",
+            "easter_egg",
+            "tip"
+          ]
+        },
+        "mode": {
+          "enum": [
+            "story",
+            "online"
+          ],
+          "description": "story now; online once GTA 6 Online opens."
+        },
+        "title": {
+          "$ref": "cheats.schema.json#/$defs/locales",
+          "description": "Short name, our own wording (official in-game names stay as in the game)."
+        },
+        "summary": {
+          "$ref": "cheats.schema.json#/$defs/locales",
+          "description": "Free: one or two sentences, what it is and why it matters. No spoiler of the exact spot."
+        },
+        "location": {
+          "$ref": "cheats.schema.json#/$defs/locales",
+          "description": "Paid unless free: where exactly."
+        },
+        "reward": {
+          "$ref": "cheats.schema.json#/$defs/locales",
+          "description": "What the player gets, if anything."
+        },
+        "steps": {
+          "$ref": "cheats.schema.json#/$defs/localeLists",
+          "description": "Paid unless free: step-by-step, our own wording."
+        },
+        "free": {
+          "type": "boolean"
+        },
+        "status": {
+          "enum": [
+            "green",
+            "yellow",
+            "red"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "cheats.schema.json#/$defs/evidence"
+          }
+        },
+        "game_patch": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "added": {
+          "type": "string",
+          "format": "date",
+          "description": "Publish date; NEW badge for 7 days."
+        },
+        "last_checked": {
+          "type": "string",
+          "format": "date"
+        },
+        "notes": {
+          "type": "string",
+          "description": "Internal. Never shipped to the app."
+        }
+      }
+    }
+  }
+}

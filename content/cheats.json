@@ -32,7 +32,22 @@
       ],
       "unlock": {
         "after_story": true,
-        "challenge": null
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Finish the story. Newer guides also say to sell $250,000 of stolen goods to a fence, so check the Progress menu.",
+            "es": "Termina la historia. Guías más recientes dicen que además hay que venderle $250,000 en objetos robados a un perista: revisa el menú de progreso.",
+            "pt-BR": "Termine a história. Guias mais novos dizem que também é preciso vender $ 250.000 em itens roubados a um receptador: confira no menu de progresso.",
+            "de": "Schließ die Story ab. Neuere Guides nennen zusätzlich: Diebesgut im Wert von 250.000 $ an einen Hehler verkaufen – prüf das Fortschrittsmenü.",
+            "it": "Completa la storia. Le guide più recenti dicono anche di vendere 250.000 $ di refurtiva a un ricettatore: controlla il menu progressi.",
+            "fr": "Terminez l'histoire. Des guides plus récents ajoutent : vendre 250 000 $ de marchandises volées à un receleur. Vérifiez le menu Progression.",
+            "ru": "Пройдите сюжет. В более свежих гайдах есть ещё условие: продать скупщику краденого на 250 000 $ — проверьте в меню прогресса.",
+            "ja": "ストーリーをクリア。新しいガイドでは、盗品を故買屋に$250,000分売ることも条件とされています。進行状況メニューで確認を。",
+            "ko": "스토리를 끝내세요. 최신 가이드에선 장물아비에게 훔친 물건을 $250,000어치 팔아야 한다고도 해요. 진행 메뉴에서 확인하세요."
+          }
+        }
       },
       "steps": {
         "en": []
@@ -71,11 +86,21 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.shacknews.com/article/151457/all-cheat-codes-gta6",
+          "source": "Shacknews",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "unlock"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
-      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-22",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Unlock disputed: story (Altchar, iGeeksBlog) vs fence $250k (Shacknews, others). Code agreed."
     },
     {
       "id": "drunk",
@@ -95,7 +120,18 @@
         "ja": "自分とパートナーが酔っぱらいます。",
         "ko": "나와 파트너가 술에 취해요."
       },
-      "sequence": null,
+      "sequence": [
+        "up",
+        "left",
+        "right",
+        "up",
+        "up",
+        "left",
+        "right",
+        "up",
+        "left",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -126,7 +162,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -150,11 +186,36 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.shacknews.com/article/151457/all-cheat-codes-gta6",
+          "source": "Shacknews",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.igeeksblog.com/gta-6-cheats-codes/",
+          "source": "iGeeksBlog",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-22",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-22"
     },
     {
       "id": "raise-heat-level",
@@ -3616,7 +3677,22 @@
       ],
       "unlock": {
         "after_story": true,
-        "challenge": null
+        "challenge": {
+          "metric": null,
+          "target": null,
+          "unit": null,
+          "text": {
+            "en": "Reveal the whole map. One guide lists only finishing the story.",
+            "es": "Revela todo el mapa. Una guía dice que basta con terminar la historia.",
+            "pt-BR": "Revele o mapa inteiro. Um guia diz que basta terminar a história.",
+            "de": "Deck die ganze Karte auf. Ein Guide nennt nur den Story-Abschluss.",
+            "it": "Scopri tutta la mappa. Una guida indica solo il completamento della storia.",
+            "fr": "Révélez toute la carte. Un guide indique seulement de finir l'histoire.",
+            "ru": "Откройте всю карту. В одном гайде указано только прохождение сюжета.",
+            "ja": "マップをすべて開放する。ストーリークリアのみとするガイドもあります。",
+            "ko": "지도 전체를 밝히세요. 스토리 완료만 적힌 가이드도 있어요."
+          }
+        }
       },
       "steps": {
         "en": []
@@ -3655,11 +3731,21 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.shacknews.com/article/151457/all-cheat-codes-gta6",
+          "source": "Shacknews",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "unlock"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
-      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-22",
+      "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Unlock: reveal map (Shacknews, PureXbox, GamesRadar) vs story (Altchar, PowerPyx)."
     },
     {
       "id": "golden-hour",
@@ -4166,7 +4252,18 @@
         "ja": "古いビデオテープ風の見た目。",
         "ko": "오래된 비디오테이프 느낌."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4221,11 +4318,24 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.shacknews.com/article/151457/all-cheat-codes-gta6",
+          "source": "Shacknews",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-22",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Code only on Shacknews (22.11); GameRiv/games.gg/iGeeksBlog still TBA.",
+      "added": "2026-11-22"
     },
     {
       "id": "dark-mirror",
@@ -4245,7 +4355,18 @@
         "ja": "世界を上下反転させて暗くします。",
         "ko": "세상을 거꾸로 뒤집고 어둡게 만들어요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "right",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4300,11 +4421,24 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.shacknews.com/article/151457/all-cheat-codes-gta6",
+          "source": "Shacknews",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence",
+            "unlock"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-22",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Code only on Shacknews (22.11); GameRiv/games.gg/iGeeksBlog still TBA.",
+      "added": "2026-11-22"
     },
     {
       "id": "migraine",

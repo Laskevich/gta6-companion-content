@@ -20,7 +20,7 @@
       "file": "missions.json"
     },
     "guides": {
-      "enabled": false,
+      "enabled": true,
       "file": "guides.json"
     },
     "catalog": {

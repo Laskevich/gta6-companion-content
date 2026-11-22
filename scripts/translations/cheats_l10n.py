@@ -815,3 +815,28 @@ L["ko"] = {
     "finish_all": "{cat} 도전 모두 마치기.",
     "cats": ["생존", "전투", "피트니스", "쇼핑", "탐험", "차량", "스포츠", "범죄"],
 }
+
+# 2026-11-22: corrected unlock texts ($250,000, Cycle Weather). Same order in every language.
+CHALLENGES_EN += [
+    "Finish the story. Newer guides also say to sell $250,000 of stolen goods to a fence, so check the Progress menu.",
+    "Reveal the whole map. One guide lists only finishing the story.",
+]
+for _lang, _texts in {
+    "es": ["Termina la historia. Guías más recientes dicen que además hay que venderle $250,000 en objetos robados a un perista: revisa el menú de progreso.",
+           "Revela todo el mapa. Una guía dice que basta con terminar la historia."],
+    "pt-BR": ["Termine a história. Guias mais novos dizem que também é preciso vender $ 250.000 em itens roubados a um receptador: confira no menu de progresso.",
+              "Revele o mapa inteiro. Um guia diz que basta terminar a história."],
+    "de": ["Schließ die Story ab. Neuere Guides nennen zusätzlich: Diebesgut im Wert von 250.000 $ an einen Hehler verkaufen – prüf das Fortschrittsmenü.",
+           "Deck die ganze Karte auf. Ein Guide nennt nur den Story-Abschluss."],
+    "it": ["Completa la storia. Le guide più recenti dicono anche di vendere 250.000 $ di refurtiva a un ricettatore: controlla il menu progressi.",
+           "Scopri tutta la mappa. Una guida indica solo il completamento della storia."],
+    "fr": ["Terminez l'histoire. Des guides plus récents ajoutent : vendre 250 000 $ de marchandises volées à un receleur. Vérifiez le menu Progression.",
+           "Révélez toute la carte. Un guide indique seulement de finir l'histoire."],
+    "ru": ["Пройдите сюжет. В более свежих гайдах есть ещё условие: продать скупщику краденого на 250 000 $ — проверьте в меню прогресса.",
+           "Откройте всю карту. В одном гайде указано только прохождение сюжета."],
+    "ja": ["ストーリーをクリア。新しいガイドでは、盗品を故買屋に$250,000分売ることも条件とされています。進行状況メニューで確認を。",
+           "マップをすべて開放する。ストーリークリアのみとするガイドもあります。"],
+    "ko": ["스토리를 끝내세요. 최신 가이드에선 장물아비에게 훔친 물건을 $250,000어치 팔아야 한다고도 해요. 진행 메뉴에서 확인하세요.",
+           "지도 전체를 밝히세요. 스토리 완료만 적힌 가이드도 있어요."],
+}.items():
+    L[_lang]["challenges"] += _texts

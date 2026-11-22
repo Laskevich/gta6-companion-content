@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-19",
+  "updated": "2026-11-22",
   "items": [
     {
       "id": "money-250k",
@@ -10,7 +10,15 @@
         "en": "$250,000"
       },
       "effect": {
-        "en": "Adds $250,000 to your cash."
+        "en": "Adds $250,000 to your cash.",
+        "es": "Agrega $250,000 a tu efectivo.",
+        "pt-BR": "Adiciona $ 250.000 ao seu dinheiro.",
+        "de": "Fügt deinem Bargeld 250.000 $ hinzu.",
+        "it": "Aggiunge 250.000 $ ai tuoi contanti.",
+        "fr": "Ajoute 250 000 $ à votre argent liquide.",
+        "ru": "Добавляет 250 000 $ к вашим наличным.",
+        "ja": "所持金に$250,000を追加します。",
+        "ko": "현금에 $250,000를 추가해요."
       },
       "sequence": [
         "up",
@@ -77,7 +85,15 @@
         "en": "Drunk"
       },
       "effect": {
-        "en": "Makes you and your partner drunk."
+        "en": "Makes you and your partner drunk.",
+        "es": "Te emborracha a ti y a tu pareja.",
+        "pt-BR": "Deixa você e seu parceiro bêbados.",
+        "de": "Macht dich und deinen Partner betrunken.",
+        "it": "Fa ubriacare te e il tuo partner.",
+        "fr": "Vous rend ivre, vous et votre partenaire.",
+        "ru": "Вы с напарником напиваетесь.",
+        "ja": "自分とパートナーが酔っぱらいます。",
+        "ko": "나와 파트너가 술에 취해요."
       },
       "sequence": null,
       "unlock": {
@@ -87,7 +103,15 @@
           "target": 2500,
           "unit": "dollars",
           "text": {
-            "en": "Spend $2,500 on alcohol."
+            "en": "Spend $2,500 on alcohol.",
+            "es": "Gasta $2,500 en alcohol.",
+            "pt-BR": "Gaste $ 2.500 em bebidas alcoólicas.",
+            "de": "Gib 2.500 $ für Alkohol aus.",
+            "it": "Spendi 2.500 $ in alcolici.",
+            "fr": "Dépensez 2 500 $ en alcool.",
+            "ru": "Потратьте 2 500 $ на алкоголь.",
+            "ja": "お酒に$2,500使う。",
+            "ko": "술에 $2,500 쓰기."
           }
         }
       },
@@ -140,7 +164,15 @@
         "en": "Raise Heat Level"
       },
       "effect": {
-        "en": "Raises your heat level across the map."
+        "en": "Raises your heat level across the map.",
+        "es": "Aumenta la alerta policial en todo el mapa.",
+        "pt-BR": "Aumenta o alerta da polícia em todo o mapa.",
+        "de": "Erhöht dein Fahndungsrisiko auf der ganzen Karte.",
+        "it": "Aumenta il livello di allerta su tutta la mappa.",
+        "fr": "Augmente votre niveau d'alerte sur toute la carte.",
+        "ru": "Повышает внимание полиции по всей карте.",
+        "ja": "マップ全体で警戒度が上がります。",
+        "ko": "맵 전체의 경계 수준이 올라가요."
       },
       "sequence": [
         "left",
@@ -158,7 +190,15 @@
           "target": 25,
           "unit": "count",
           "text": {
-            "en": "Escape a 3-star wanted level 25 times."
+            "en": "Escape a 3-star wanted level 25 times.",
+            "es": "Escapa de un nivel de búsqueda de 3 estrellas 25 veces.",
+            "pt-BR": "Fuja de um nível de procurado de 3 estrelas 25 vezes.",
+            "de": "Entkomme 25-mal einer 3-Sterne-Fahndung.",
+            "it": "Sfuggi 25 volte a un livello di ricercato da 3 stelle.",
+            "fr": "Échappez 25 fois à un niveau de recherche 3 étoiles.",
+            "ru": "Уйдите от розыска 3 звезды 25 раз.",
+            "ja": "3つ星の手配から25回逃げ切る。",
+            "ko": "3성 수배에서 25번 벗어나기."
           }
         }
       },
@@ -213,7 +253,15 @@
         "en": "Raise Wanted Level"
       },
       "effect": {
-        "en": "Raises your wanted level."
+        "en": "Raises your wanted level.",
+        "es": "Aumenta tu nivel de búsqueda policial.",
+        "pt-BR": "Aumenta seu nível de procurado pela polícia.",
+        "de": "Erhöht deine Fahndungsstufe.",
+        "it": "Aumenta il tuo livello di ricercato.",
+        "fr": "Augmente votre niveau de recherche.",
+        "ru": "Повышает уровень розыска.",
+        "ja": "手配度が上がります。",
+        "ko": "수배 레벨이 올라가요."
       },
       "sequence": null,
       "unlock": {
@@ -223,7 +271,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Escape a 3-star wanted level 50 times."
+            "en": "Escape a 3-star wanted level 50 times.",
+            "es": "Escapa de un nivel de búsqueda de 3 estrellas 50 veces.",
+            "pt-BR": "Fuja de um nível de procurado de 3 estrelas 50 vezes.",
+            "de": "Entkomme 50-mal einer 3-Sterne-Fahndung.",
+            "it": "Sfuggi 50 volte a un livello di ricercato da 3 stelle.",
+            "fr": "Échappez 50 fois à un niveau de recherche 3 étoiles.",
+            "ru": "Уйдите от розыска 3 звезды 50 раз.",
+            "ja": "3つ星の手配から50回逃げ切る。",
+            "ko": "3성 수배에서 50번 벗어나기."
           }
         }
       },
@@ -276,7 +332,15 @@
         "en": "Unlimited Focus"
       },
       "effect": {
-        "en": "Focus never runs out."
+        "en": "Focus never runs out.",
+        "es": "El enfoque nunca se agota.",
+        "pt-BR": "O foco nunca acaba.",
+        "de": "Der Fokus geht nie aus.",
+        "it": "La concentrazione non finisce mai.",
+        "fr": "La concentration ne s'épuise jamais.",
+        "ru": "Фокус не заканчивается.",
+        "ja": "フォーカスが無限になります。",
+        "ko": "포커스가 줄지 않아요."
       },
       "sequence": [
         "down",
@@ -345,7 +409,15 @@
         "en": "No Fall Damage"
       },
       "effect": {
-        "en": "You take no damage from falls."
+        "en": "You take no damage from falls.",
+        "es": "No recibes daño por caídas.",
+        "pt-BR": "Você não sofre dano de quedas.",
+        "de": "Du erleidest keinen Fallschaden.",
+        "it": "Non subisci danni dalle cadute.",
+        "fr": "Vous ne subissez aucun dégât de chute.",
+        "ru": "Падения не наносят урона.",
+        "ja": "落下ダメージを受けなくなります。",
+        "ko": "낙하 피해를 받지 않아요."
       },
       "sequence": null,
       "unlock": {
@@ -355,7 +427,15 @@
           "target": 20,
           "unit": "count",
           "text": {
-            "en": "Survive a fall from 40 ft or higher 20 times."
+            "en": "Survive a fall from 40 ft or higher 20 times.",
+            "es": "Sobrevive 20 veces a una caída de 12 m (40 ft) o más.",
+            "pt-BR": "Sobreviva 20 vezes a uma queda de 12 m (40 ft) ou mais.",
+            "de": "Überlebe 20-mal einen Sturz aus 12 m (40 ft) oder mehr.",
+            "it": "Sopravvivi 20 volte a una caduta da 12 m (40 ft) o più.",
+            "fr": "Survivez 20 fois à une chute de 12 m (40 ft) ou plus.",
+            "ru": "Переживите падение с высоты от 12 м (40 футов) 20 раз.",
+            "ja": "12m（40フィート）以上の高さからの落下を20回生き延びる。",
+            "ko": "12m(40ft) 이상 높이에서 떨어지고 20번 살아남기."
           }
         }
       },
@@ -408,7 +488,15 @@
         "en": "Parachute"
       },
       "effect": {
-        "en": "Puts a parachute in your loadout."
+        "en": "Puts a parachute in your loadout.",
+        "es": "Agrega un paracaídas a tu equipo.",
+        "pt-BR": "Coloca um paraquedas no seu equipamento.",
+        "de": "Legt einen Fallschirm in deine Ausrüstung.",
+        "it": "Aggiunge un paracadute al tuo equipaggiamento.",
+        "fr": "Ajoute un parachute à votre équipement.",
+        "ru": "Добавляет парашют в снаряжение.",
+        "ja": "装備にパラシュートを追加します。",
+        "ko": "장비에 낙하산을 추가해요."
       },
       "sequence": null,
       "unlock": {
@@ -418,7 +506,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Do 50 skydives or BASE jumps from 300 ft (91.5 m) or higher."
+            "en": "Do 50 skydives or BASE jumps from 300 ft (91.5 m) or higher.",
+            "es": "Haz 50 saltos en paracaídas o BASE desde 91.5 m (300 ft) o más.",
+            "pt-BR": "Faça 50 saltos de paraquedas ou BASE de 91,5 m (300 ft) ou mais.",
+            "de": "Mach 50 Fallschirm- oder BASE-Sprünge aus 91,5 m (300 ft) oder mehr.",
+            "it": "Fai 50 lanci col paracadute o BASE jump da 91,5 m (300 ft) o più.",
+            "fr": "Faites 50 sauts en parachute ou BASE jumps depuis 91,5 m (300 ft) ou plus.",
+            "ru": "Совершите 50 прыжков с парашютом или бейсджампов с высоты от 91,5 м (300 футов).",
+            "ja": "91.5m（300フィート）以上の高さからスカイダイビングかBASEジャンプを50回行う。",
+            "ko": "91.5m(300ft) 이상 높이에서 스카이다이빙이나 BASE 점프 50번 하기."
           }
         }
       },
@@ -471,7 +567,15 @@
         "en": "Body Armor"
       },
       "effect": {
-        "en": "Gives you body armor."
+        "en": "Gives you body armor.",
+        "es": "Te da chaleco antibalas.",
+        "pt-BR": "Dá colete à prova de balas.",
+        "de": "Gibt dir eine Schutzweste.",
+        "it": "Ti dà un giubbotto antiproiettile.",
+        "fr": "Vous donne un gilet pare-balles.",
+        "ru": "Выдаёт бронежилет.",
+        "ja": "ボディアーマーを入手します。",
+        "ko": "방탄복을 받아요."
       },
       "sequence": [
         "down",
@@ -492,7 +596,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Finish 100 workouts."
+            "en": "Finish 100 workouts.",
+            "es": "Completa 100 entrenamientos.",
+            "pt-BR": "Conclua 100 treinos.",
+            "de": "Schließ 100 Workouts ab.",
+            "it": "Completa 100 allenamenti.",
+            "fr": "Terminez 100 séances de sport.",
+            "ru": "Завершите 100 тренировок.",
+            "ja": "トレーニングを100回終える。",
+            "ko": "운동 100번 마치기."
           }
         }
       },
@@ -547,7 +659,15 @@
         "en": "Repair Vehicle"
       },
       "effect": {
-        "en": "Fully repairs the vehicle you are in."
+        "en": "Fully repairs the vehicle you are in.",
+        "es": "Repara por completo el vehículo en el que estás.",
+        "pt-BR": "Conserta totalmente o veículo em que você está.",
+        "de": "Repariert dein aktuelles Fahrzeug komplett.",
+        "it": "Ripara completamente il veicolo in cui ti trovi.",
+        "fr": "Répare entièrement le véhicule dans lequel vous êtes.",
+        "ru": "Полностью чинит транспорт, в котором вы находитесь.",
+        "ja": "乗っている車両を完全に修理します。",
+        "ko": "타고 있는 차량을 완전히 수리해요."
       },
       "sequence": null,
       "unlock": {
@@ -557,7 +677,15 @@
           "target": 10,
           "unit": "count",
           "text": {
-            "en": "Take 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway."
+            "en": "Take 1st place in 10 races at Gellhorn Raceway, Thrillbilly Mud Club and Boone Speedway.",
+            "es": "Gana el 1.er lugar en 10 carreras en Gellhorn Raceway, Thrillbilly Mud Club y Boone Speedway.",
+            "pt-BR": "Fique em 1º lugar em 10 corridas no Gellhorn Raceway, Thrillbilly Mud Club e Boone Speedway.",
+            "de": "Gewinne 10 Rennen auf dem Gellhorn Raceway, im Thrillbilly Mud Club und auf dem Boone Speedway.",
+            "it": "Arriva primo in 10 gare a Gellhorn Raceway, Thrillbilly Mud Club e Boone Speedway.",
+            "fr": "Finissez 1er de 10 courses au Gellhorn Raceway, au Thrillbilly Mud Club et au Boone Speedway.",
+            "ru": "Займите 1-е место в 10 гонках на Gellhorn Raceway, Thrillbilly Mud Club и Boone Speedway.",
+            "ja": "Gellhorn Raceway、Thrillbilly Mud Club、Boone Speedwayのレースで10回1位になる。",
+            "ko": "Gellhorn Raceway, Thrillbilly Mud Club, Boone Speedway 레이스에서 1위 10번 하기."
           }
         }
       },
@@ -610,7 +738,15 @@
         "en": "Unlimited Nitrous"
       },
       "effect": {
-        "en": "Nitrous and fuel never run out."
+        "en": "Nitrous and fuel never run out.",
+        "es": "El nitro y la gasolina nunca se acaban.",
+        "pt-BR": "O nitro e o combustível nunca acabam.",
+        "de": "Nitro und Treibstoff gehen nie aus.",
+        "it": "Nitro e carburante non finiscono mai.",
+        "fr": "Le nitro et le carburant ne s'épuisent jamais.",
+        "ru": "Нитро и топливо не заканчиваются.",
+        "ja": "ニトロと燃料が無限になります。",
+        "ko": "니트로와 연료가 줄지 않아요."
       },
       "sequence": null,
       "unlock": {
@@ -620,7 +756,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Land 50 stunt jumps."
+            "en": "Land 50 stunt jumps.",
+            "es": "Completa 50 saltos acrobáticos.",
+            "pt-BR": "Acerte 50 saltos acrobáticos.",
+            "de": "Lande 50 Stuntsprünge.",
+            "it": "Atterra 50 salti acrobatici.",
+            "fr": "Réussissez 50 cascades.",
+            "ru": "Выполните 50 трюковых прыжков.",
+            "ja": "スタントジャンプを50回成功させる。",
+            "ko": "스턴트 점프 50번 성공하기."
           }
         }
       },
@@ -673,7 +817,15 @@
         "en": "Max Ammo"
       },
       "effect": {
-        "en": "Refills all your ammo to the max."
+        "en": "Refills all your ammo to the max.",
+        "es": "Recarga toda tu munición al máximo.",
+        "pt-BR": "Recarrega toda a sua munição ao máximo.",
+        "de": "Füllt deine gesamte Munition auf das Maximum.",
+        "it": "Ricarica tutte le munizioni al massimo.",
+        "fr": "Remplit toutes vos munitions au maximum.",
+        "ru": "Пополняет все патроны до максимума.",
+        "ja": "すべての弾薬を最大まで補充します。",
+        "ko": "모든 탄약을 최대로 채워요."
       },
       "sequence": [
         "down",
@@ -694,7 +846,15 @@
           "target": 25,
           "unit": "count",
           "text": {
-            "en": "Earn 25 shooting range medals, bronze or better."
+            "en": "Earn 25 shooting range medals, bronze or better.",
+            "es": "Consigue 25 medallas de bronce o mejores en el campo de tiro.",
+            "pt-BR": "Ganhe 25 medalhas de bronze ou melhores no estande de tiro.",
+            "de": "Hol dir 25 Schießstand-Medaillen, mindestens Bronze.",
+            "it": "Ottieni 25 medaglie al poligono, almeno di bronzo.",
+            "fr": "Obtenez 25 médailles au stand de tir, bronze ou mieux.",
+            "ru": "Получите 25 медалей в тире, бронза или выше.",
+            "ja": "射撃場で銅以上のメダルを25個獲得する。",
+            "ko": "사격장에서 동메달 이상 25개 따기."
           }
         }
       },
@@ -749,7 +909,15 @@
         "en": "Infinite Ammo"
       },
       "effect": {
-        "en": "Your ammo never runs out."
+        "en": "Your ammo never runs out.",
+        "es": "Tu munición nunca se acaba.",
+        "pt-BR": "Sua munição nunca acaba.",
+        "de": "Deine Munition geht nie aus.",
+        "it": "Le munizioni non finiscono mai.",
+        "fr": "Vos munitions ne s'épuisent jamais.",
+        "ru": "Патроны не заканчиваются.",
+        "ja": "弾薬が無限になります。",
+        "ko": "탄약이 줄지 않아요."
       },
       "sequence": [
         "down",
@@ -770,7 +938,15 @@
           "target": 25,
           "unit": "count",
           "text": {
-            "en": "Earn 25 shooting range medals, silver or better."
+            "en": "Earn 25 shooting range medals, silver or better.",
+            "es": "Consigue 25 medallas de plata o mejores en el campo de tiro.",
+            "pt-BR": "Ganhe 25 medalhas de prata ou melhores no estande de tiro.",
+            "de": "Hol dir 25 Schießstand-Medaillen, mindestens Silber.",
+            "it": "Ottieni 25 medaglie al poligono, almeno d'argento.",
+            "fr": "Obtenez 25 médailles au stand de tir, argent ou mieux.",
+            "ru": "Получите 25 медалей в тире, серебро или выше.",
+            "ja": "射撃場で銀以上のメダルを25個獲得する。",
+            "ko": "사격장에서 은메달 이상 25개 따기."
           }
         }
       },
@@ -825,7 +1001,15 @@
         "en": "No Reload"
       },
       "effect": {
-        "en": "Unlimited ammo and no reloading."
+        "en": "Unlimited ammo and no reloading.",
+        "es": "Munición infinita y sin recargar.",
+        "pt-BR": "Munição infinita e sem recarregar.",
+        "de": "Unendlich Munition und kein Nachladen.",
+        "it": "Munizioni infinite e niente ricarica.",
+        "fr": "Munitions illimitées et aucun rechargement.",
+        "ru": "Бесконечные патроны без перезарядки.",
+        "ja": "弾薬無限でリロード不要になります。",
+        "ko": "무한 탄약에 재장전도 필요 없어요."
       },
       "sequence": [
         "down",
@@ -846,7 +1030,15 @@
           "target": 25,
           "unit": "count",
           "text": {
-            "en": "Earn 25 gold medals at shooting ranges."
+            "en": "Earn 25 gold medals at shooting ranges.",
+            "es": "Consigue 25 medallas de oro en campos de tiro.",
+            "pt-BR": "Ganhe 25 medalhas de ouro em estandes de tiro.",
+            "de": "Hol dir 25 Goldmedaillen an Schießständen.",
+            "it": "Ottieni 25 medaglie d'oro ai poligoni di tiro.",
+            "fr": "Obtenez 25 médailles d'or aux stands de tir.",
+            "ru": "Получите 25 золотых медалей в тирах.",
+            "ja": "射撃場で金メダルを25個獲得する。",
+            "ko": "사격장에서 금메달 25개 따기."
           }
         }
       },
@@ -901,7 +1093,15 @@
         "en": "All Explosive Weapons"
       },
       "effect": {
-        "en": "Gives every explosive weapon with full ammo."
+        "en": "Gives every explosive weapon with full ammo.",
+        "es": "Te da todas las armas explosivas con munición completa.",
+        "pt-BR": "Dá todas as armas explosivas com munição cheia.",
+        "de": "Gibt dir alle Sprengwaffen mit voller Munition.",
+        "it": "Ti dà tutte le armi esplosive con munizioni piene.",
+        "fr": "Donne toutes les armes explosives avec munitions pleines.",
+        "ru": "Выдаёт всё взрывное оружие с полным боезапасом.",
+        "ja": "すべての爆発物を弾薬満タンで入手します。",
+        "ko": "모든 폭발 무기를 탄약을 가득 채워 받아요."
       },
       "sequence": null,
       "unlock": {
@@ -911,7 +1111,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Throw 100 grenades."
+            "en": "Throw 100 grenades.",
+            "es": "Lanza 100 granadas.",
+            "pt-BR": "Arremesse 100 granadas.",
+            "de": "Wirf 100 Granaten.",
+            "it": "Lancia 100 granate.",
+            "fr": "Lancez 100 grenades.",
+            "ru": "Бросьте 100 гранат.",
+            "ja": "手榴弾を100個投げる。",
+            "ko": "수류탄 100개 던지기."
           }
         }
       },
@@ -964,7 +1172,15 @@
         "en": "Incendiary Ammo"
       },
       "effect": {
-        "en": "All your bullets set targets on fire."
+        "en": "All your bullets set targets on fire.",
+        "es": "Todas tus balas prenden fuego a los objetivos.",
+        "pt-BR": "Todas as suas balas incendeiam os alvos.",
+        "de": "Alle deine Kugeln setzen Ziele in Brand.",
+        "it": "Tutti i tuoi proiettili incendiano i bersagli.",
+        "fr": "Toutes vos balles enflamment les cibles.",
+        "ru": "Все ваши пули поджигают цели.",
+        "ja": "すべての弾丸が標的を燃やします。",
+        "ko": "모든 총알이 대상을 불태워요."
       },
       "sequence": null,
       "unlock": {
@@ -974,7 +1190,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Kill 100 enemies with fire."
+            "en": "Kill 100 enemies with fire.",
+            "es": "Mata a 100 enemigos con fuego.",
+            "pt-BR": "Mate 100 inimigos com fogo.",
+            "de": "Töte 100 Gegner mit Feuer.",
+            "it": "Uccidi 100 nemici con il fuoco.",
+            "fr": "Tuez 100 ennemis avec le feu.",
+            "ru": "Убейте 100 врагов огнём.",
+            "ja": "炎で敵を100人倒す。",
+            "ko": "불로 적 100명 처치하기."
           }
         }
       },
@@ -1027,7 +1251,15 @@
         "en": "Exploding Bottles"
       },
       "effect": {
-        "en": "Bottles explode when they take damage."
+        "en": "Bottles explode when they take damage.",
+        "es": "Las botellas explotan al recibir daño.",
+        "pt-BR": "Garrafas explodem quando sofrem dano.",
+        "de": "Flaschen explodieren, wenn sie getroffen werden.",
+        "it": "Le bottiglie esplodono quando vengono colpite.",
+        "fr": "Les bouteilles explosent quand elles sont touchées.",
+        "ru": "Бутылки взрываются от повреждений.",
+        "ja": "ボトルがダメージを受けると爆発します。",
+        "ko": "병이 피해를 받으면 폭발해요."
       },
       "sequence": null,
       "unlock": {
@@ -1037,7 +1269,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Throw 100 Molotovs."
+            "en": "Throw 100 Molotovs.",
+            "es": "Lanza 100 molotovs.",
+            "pt-BR": "Arremesse 100 coquetéis molotov.",
+            "de": "Wirf 100 Molotowcocktails.",
+            "it": "Lancia 100 molotov.",
+            "fr": "Lancez 100 cocktails Molotov.",
+            "ru": "Бросьте 100 коктейлей Молотова.",
+            "ja": "火炎瓶を100本投げる。",
+            "ko": "화염병 100개 던지기."
           }
         }
       },
@@ -1090,7 +1330,15 @@
         "en": "Explosive Shotgun"
       },
       "effect": {
-        "en": "Gives a shotgun loaded with explosive shells."
+        "en": "Gives a shotgun loaded with explosive shells.",
+        "es": "Te da una escopeta con cartuchos explosivos.",
+        "pt-BR": "Dá uma escopeta com cartuchos explosivos.",
+        "de": "Gibt dir eine Schrotflinte mit Explosivmunition.",
+        "it": "Ti dà un fucile a pompa con cartucce esplosive.",
+        "fr": "Donne un fusil à pompe chargé de cartouches explosives.",
+        "ru": "Выдаёт дробовик со взрывными патронами.",
+        "ja": "爆発弾入りのショットガンを入手します。",
+        "ko": "폭발탄이 장전된 샷건을 받아요."
       },
       "sequence": null,
       "unlock": {
@@ -1100,7 +1348,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Hit 100 enemies with explosives."
+            "en": "Hit 100 enemies with explosives.",
+            "es": "Alcanza a 100 enemigos con explosivos.",
+            "pt-BR": "Acerte 100 inimigos com explosivos.",
+            "de": "Triff 100 Gegner mit Sprengstoff.",
+            "it": "Colpisci 100 nemici con gli esplosivi.",
+            "fr": "Touchez 100 ennemis avec des explosifs.",
+            "ru": "Поразите 100 врагов взрывчаткой.",
+            "ja": "爆発物を敵に100回当てる。",
+            "ko": "폭발물로 적 100번 맞히기."
           }
         }
       },
@@ -1153,7 +1409,15 @@
         "en": "Hauners H-AT"
       },
       "effect": {
-        "en": "Adds the Hauners H-AT to your loadout."
+        "en": "Adds the Hauners H-AT to your loadout.",
+        "es": "Agrega el Hauners H-AT a tu equipo.",
+        "pt-BR": "Coloca o Hauners H-AT no seu equipamento.",
+        "de": "Legt den Hauners H-AT in deine Ausrüstung.",
+        "it": "Aggiunge l'Hauners H-AT al tuo equipaggiamento.",
+        "fr": "Ajoute le Hauners H-AT à votre équipement.",
+        "ru": "Добавляет Hauners H-AT в снаряжение.",
+        "ja": "装備にHauners H-ATを追加します。",
+        "ko": "장비에 Hauners H-AT를 추가해요."
       },
       "sequence": null,
       "unlock": {
@@ -1163,7 +1427,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Destroy 100 vehicles."
+            "en": "Destroy 100 vehicles.",
+            "es": "Destruye 100 vehículos.",
+            "pt-BR": "Destrua 100 veículos.",
+            "de": "Zerstöre 100 Fahrzeuge.",
+            "it": "Distruggi 100 veicoli.",
+            "fr": "Détruisez 100 véhicules.",
+            "ru": "Уничтожьте 100 машин.",
+            "ja": "車両を100台破壊する。",
+            "ko": "차량 100대 파괴하기."
           }
         }
       },
@@ -1216,7 +1488,15 @@
         "en": "Attack Force"
       },
       "effect": {
-        "en": "Shots and melee hits send targets flying."
+        "en": "Shots and melee hits send targets flying.",
+        "es": "Los disparos y golpes mandan a volar a los objetivos.",
+        "pt-BR": "Tiros e golpes arremessam os alvos longe.",
+        "de": "Schüsse und Nahkampftreffer schleudern Ziele davon.",
+        "it": "Spari e colpi corpo a corpo fanno volare via i bersagli.",
+        "fr": "Les tirs et coups au corps à corps projettent les cibles au loin.",
+        "ru": "Выстрелы и удары отбрасывают цели далеко в сторону.",
+        "ja": "射撃や近接攻撃で標的が吹き飛びます。",
+        "ko": "사격과 근접 공격에 맞은 대상이 날아가요."
       },
       "sequence": [
         "down",
@@ -1284,7 +1564,15 @@
         "en": "Exploding Balls"
       },
       "effect": {
-        "en": "Sports balls blow up on impact."
+        "en": "Sports balls blow up on impact.",
+        "es": "Los balones explotan al impactar.",
+        "pt-BR": "Bolas explodem ao bater em algo.",
+        "de": "Bälle explodieren beim Aufprall.",
+        "it": "I palloni esplodono all'impatto.",
+        "fr": "Les ballons explosent à l'impact.",
+        "ru": "Мячи взрываются при ударе.",
+        "ja": "ボールが当たると爆発します。",
+        "ko": "공이 부딪히면 폭발해요."
       },
       "sequence": [
         "down",
@@ -1304,7 +1592,15 @@
           "target": 20,
           "unit": "count",
           "text": {
-            "en": "Hit 20 enemies with explosives."
+            "en": "Hit 20 enemies with explosives.",
+            "es": "Alcanza a 20 enemigos con explosivos.",
+            "pt-BR": "Acerte 20 inimigos com explosivos.",
+            "de": "Triff 20 Gegner mit Sprengstoff.",
+            "it": "Colpisci 20 nemici con gli esplosivi.",
+            "fr": "Touchez 20 ennemis avec des explosifs.",
+            "ru": "Поразите 20 врагов взрывчаткой.",
+            "ja": "爆発物を敵に20回当てる。",
+            "ko": "폭발물로 적 20번 맞히기."
           }
         }
       },
@@ -1359,7 +1655,15 @@
         "en": "Vehicle Force"
       },
       "effect": {
-        "en": "Ramming with a vehicle sends targets flying."
+        "en": "Ramming with a vehicle sends targets flying.",
+        "es": "Embestir con un vehículo manda a volar a los objetivos.",
+        "pt-BR": "Atropelar com um veículo arremessa os alvos longe.",
+        "de": "Rammst du mit einem Fahrzeug, fliegen Ziele davon.",
+        "it": "Speronare con un veicolo fa volare via i bersagli.",
+        "fr": "Percuter avec un véhicule projette les cibles au loin.",
+        "ru": "Таран на транспорте отбрасывает цели далеко в сторону.",
+        "ja": "車両で体当たりすると標的が吹き飛びます。",
+        "ko": "차량으로 들이받으면 대상이 날아가요."
       },
       "sequence": [
         "down",
@@ -1379,7 +1683,15 @@
           "target": 25,
           "unit": "count",
           "text": {
-            "en": "Kill 25 people with a vehicle (civilians count)."
+            "en": "Kill 25 people with a vehicle (civilians count).",
+            "es": "Mata a 25 personas con un vehículo (los civiles cuentan).",
+            "pt-BR": "Mate 25 pessoas com um veículo (civis contam).",
+            "de": "Töte 25 Menschen mit einem Fahrzeug (Passanten zählen).",
+            "it": "Uccidi 25 persone con un veicolo (i civili contano).",
+            "fr": "Tuez 25 personnes avec un véhicule (les civils comptent).",
+            "ru": "Собейте транспортом 25 человек (прохожие засчитываются).",
+            "ja": "車両で25人を倒す（一般市民も含む）。",
+            "ko": "차량으로 25명 처치하기(시민도 포함)."
           }
         }
       },
@@ -1434,7 +1746,15 @@
         "en": "Interstate Ambulance"
       },
       "effect": {
-        "en": "Spawns the Interstate Ambulance."
+        "en": "Spawns the Interstate Ambulance.",
+        "es": "Hace aparecer el Interstate Ambulance.",
+        "pt-BR": "Faz aparecer o Interstate Ambulance.",
+        "de": "Lässt das Fahrzeug Interstate Ambulance erscheinen.",
+        "it": "Fa comparire il veicolo Interstate Ambulance.",
+        "fr": "Fait apparaître le véhicule Interstate Ambulance.",
+        "ru": "Вызывает Interstate Ambulance.",
+        "ja": "Interstate Ambulanceを出現させます。",
+        "ko": "Interstate Ambulance 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1444,7 +1764,15 @@
           "target": null,
           "unit": null,
           "text": {
-            "en": "Discover the Interstate Ambulance (Progress menu)."
+            "en": "Discover the Interstate Ambulance (Progress menu).",
+            "es": "Descubre el Interstate Ambulance (menú de progreso).",
+            "pt-BR": "Descubra o Interstate Ambulance (menu de progresso).",
+            "de": "Entdecke das Fahrzeug Interstate Ambulance (Fortschrittsmenü).",
+            "it": "Scopri il veicolo Interstate Ambulance (menu progressi).",
+            "fr": "Découvrez le véhicule Interstate Ambulance (menu Progression).",
+            "ru": "Найдите Interstate Ambulance (меню прогресса).",
+            "ja": "Interstate Ambulanceを見つける（進行状況メニュー）。",
+            "ko": "Interstate Ambulance 차량 찾기(진행 메뉴)."
           }
         }
       },
@@ -1497,7 +1825,15 @@
         "en": "Airboat 09"
       },
       "effect": {
-        "en": "Spawns the Airboat 09."
+        "en": "Spawns the Airboat 09.",
+        "es": "Hace aparecer el Airboat 09.",
+        "pt-BR": "Faz aparecer o Airboat 09.",
+        "de": "Lässt das Fahrzeug Airboat 09 erscheinen.",
+        "it": "Fa comparire il veicolo Airboat 09.",
+        "fr": "Fait apparaître le véhicule Airboat 09.",
+        "ru": "Вызывает Airboat 09.",
+        "ja": "Airboat 09を出現させます。",
+        "ko": "Airboat 09 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1507,7 +1843,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 survival challenges."
+            "en": "Finish 5 survival challenges.",
+            "es": "Completa 5 desafíos de supervivencia.",
+            "pt-BR": "Conclua 5 desafios de sobrevivência.",
+            "de": "Schließ 5 Überlebens-Herausforderungen ab.",
+            "it": "Completa 5 sfide di sopravvivenza.",
+            "fr": "Terminez 5 défis de survie.",
+            "ru": "Завершите 5 испытаний категории «Выживание».",
+            "ja": "サバイバルチャレンジを5つ終える。",
+            "ko": "생존 도전 5개 마치기."
           }
         }
       },
@@ -1560,7 +1904,15 @@
         "en": "Bravado Banshee"
       },
       "effect": {
-        "en": "Spawns the Bravado Banshee."
+        "en": "Spawns the Bravado Banshee.",
+        "es": "Hace aparecer el Bravado Banshee.",
+        "pt-BR": "Faz aparecer o Bravado Banshee.",
+        "de": "Lässt das Fahrzeug Bravado Banshee erscheinen.",
+        "it": "Fa comparire il veicolo Bravado Banshee.",
+        "fr": "Fait apparaître le véhicule Bravado Banshee.",
+        "ru": "Вызывает Bravado Banshee.",
+        "ja": "Bravado Bansheeを出現させます。",
+        "ko": "Bravado Banshee 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1570,7 +1922,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every combat challenge."
+            "en": "Finish every combat challenge.",
+            "es": "Completa todos los desafíos de combate.",
+            "pt-BR": "Conclua todos os desafios de combate.",
+            "de": "Schließ alle Kampf-Herausforderungen ab.",
+            "it": "Completa tutte le sfide di combattimento.",
+            "fr": "Terminez tous les défis de combat.",
+            "ru": "Завершите все испытания категории «Бой».",
+            "ja": "戦闘チャレンジをすべて終える。",
+            "ko": "전투 도전 모두 마치기."
           }
         }
       },
@@ -1623,7 +1983,15 @@
         "en": "Tuff BMX"
       },
       "effect": {
-        "en": "Spawns the Tuff BMX."
+        "en": "Spawns the Tuff BMX.",
+        "es": "Hace aparecer el Tuff BMX.",
+        "pt-BR": "Faz aparecer o Tuff BMX.",
+        "de": "Lässt das Fahrzeug Tuff BMX erscheinen.",
+        "it": "Fa comparire il veicolo Tuff BMX.",
+        "fr": "Fait apparaître le véhicule Tuff BMX.",
+        "ru": "Вызывает Tuff BMX.",
+        "ja": "Tuff BMXを出現させます。",
+        "ko": "Tuff BMX 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1633,7 +2001,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 fitness challenges."
+            "en": "Finish 5 fitness challenges.",
+            "es": "Completa 5 desafíos de fitness.",
+            "pt-BR": "Conclua 5 desafios de fitness.",
+            "de": "Schließ 5 Fitness-Herausforderungen ab.",
+            "it": "Completa 5 sfide di fitness.",
+            "fr": "Terminez 5 défis de fitness.",
+            "ru": "Завершите 5 испытаний категории «Фитнес».",
+            "ja": "フィットネスチャレンジを5つ終える。",
+            "ko": "피트니스 도전 5개 마치기."
           }
         }
       },
@@ -1686,7 +2062,15 @@
         "en": "Maibatsu Boomazoom"
       },
       "effect": {
-        "en": "Spawns the Maibatsu Boomazoom."
+        "en": "Spawns the Maibatsu Boomazoom.",
+        "es": "Hace aparecer el Maibatsu Boomazoom.",
+        "pt-BR": "Faz aparecer o Maibatsu Boomazoom.",
+        "de": "Lässt das Fahrzeug Maibatsu Boomazoom erscheinen.",
+        "it": "Fa comparire il veicolo Maibatsu Boomazoom.",
+        "fr": "Fait apparaître le véhicule Maibatsu Boomazoom.",
+        "ru": "Вызывает Maibatsu Boomazoom.",
+        "ja": "Maibatsu Boomazoomを出現させます。",
+        "ko": "Maibatsu Boomazoom 차량을 불러와요."
       },
       "sequence": [
         "left",
@@ -1705,7 +2089,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 shopping challenges."
+            "en": "Finish 5 shopping challenges.",
+            "es": "Completa 5 desafíos de compras.",
+            "pt-BR": "Conclua 5 desafios de compras.",
+            "de": "Schließ 5 Shopping-Herausforderungen ab.",
+            "it": "Completa 5 sfide di shopping.",
+            "fr": "Terminez 5 défis de shopping.",
+            "ru": "Завершите 5 испытаний категории «Покупки».",
+            "ja": "ショッピングチャレンジを5つ終える。",
+            "ko": "쇼핑 도전 5개 마치기."
           }
         }
       },
@@ -1760,7 +2152,15 @@
         "en": "Nagasaki Carbon RS"
       },
       "effect": {
-        "en": "Spawns the Nagasaki Carbon RS."
+        "en": "Spawns the Nagasaki Carbon RS.",
+        "es": "Hace aparecer el Nagasaki Carbon RS.",
+        "pt-BR": "Faz aparecer o Nagasaki Carbon RS.",
+        "de": "Lässt das Fahrzeug Nagasaki Carbon RS erscheinen.",
+        "it": "Fa comparire il veicolo Nagasaki Carbon RS.",
+        "fr": "Fait apparaître le véhicule Nagasaki Carbon RS.",
+        "ru": "Вызывает Nagasaki Carbon RS.",
+        "ja": "Nagasaki Carbon RSを出現させます。",
+        "ko": "Nagasaki Carbon RS 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1770,7 +2170,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every exploration challenge."
+            "en": "Finish every exploration challenge.",
+            "es": "Completa todos los desafíos de exploración.",
+            "pt-BR": "Conclua todos os desafios de exploração.",
+            "de": "Schließ alle Erkundungs-Herausforderungen ab.",
+            "it": "Completa tutte le sfide di esplorazione.",
+            "fr": "Terminez tous les défis d'exploration.",
+            "ru": "Завершите все испытания категории «Исследование».",
+            "ja": "探索チャレンジをすべて終える。",
+            "ko": "탐험 도전 모두 마치기."
           }
         }
       },
@@ -1823,7 +2231,15 @@
         "en": "'65 Vapid Dominator"
       },
       "effect": {
-        "en": "Spawns the '65 Vapid Dominator."
+        "en": "Spawns the '65 Vapid Dominator.",
+        "es": "Hace aparecer el '65 Vapid Dominator.",
+        "pt-BR": "Faz aparecer o '65 Vapid Dominator.",
+        "de": "Lässt das Fahrzeug '65 Vapid Dominator erscheinen.",
+        "it": "Fa comparire il veicolo '65 Vapid Dominator.",
+        "fr": "Fait apparaître le véhicule '65 Vapid Dominator.",
+        "ru": "Вызывает '65 Vapid Dominator.",
+        "ja": "'65 Vapid Dominatorを出現させます。",
+        "ko": "'65 Vapid Dominator 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1833,7 +2249,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every fitness challenge."
+            "en": "Finish every fitness challenge.",
+            "es": "Completa todos los desafíos de fitness.",
+            "pt-BR": "Conclua todos os desafios de fitness.",
+            "de": "Schließ alle Fitness-Herausforderungen ab.",
+            "it": "Completa tutte le sfide di fitness.",
+            "fr": "Terminez tous les défis de fitness.",
+            "ru": "Завершите все испытания категории «Фитнес».",
+            "ja": "フィットネスチャレンジをすべて終える。",
+            "ko": "피트니스 도전 모두 마치기."
           }
         }
       },
@@ -1886,7 +2310,15 @@
         "en": "Progen Emerus"
       },
       "effect": {
-        "en": "Spawns the Progen Emerus."
+        "en": "Spawns the Progen Emerus.",
+        "es": "Hace aparecer el Progen Emerus.",
+        "pt-BR": "Faz aparecer o Progen Emerus.",
+        "de": "Lässt das Fahrzeug Progen Emerus erscheinen.",
+        "it": "Fa comparire il veicolo Progen Emerus.",
+        "fr": "Fait apparaître le véhicule Progen Emerus.",
+        "ru": "Вызывает Progen Emerus.",
+        "ja": "Progen Emerusを出現させます。",
+        "ko": "Progen Emerus 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1896,7 +2328,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every vehicle challenge."
+            "en": "Finish every vehicle challenge.",
+            "es": "Completa todos los desafíos de vehículos.",
+            "pt-BR": "Conclua todos os desafios de veículos.",
+            "de": "Schließ alle Fahrzeug-Herausforderungen ab.",
+            "it": "Completa tutte le sfide con i veicoli.",
+            "fr": "Terminez tous les défis de véhicule.",
+            "ru": "Завершите все испытания категории «Транспорт».",
+            "ja": "車両チャレンジをすべて終える。",
+            "ko": "차량 도전 모두 마치기."
           }
         }
       },
@@ -1949,7 +2389,15 @@
         "en": "Inflatable Flamingo"
       },
       "effect": {
-        "en": "Spawns the Inflatable Flamingo."
+        "en": "Spawns the Inflatable Flamingo.",
+        "es": "Hace aparecer el Inflatable Flamingo.",
+        "pt-BR": "Faz aparecer o Inflatable Flamingo.",
+        "de": "Lässt das Fahrzeug Inflatable Flamingo erscheinen.",
+        "it": "Fa comparire il veicolo Inflatable Flamingo.",
+        "fr": "Fait apparaître le véhicule Inflatable Flamingo.",
+        "ru": "Вызывает Inflatable Flamingo.",
+        "ja": "Inflatable Flamingoを出現させます。",
+        "ko": "Inflatable Flamingo 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -1959,7 +2407,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Destroy 50 cocaine flamingos."
+            "en": "Destroy 50 cocaine flamingos.",
+            "es": "Destruye 50 flamencos de cocaína.",
+            "pt-BR": "Destrua 50 flamingos de cocaína.",
+            "de": "Zerstöre 50 Kokain-Flamingos.",
+            "it": "Distruggi 50 fenicotteri di cocaina.",
+            "fr": "Détruisez 50 flamants de cocaïne.",
+            "ru": "Уничтожьте 50 кокаиновых фламинго.",
+            "ja": "コカインフラミンゴを50個破壊する。",
+            "ko": "코카인 플라밍고 50개 파괴하기."
           }
         }
       },
@@ -2012,7 +2468,15 @@
         "en": "MTL Pumper"
       },
       "effect": {
-        "en": "Spawns the MTL Pumper."
+        "en": "Spawns the MTL Pumper.",
+        "es": "Hace aparecer el MTL Pumper.",
+        "pt-BR": "Faz aparecer o MTL Pumper.",
+        "de": "Lässt das Fahrzeug MTL Pumper erscheinen.",
+        "it": "Fa comparire il veicolo MTL Pumper.",
+        "fr": "Fait apparaître le véhicule MTL Pumper.",
+        "ru": "Вызывает MTL Pumper.",
+        "ja": "MTL Pumperを出現させます。",
+        "ko": "MTL Pumper 차량을 불러와요."
       },
       "sequence": [
         "left",
@@ -2031,7 +2495,15 @@
           "target": null,
           "unit": null,
           "text": {
-            "en": "Discover the MTL Pumper (Progress menu)."
+            "en": "Discover the MTL Pumper (Progress menu).",
+            "es": "Descubre el MTL Pumper (menú de progreso).",
+            "pt-BR": "Descubra o MTL Pumper (menu de progresso).",
+            "de": "Entdecke das Fahrzeug MTL Pumper (Fortschrittsmenü).",
+            "it": "Scopri il veicolo MTL Pumper (menu progressi).",
+            "fr": "Découvrez le véhicule MTL Pumper (menu Progression).",
+            "ru": "Найдите MTL Pumper (меню прогресса).",
+            "ja": "MTL Pumperを見つける（進行状況メニュー）。",
+            "ko": "MTL Pumper 차량 찾기(진행 메뉴)."
           }
         }
       },
@@ -2085,7 +2557,15 @@
         "en": "Vapid Stanier G2 Taxi"
       },
       "effect": {
-        "en": "Spawns the Vapid Stanier G2 Taxi."
+        "en": "Spawns the Vapid Stanier G2 Taxi.",
+        "es": "Hace aparecer el Vapid Stanier G2 Taxi.",
+        "pt-BR": "Faz aparecer o Vapid Stanier G2 Taxi.",
+        "de": "Lässt das Fahrzeug Vapid Stanier G2 Taxi erscheinen.",
+        "it": "Fa comparire il veicolo Vapid Stanier G2 Taxi.",
+        "fr": "Fait apparaître le véhicule Vapid Stanier G2 Taxi.",
+        "ru": "Вызывает Vapid Stanier G2 Taxi.",
+        "ja": "Vapid Stanier G2 Taxiを出現させます。",
+        "ko": "Vapid Stanier G2 Taxi 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2095,7 +2575,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 sports challenges."
+            "en": "Finish 5 sports challenges.",
+            "es": "Completa 5 desafíos de deportes.",
+            "pt-BR": "Conclua 5 desafios de esportes.",
+            "de": "Schließ 5 Sport-Herausforderungen ab.",
+            "it": "Completa 5 sfide sportive.",
+            "fr": "Terminez 5 défis sportifs.",
+            "ru": "Завершите 5 испытаний категории «Спорт».",
+            "ja": "スポーツチャレンジを5つ終える。",
+            "ko": "스포츠 도전 5개 마치기."
           }
         }
       },
@@ -2148,7 +2636,15 @@
         "en": "Hauners P-996 Lazer"
       },
       "effect": {
-        "en": "Spawns the Hauners P-996 Lazer."
+        "en": "Spawns the Hauners P-996 Lazer.",
+        "es": "Hace aparecer el Hauners P-996 Lazer.",
+        "pt-BR": "Faz aparecer o Hauners P-996 Lazer.",
+        "de": "Lässt das Fahrzeug Hauners P-996 Lazer erscheinen.",
+        "it": "Fa comparire il veicolo Hauners P-996 Lazer.",
+        "fr": "Fait apparaître le véhicule Hauners P-996 Lazer.",
+        "ru": "Вызывает Hauners P-996 Lazer.",
+        "ja": "Hauners P-996 Lazerを出現させます。",
+        "ko": "Hauners P-996 Lazer 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2158,7 +2654,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every challenge in the game."
+            "en": "Finish every challenge in the game.",
+            "es": "Completa todos los desafíos del juego.",
+            "pt-BR": "Conclua todos os desafios do jogo.",
+            "de": "Schließ alle Herausforderungen im Spiel ab.",
+            "it": "Completa tutte le sfide del gioco.",
+            "fr": "Terminez tous les défis du jeu.",
+            "ru": "Завершите все испытания в игре.",
+            "ja": "ゲーム内のすべてのチャレンジを終える。",
+            "ko": "게임의 모든 도전 마치기."
           }
         }
       },
@@ -2211,7 +2715,15 @@
         "en": "HVY Bulldozer"
       },
       "effect": {
-        "en": "Spawns the HVY Bulldozer."
+        "en": "Spawns the HVY Bulldozer.",
+        "es": "Hace aparecer el HVY Bulldozer.",
+        "pt-BR": "Faz aparecer o HVY Bulldozer.",
+        "de": "Lässt das Fahrzeug HVY Bulldozer erscheinen.",
+        "it": "Fa comparire il veicolo HVY Bulldozer.",
+        "fr": "Fait apparaître le véhicule HVY Bulldozer.",
+        "ru": "Вызывает HVY Bulldozer.",
+        "ja": "HVY Bulldozerを出現させます。",
+        "ko": "HVY Bulldozer 차량을 불러와요."
       },
       "sequence": [
         "left",
@@ -2230,7 +2742,15 @@
           "target": null,
           "unit": null,
           "text": {
-            "en": "Discover the HVY Bulldozer (Progress menu)."
+            "en": "Discover the HVY Bulldozer (Progress menu).",
+            "es": "Descubre el HVY Bulldozer (menú de progreso).",
+            "pt-BR": "Descubra o HVY Bulldozer (menu de progresso).",
+            "de": "Entdecke das Fahrzeug HVY Bulldozer (Fortschrittsmenü).",
+            "it": "Scopri il veicolo HVY Bulldozer (menu progressi).",
+            "fr": "Découvrez le véhicule HVY Bulldozer (menu Progression).",
+            "ru": "Найдите HVY Bulldozer (меню прогресса).",
+            "ja": "HVY Bulldozerを見つける（進行状況メニュー）。",
+            "ko": "HVY Bulldozer 차량 찾기(진행 메뉴)."
           }
         }
       },
@@ -2285,7 +2805,15 @@
         "en": "Lapwing Mallard"
       },
       "effect": {
-        "en": "Spawns the Lapwing Mallard."
+        "en": "Spawns the Lapwing Mallard.",
+        "es": "Hace aparecer el Lapwing Mallard.",
+        "pt-BR": "Faz aparecer o Lapwing Mallard.",
+        "de": "Lässt das Fahrzeug Lapwing Mallard erscheinen.",
+        "it": "Fa comparire il veicolo Lapwing Mallard.",
+        "fr": "Fait apparaître le véhicule Lapwing Mallard.",
+        "ru": "Вызывает Lapwing Mallard.",
+        "ja": "Lapwing Mallardを出現させます。",
+        "ko": "Lapwing Mallard 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2295,7 +2823,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 vehicle challenges."
+            "en": "Finish 5 vehicle challenges.",
+            "es": "Completa 5 desafíos de vehículos.",
+            "pt-BR": "Conclua 5 desafios de veículos.",
+            "de": "Schließ 5 Fahrzeug-Herausforderungen ab.",
+            "it": "Completa 5 sfide con i veicoli.",
+            "fr": "Terminez 5 défis de véhicule.",
+            "ru": "Завершите 5 испытаний категории «Транспорт».",
+            "ja": "車両チャレンジを5つ終える。",
+            "ko": "차량 도전 5개 마치기."
           }
         }
       },
@@ -2348,7 +2884,15 @@
         "en": "Brimstone Golfer"
       },
       "effect": {
-        "en": "Spawns the Brimstone Golfer."
+        "en": "Spawns the Brimstone Golfer.",
+        "es": "Hace aparecer el Brimstone Golfer.",
+        "pt-BR": "Faz aparecer o Brimstone Golfer.",
+        "de": "Lässt das Fahrzeug Brimstone Golfer erscheinen.",
+        "it": "Fa comparire il veicolo Brimstone Golfer.",
+        "fr": "Fait apparaître le véhicule Brimstone Golfer.",
+        "ru": "Вызывает Brimstone Golfer.",
+        "ja": "Brimstone Golferを出現させます。",
+        "ko": "Brimstone Golfer 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2358,7 +2902,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every sports challenge."
+            "en": "Finish every sports challenge.",
+            "es": "Completa todos los desafíos de deportes.",
+            "pt-BR": "Conclua todos os desafios de esportes.",
+            "de": "Schließ alle Sport-Herausforderungen ab.",
+            "it": "Completa tutte le sfide sportive.",
+            "fr": "Terminez tous les défis sportifs.",
+            "ru": "Завершите все испытания категории «Спорт».",
+            "ja": "スポーツチャレンジをすべて終える。",
+            "ko": "스포츠 도전 모두 마치기."
           }
         }
       },
@@ -2411,7 +2963,15 @@
         "en": "Hauners Rhino Tank"
       },
       "effect": {
-        "en": "Spawns the Hauners Rhino Tank."
+        "en": "Spawns the Hauners Rhino Tank.",
+        "es": "Hace aparecer el Hauners Rhino Tank.",
+        "pt-BR": "Faz aparecer o Hauners Rhino Tank.",
+        "de": "Lässt das Fahrzeug Hauners Rhino Tank erscheinen.",
+        "it": "Fa comparire il veicolo Hauners Rhino Tank.",
+        "fr": "Fait apparaître le véhicule Hauners Rhino Tank.",
+        "ru": "Вызывает Hauners Rhino Tank.",
+        "ja": "Hauners Rhino Tankを出現させます。",
+        "ko": "Hauners Rhino Tank 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2421,7 +2981,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every survival challenge."
+            "en": "Finish every survival challenge.",
+            "es": "Completa todos los desafíos de supervivencia.",
+            "pt-BR": "Conclua todos os desafios de sobrevivência.",
+            "de": "Schließ alle Überlebens-Herausforderungen ab.",
+            "it": "Completa tutte le sfide di sopravvivenza.",
+            "fr": "Terminez tous les défis de survie.",
+            "ru": "Завершите все испытания категории «Выживание».",
+            "ja": "サバイバルチャレンジをすべて終える。",
+            "ko": "생존 도전 모두 마치기."
           }
         }
       },
@@ -2474,7 +3042,15 @@
         "en": "Maibatsu Sanchez"
       },
       "effect": {
-        "en": "Spawns the Maibatsu Sanchez."
+        "en": "Spawns the Maibatsu Sanchez.",
+        "es": "Hace aparecer el Maibatsu Sanchez.",
+        "pt-BR": "Faz aparecer o Maibatsu Sanchez.",
+        "de": "Lässt das Fahrzeug Maibatsu Sanchez erscheinen.",
+        "it": "Fa comparire il veicolo Maibatsu Sanchez.",
+        "fr": "Fait apparaître le véhicule Maibatsu Sanchez.",
+        "ru": "Вызывает Maibatsu Sanchez.",
+        "ja": "Maibatsu Sanchezを出現させます。",
+        "ko": "Maibatsu Sanchez 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2484,7 +3060,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 criminal challenges."
+            "en": "Finish 5 criminal challenges.",
+            "es": "Completa 5 desafíos de crimen.",
+            "pt-BR": "Conclua 5 desafios de crime.",
+            "de": "Schließ 5 Verbrechens-Herausforderungen ab.",
+            "it": "Completa 5 sfide criminali.",
+            "fr": "Terminez 5 défis criminels.",
+            "ru": "Завершите 5 испытаний категории «Криминал».",
+            "ja": "犯罪チャレンジを5つ終える。",
+            "ko": "범죄 도전 5개 마치기."
           }
         }
       },
@@ -2537,7 +3121,15 @@
         "en": "Nagasaki Sea Sparrow"
       },
       "effect": {
-        "en": "Spawns the Nagasaki Sea Sparrow."
+        "en": "Spawns the Nagasaki Sea Sparrow.",
+        "es": "Hace aparecer el Nagasaki Sea Sparrow.",
+        "pt-BR": "Faz aparecer o Nagasaki Sea Sparrow.",
+        "de": "Lässt das Fahrzeug Nagasaki Sea Sparrow erscheinen.",
+        "it": "Fa comparire il veicolo Nagasaki Sea Sparrow.",
+        "fr": "Fait apparaître le véhicule Nagasaki Sea Sparrow.",
+        "ru": "Вызывает Nagasaki Sea Sparrow.",
+        "ja": "Nagasaki Sea Sparrowを出現させます。",
+        "ko": "Nagasaki Sea Sparrow 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2547,7 +3139,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 exploration challenges."
+            "en": "Finish 5 exploration challenges.",
+            "es": "Completa 5 desafíos de exploración.",
+            "pt-BR": "Conclua 5 desafios de exploração.",
+            "de": "Schließ 5 Erkundungs-Herausforderungen ab.",
+            "it": "Completa 5 sfide di esplorazione.",
+            "fr": "Terminez 5 défis d'exploration.",
+            "ru": "Завершите 5 испытаний категории «Исследование».",
+            "ja": "探索チャレンジを5つ終える。",
+            "ko": "탐험 도전 5개 마치기."
           }
         }
       },
@@ -2600,7 +3200,15 @@
         "en": "Speeder 700 GT"
       },
       "effect": {
-        "en": "Spawns the Speeder 700 GT."
+        "en": "Spawns the Speeder 700 GT.",
+        "es": "Hace aparecer el Speeder 700 GT.",
+        "pt-BR": "Faz aparecer o Speeder 700 GT.",
+        "de": "Lässt das Fahrzeug Speeder 700 GT erscheinen.",
+        "it": "Fa comparire il veicolo Speeder 700 GT.",
+        "fr": "Fait apparaître le véhicule Speeder 700 GT.",
+        "ru": "Вызывает Speeder 700 GT.",
+        "ja": "Speeder 700 GTを出現させます。",
+        "ko": "Speeder 700 GT 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2610,7 +3218,15 @@
           "target": 5,
           "unit": "count",
           "text": {
-            "en": "Finish 5 combat challenges."
+            "en": "Finish 5 combat challenges.",
+            "es": "Completa 5 desafíos de combate.",
+            "pt-BR": "Conclua 5 desafios de combate.",
+            "de": "Schließ 5 Kampf-Herausforderungen ab.",
+            "it": "Completa 5 sfide di combattimento.",
+            "fr": "Terminez 5 défis de combat.",
+            "ru": "Завершите 5 испытаний категории «Бой».",
+            "ja": "戦闘チャレンジを5つ終える。",
+            "ko": "전투 도전 5개 마치기."
           }
         }
       },
@@ -2663,7 +3279,15 @@
         "en": "Truffade Thrax"
       },
       "effect": {
-        "en": "Spawns the Truffade Thrax."
+        "en": "Spawns the Truffade Thrax.",
+        "es": "Hace aparecer el Truffade Thrax.",
+        "pt-BR": "Faz aparecer o Truffade Thrax.",
+        "de": "Lässt das Fahrzeug Truffade Thrax erscheinen.",
+        "it": "Fa comparire il veicolo Truffade Thrax.",
+        "fr": "Fait apparaître le véhicule Truffade Thrax.",
+        "ru": "Вызывает Truffade Thrax.",
+        "ja": "Truffade Thraxを出現させます。",
+        "ko": "Truffade Thrax 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2673,7 +3297,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every shopping challenge."
+            "en": "Finish every shopping challenge.",
+            "es": "Completa todos los desafíos de compras.",
+            "pt-BR": "Conclua todos os desafios de compras.",
+            "de": "Schließ alle Shopping-Herausforderungen ab.",
+            "it": "Completa tutte le sfide di shopping.",
+            "fr": "Terminez tous les défis de shopping.",
+            "ru": "Завершите все испытания категории «Покупки».",
+            "ja": "ショッピングチャレンジをすべて終える。",
+            "ko": "쇼핑 도전 모두 마치기."
           }
         }
       },
@@ -2726,7 +3358,15 @@
         "en": "Western Zombie Bobber"
       },
       "effect": {
-        "en": "Spawns the Western Zombie Bobber."
+        "en": "Spawns the Western Zombie Bobber.",
+        "es": "Hace aparecer el Western Zombie Bobber.",
+        "pt-BR": "Faz aparecer o Western Zombie Bobber.",
+        "de": "Lässt das Fahrzeug Western Zombie Bobber erscheinen.",
+        "it": "Fa comparire il veicolo Western Zombie Bobber.",
+        "fr": "Fait apparaître le véhicule Western Zombie Bobber.",
+        "ru": "Вызывает Western Zombie Bobber.",
+        "ja": "Western Zombie Bobberを出現させます。",
+        "ko": "Western Zombie Bobber 차량을 불러와요."
       },
       "sequence": null,
       "unlock": {
@@ -2736,7 +3376,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Finish every criminal challenge."
+            "en": "Finish every criminal challenge.",
+            "es": "Completa todos los desafíos de crimen.",
+            "pt-BR": "Conclua todos os desafios de crime.",
+            "de": "Schließ alle Verbrechens-Herausforderungen ab.",
+            "it": "Completa tutte le sfide criminali.",
+            "fr": "Terminez tous les défis criminels.",
+            "ru": "Завершите все испытания категории «Криминал».",
+            "ja": "犯罪チャレンジをすべて終える。",
+            "ko": "범죄 도전 모두 마치기."
           }
         }
       },
@@ -2789,7 +3437,15 @@
         "en": "Move Time Forward"
       },
       "effect": {
-        "en": "Skips the clock ahead."
+        "en": "Skips the clock ahead.",
+        "es": "Adelanta el reloj.",
+        "pt-BR": "Adianta o relógio.",
+        "de": "Stellt die Uhr vor.",
+        "it": "Manda avanti l'orologio.",
+        "fr": "Avance l'horloge.",
+        "ru": "Переводит часы вперёд.",
+        "ja": "時計を進めます。",
+        "ko": "시계를 앞으로 돌려요."
       },
       "sequence": null,
       "unlock": {
@@ -2799,7 +3455,15 @@
           "target": 10,
           "unit": "count",
           "text": {
-            "en": "Find 10 collectible watches."
+            "en": "Find 10 collectible watches.",
+            "es": "Encuentra 10 relojes coleccionables.",
+            "pt-BR": "Encontre 10 relógios colecionáveis.",
+            "de": "Finde 10 Sammleruhren.",
+            "it": "Trova 10 orologi da collezione.",
+            "fr": "Trouvez 10 montres de collection.",
+            "ru": "Найдите 10 коллекционных часов.",
+            "ja": "収集用の腕時計を10個見つける。",
+            "ko": "수집용 시계 10개 찾기."
           }
         }
       },
@@ -2852,7 +3516,15 @@
         "en": "Pause Time of Day"
       },
       "effect": {
-        "en": "Freezes the time of day."
+        "en": "Freezes the time of day.",
+        "es": "Congela la hora del día.",
+        "pt-BR": "Congela a hora do dia.",
+        "de": "Friert die Tageszeit ein.",
+        "it": "Blocca l'ora del giorno.",
+        "fr": "Fige l'heure de la journée.",
+        "ru": "Останавливает время суток.",
+        "ja": "時間の流れを止めます。",
+        "ko": "시간의 흐름을 멈춰요."
       },
       "sequence": null,
       "unlock": {
@@ -2862,7 +3534,15 @@
           "target": 20,
           "unit": "count",
           "text": {
-            "en": "Find 20 collectible watches."
+            "en": "Find 20 collectible watches.",
+            "es": "Encuentra 20 relojes coleccionables.",
+            "pt-BR": "Encontre 20 relógios colecionáveis.",
+            "de": "Finde 20 Sammleruhren.",
+            "it": "Trova 20 orologi da collezione.",
+            "fr": "Trouvez 20 montres de collection.",
+            "ru": "Найдите 20 коллекционных часов.",
+            "ja": "収集用の腕時計を20個見つける。",
+            "ko": "수집용 시계 20개 찾기."
           }
         }
       },
@@ -2915,7 +3595,15 @@
         "en": "Cycle Weather"
       },
       "effect": {
-        "en": "Switches to the next weather type."
+        "en": "Switches to the next weather type.",
+        "es": "Cambia al siguiente tipo de clima.",
+        "pt-BR": "Muda para o próximo tipo de clima.",
+        "de": "Wechselt zum nächsten Wettertyp.",
+        "it": "Passa al tipo di meteo successivo.",
+        "fr": "Passe au type de météo suivant.",
+        "ru": "Включает следующий тип погоды.",
+        "ja": "次の天候に切り替えます。",
+        "ko": "다음 날씨로 바꿔요."
       },
       "sequence": [
         "down",
@@ -2981,7 +3669,15 @@
         "en": "Golden Hour"
       },
       "effect": {
-        "en": "Warm golden filter with a widescreen frame."
+        "en": "Warm golden filter with a widescreen frame.",
+        "es": "Filtro dorado y cálido con marco panorámico.",
+        "pt-BR": "Filtro dourado e quente com moldura widescreen.",
+        "de": "Warmer goldener Filter mit Breitbildrahmen.",
+        "it": "Filtro dorato e caldo con cornice panoramica.",
+        "fr": "Filtre doré et chaud avec un cadre panoramique.",
+        "ru": "Тёплый золотой фильтр с широкоэкранной рамкой.",
+        "ja": "暖かい金色のフィルターとワイドスクリーン枠。",
+        "ko": "따뜻한 황금빛 필터와 와이드스크린 프레임."
       },
       "sequence": null,
       "unlock": {
@@ -2991,7 +3687,15 @@
           "target": 4,
           "unit": "hours",
           "text": {
-            "en": "Hold hands with your partner for 4 hours in total."
+            "en": "Hold hands with your partner for 4 hours in total.",
+            "es": "Toma de la mano a tu pareja durante 4 horas en total.",
+            "pt-BR": "Fique de mãos dadas com seu parceiro por 4 horas no total.",
+            "de": "Halte insgesamt 4 Stunden lang Händchen mit deinem Partner.",
+            "it": "Tieni per mano il tuo partner per 4 ore in totale.",
+            "fr": "Tenez la main de votre partenaire pendant 4 heures au total.",
+            "ru": "Держитесь за руки с напарником 4 часа суммарно.",
+            "ja": "パートナーと合計4時間手をつなぐ。",
+            "ko": "파트너와 총 4시간 손잡기."
           }
         }
       },
@@ -3044,7 +3748,15 @@
         "en": "Powdered Sugar"
       },
       "effect": {
-        "en": "Turns the world white and sparkly."
+        "en": "Turns the world white and sparkly.",
+        "es": "Vuelve el mundo blanco y brillante.",
+        "pt-BR": "Deixa o mundo branco e brilhante.",
+        "de": "Macht die Welt weiß und glitzernd.",
+        "it": "Rende il mondo bianco e scintillante.",
+        "fr": "Rend le monde blanc et scintillant.",
+        "ru": "Мир становится белым и искрящимся.",
+        "ja": "世界が白くきらきら輝きます。",
+        "ko": "세상이 하얗게 반짝여요."
       },
       "sequence": null,
       "unlock": {
@@ -3054,7 +3766,15 @@
           "target": null,
           "unit": "count",
           "text": {
-            "en": "Scan every piece of space debris with WAiNK."
+            "en": "Scan every piece of space debris with WAiNK.",
+            "es": "Escanea todos los restos espaciales con WAiNK.",
+            "pt-BR": "Escaneie todos os detritos espaciais com o WAiNK.",
+            "de": "Scanne jedes Stück Weltraumschrott mit WAiNK.",
+            "it": "Scansiona tutti i detriti spaziali con WAiNK.",
+            "fr": "Scannez chaque débris spatial avec WAiNK.",
+            "ru": "Отсканируйте весь космический мусор с помощью WAiNK.",
+            "ja": "WAiNKですべての宇宙ゴミをスキャンする。",
+            "ko": "WAiNK로 우주 쓰레기를 모두 스캔하기."
           }
         }
       },
@@ -3107,7 +3827,15 @@
         "en": "Pinhole"
       },
       "effect": {
-        "en": "Pinhole-camera look."
+        "en": "Pinhole-camera look.",
+        "es": "Efecto de cámara estenopeica.",
+        "pt-BR": "Visual de câmera pinhole.",
+        "de": "Look einer Lochkamera.",
+        "it": "Effetto fotocamera stenopeica.",
+        "fr": "Effet sténopé.",
+        "ru": "Эффект камеры-обскуры.",
+        "ja": "ピンホールカメラ風の見た目。",
+        "ko": "핀홀 카메라 느낌."
       },
       "sequence": null,
       "unlock": {
@@ -3117,7 +3845,15 @@
           "target": 25,
           "unit": "count",
           "text": {
-            "en": "Clear 25 gang operations together with your partner."
+            "en": "Clear 25 gang operations together with your partner.",
+            "es": "Termina 25 operaciones de pandillas junto con tu pareja.",
+            "pt-BR": "Conclua 25 operações de gangue junto com seu parceiro.",
+            "de": "Erledige 25 Gang-Operationen zusammen mit deinem Partner.",
+            "it": "Porta a termine 25 operazioni contro le gang insieme al tuo partner.",
+            "fr": "Terminez 25 opérations contre les gangs avec votre partenaire.",
+            "ru": "Зачистите 25 бандитских точек вместе с напарником.",
+            "ja": "パートナーと一緒にギャングのアジトを25か所制圧する。",
+            "ko": "파트너와 함께 갱단 작전 25개 소탕하기."
           }
         }
       },
@@ -3170,7 +3906,15 @@
         "en": "Neon Jungle"
       },
       "effect": {
-        "en": "Adds neon glow to the world."
+        "en": "Adds neon glow to the world.",
+        "es": "Agrega un brillo neón al mundo.",
+        "pt-BR": "Adiciona um brilho neon ao mundo.",
+        "de": "Gibt der Welt einen Neonschimmer.",
+        "it": "Aggiunge un bagliore al neon al mondo.",
+        "fr": "Ajoute une lueur néon au monde.",
+        "ru": "Добавляет миру неоновое свечение.",
+        "ja": "世界にネオンの輝きを加えます。",
+        "ko": "세상에 네온 빛을 더해요."
       },
       "sequence": null,
       "unlock": {
@@ -3180,7 +3924,15 @@
           "target": 16,
           "unit": "count",
           "text": {
-            "en": "Find all 16 Girlypop vehicles."
+            "en": "Find all 16 Girlypop vehicles.",
+            "es": "Encuentra los 16 vehículos Girlypop.",
+            "pt-BR": "Encontre os 16 veículos Girlypop.",
+            "de": "Finde alle 16 Girlypop-Fahrzeuge.",
+            "it": "Trova tutti i 16 veicoli Girlypop.",
+            "fr": "Trouvez les 16 véhicules Girlypop.",
+            "ru": "Найдите все 16 машин Girlypop.",
+            "ja": "Girlypopの車両16台をすべて見つける。",
+            "ko": "Girlypop 차량 16대 모두 찾기."
           }
         }
       },
@@ -3233,7 +3985,15 @@
         "en": "Yesteryear"
       },
       "effect": {
-        "en": "Black-and-white old TV look."
+        "en": "Black-and-white old TV look.",
+        "es": "Efecto de televisión vieja en blanco y negro.",
+        "pt-BR": "Visual de TV antiga em preto e branco.",
+        "de": "Look eines alten Schwarzweißfernsehers.",
+        "it": "Effetto vecchia TV in bianco e nero.",
+        "fr": "Effet de vieille télé en noir et blanc.",
+        "ru": "Эффект старого чёрно-белого телевизора.",
+        "ja": "古い白黒テレビ風の見た目。",
+        "ko": "오래된 흑백 TV 느낌."
       },
       "sequence": null,
       "unlock": {
@@ -3243,7 +4003,15 @@
           "target": null,
           "unit": null,
           "text": {
-            "en": "Discover the Ridgeway."
+            "en": "Discover the Ridgeway.",
+            "es": "Descubre el Ridgeway.",
+            "pt-BR": "Descubra o Ridgeway.",
+            "de": "Entdecke den Ridgeway.",
+            "it": "Scopri la Ridgeway.",
+            "fr": "Découvrez la Ridgeway.",
+            "ru": "Найдите Ridgeway.",
+            "ja": "Ridgewayを見つける。",
+            "ko": "Ridgeway 찾기."
           }
         }
       },
@@ -3296,7 +4064,15 @@
         "en": "Cataclysm"
       },
       "effect": {
-        "en": "Covers the world in dark smoke."
+        "en": "Covers the world in dark smoke.",
+        "es": "Cubre el mundo de humo oscuro.",
+        "pt-BR": "Cobre o mundo com fumaça escura.",
+        "de": "Hüllt die Welt in dunklen Rauch.",
+        "it": "Copre il mondo di fumo scuro.",
+        "fr": "Couvre le monde d'une fumée sombre.",
+        "ru": "Окутывает мир тёмным дымом.",
+        "ja": "世界を暗い煙で覆います。",
+        "ko": "세상을 어두운 연기로 덮어요."
       },
       "sequence": [
         "down",
@@ -3317,7 +4093,15 @@
           "target": null,
           "unit": null,
           "text": {
-            "en": "Discover Martha's Vamos (Progress menu)."
+            "en": "Discover Martha's Vamos (Progress menu).",
+            "es": "Descubre Martha's Vamos (menú de progreso).",
+            "pt-BR": "Descubra Martha's Vamos (menu de progresso).",
+            "de": "Entdecke Martha's Vamos (Fortschrittsmenü).",
+            "it": "Scopri Martha's Vamos (menu progressi).",
+            "fr": "Découvrez Martha's Vamos (menu Progression).",
+            "ru": "Найдите Martha's Vamos (меню прогресса).",
+            "ja": "Martha's Vamosを見つける（進行状況メニュー）。",
+            "ko": "Martha's Vamos 찾기(진행 메뉴)."
           }
         }
       },
@@ -3372,7 +4156,15 @@
         "en": "Videotape"
       },
       "effect": {
-        "en": "Old videotape look."
+        "en": "Old videotape look.",
+        "es": "Efecto de videocasete antiguo.",
+        "pt-BR": "Visual de fita de vídeo antiga.",
+        "de": "Look einer alten Videokassette.",
+        "it": "Effetto vecchia videocassetta.",
+        "fr": "Effet de vieille cassette vidéo.",
+        "ru": "Эффект старой видеокассеты.",
+        "ja": "古いビデオテープ風の見た目。",
+        "ko": "오래된 비디오테이프 느낌."
       },
       "sequence": null,
       "unlock": {
@@ -3382,7 +4174,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Do 50 activities with your partner."
+            "en": "Do 50 activities with your partner.",
+            "es": "Haz 50 actividades con tu pareja.",
+            "pt-BR": "Faça 50 atividades com seu parceiro.",
+            "de": "Mach 50 Aktivitäten mit deinem Partner.",
+            "it": "Fai 50 attività con il tuo partner.",
+            "fr": "Faites 50 activités avec votre partenaire.",
+            "ru": "Проведите 50 занятий с напарником.",
+            "ja": "パートナーと50回アクティビティをする。",
+            "ko": "파트너와 활동 50번 하기."
           }
         }
       },
@@ -3435,7 +4235,15 @@
         "en": "Dark Mirror"
       },
       "effect": {
-        "en": "Flips the world upside down and darkens it."
+        "en": "Flips the world upside down and darkens it.",
+        "es": "Pone el mundo de cabeza y lo oscurece.",
+        "pt-BR": "Vira o mundo de cabeça para baixo e escurece tudo.",
+        "de": "Stellt die Welt auf den Kopf und verdunkelt sie.",
+        "it": "Capovolge il mondo e lo scurisce.",
+        "fr": "Retourne le monde à l'envers et l'assombrit.",
+        "ru": "Переворачивает мир вверх ногами и затемняет его.",
+        "ja": "世界を上下反転させて暗くします。",
+        "ko": "세상을 거꾸로 뒤집고 어둡게 만들어요."
       },
       "sequence": null,
       "unlock": {
@@ -3445,7 +4253,15 @@
           "target": 500000,
           "unit": "dollars",
           "text": {
-            "en": "Make $500,000 selling vehicles."
+            "en": "Make $500,000 selling vehicles.",
+            "es": "Gana $500,000 vendiendo vehículos.",
+            "pt-BR": "Ganhe $ 500.000 vendendo veículos.",
+            "de": "Verdiene 500.000 $ mit dem Verkauf von Fahrzeugen.",
+            "it": "Guadagna 500.000 $ vendendo veicoli.",
+            "fr": "Gagnez 500 000 $ en vendant des véhicules.",
+            "ru": "Заработайте 500 000 $ на продаже машин.",
+            "ja": "車両を売って$500,000稼ぐ。",
+            "ko": "차량을 팔아 $500,000 벌기."
           }
         }
       },
@@ -3498,7 +4314,15 @@
         "en": "Migraine"
       },
       "effect": {
-        "en": "Blurry, warped filter."
+        "en": "Blurry, warped filter.",
+        "es": "Filtro borroso y distorsionado.",
+        "pt-BR": "Filtro desfocado e distorcido.",
+        "de": "Verschwommener, verzerrter Filter.",
+        "it": "Filtro sfocato e deformato.",
+        "fr": "Filtre flou et déformé.",
+        "ru": "Размытый, искажённый фильтр.",
+        "ja": "ぼやけてゆがんだフィルター。",
+        "ko": "흐릿하고 일그러진 필터."
       },
       "sequence": null,
       "unlock": {
@@ -3508,7 +4332,15 @@
           "target": 6,
           "unit": "minutes",
           "text": {
-            "en": "Survive 6 minutes at a 6-star wanted level."
+            "en": "Survive 6 minutes at a 6-star wanted level.",
+            "es": "Sobrevive 6 minutos con un nivel de búsqueda de 6 estrellas.",
+            "pt-BR": "Sobreviva 6 minutos com nível de procurado de 6 estrelas.",
+            "de": "Überlebe 6 Minuten bei einer 6-Sterne-Fahndung.",
+            "it": "Sopravvivi 6 minuti con un livello di ricercato da 6 stelle.",
+            "fr": "Survivez 6 minutes avec un niveau de recherche 6 étoiles.",
+            "ru": "Продержитесь 6 минут с розыском 6 звёзд.",
+            "ja": "6つ星の手配で6分間生き延びる。",
+            "ko": "6성 수배 상태로 6분 버티기."
           }
         }
       },
@@ -3561,7 +4393,15 @@
         "en": "Dollhouse"
       },
       "effect": {
-        "en": "Bright colors with a narrow frame."
+        "en": "Bright colors with a narrow frame.",
+        "es": "Colores vivos con un marco angosto.",
+        "pt-BR": "Cores vivas com uma moldura estreita.",
+        "de": "Kräftige Farben mit schmalem Rahmen.",
+        "it": "Colori vivaci con una cornice stretta.",
+        "fr": "Couleurs vives avec un cadre étroit.",
+        "ru": "Яркие цвета с узкой рамкой.",
+        "ja": "鮮やかな色と細い枠。",
+        "ko": "선명한 색감과 좁은 프레임."
       },
       "sequence": [
         "down",
@@ -3582,7 +4422,15 @@
           "target": 8,
           "unit": "hours",
           "text": {
-            "en": "Spend 8 hours in total with your partner."
+            "en": "Spend 8 hours in total with your partner.",
+            "es": "Pasa 8 horas en total con tu pareja.",
+            "pt-BR": "Passe 8 horas no total com seu parceiro.",
+            "de": "Verbringe insgesamt 8 Stunden mit deinem Partner.",
+            "it": "Passa 8 ore in totale con il tuo partner.",
+            "fr": "Passez 8 heures au total avec votre partenaire.",
+            "ru": "Проведите с напарником 8 часов суммарно.",
+            "ja": "パートナーと合計8時間過ごす。",
+            "ko": "파트너와 총 8시간 보내기."
           }
         }
       },
@@ -3637,7 +4485,15 @@
         "en": "Bubblegum"
       },
       "effect": {
-        "en": "Purple-and-yellow world with sparkles."
+        "en": "Purple-and-yellow world with sparkles.",
+        "es": "Mundo morado y amarillo con destellos.",
+        "pt-BR": "Mundo roxo e amarelo com brilhos.",
+        "de": "Lila-gelbe Welt mit Glitzer.",
+        "it": "Mondo viola e giallo con brillantini.",
+        "fr": "Monde violet et jaune pailleté.",
+        "ru": "Фиолетово-жёлтый мир с блёстками.",
+        "ja": "紫と黄色のきらめく世界。",
+        "ko": "반짝이는 보라색과 노란색 세상."
       },
       "sequence": null,
       "unlock": {
@@ -3647,7 +4503,15 @@
           "target": 24,
           "unit": "count",
           "text": {
-            "en": "Collect all 24 Vice City Flamingos cards."
+            "en": "Collect all 24 Vice City Flamingos cards.",
+            "es": "Reúne las 24 cartas de Vice City Flamingos.",
+            "pt-BR": "Colete as 24 cartas do Vice City Flamingos.",
+            "de": "Sammle alle 24 Vice City Flamingos-Karten.",
+            "it": "Raccogli tutte le 24 carte Vice City Flamingos.",
+            "fr": "Récupérez les 24 cartes Vice City Flamingos.",
+            "ru": "Соберите все 24 карточки Vice City Flamingos.",
+            "ja": "Vice City Flamingosのカード24枚をすべて集める。",
+            "ko": "Vice City Flamingos 카드 24장 모두 모으기."
           }
         }
       },
@@ -3700,7 +4564,15 @@
         "en": "Fast Forward"
       },
       "effect": {
-        "en": "Motion blur and fast-moving clouds."
+        "en": "Motion blur and fast-moving clouds.",
+        "es": "Desenfoque de movimiento y nubes rápidas.",
+        "pt-BR": "Desfoque de movimento e nuvens rápidas.",
+        "de": "Bewegungsunschärfe und schnell ziehende Wolken.",
+        "it": "Sfocatura di movimento e nuvole veloci.",
+        "fr": "Flou de mouvement et nuages rapides.",
+        "ru": "Размытие в движении и быстрые облака.",
+        "ja": "モーションブラーと流れる雲。",
+        "ko": "모션 블러와 빠르게 흐르는 구름."
       },
       "sequence": null,
       "unlock": {
@@ -3710,7 +4582,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Finish 50 meditations."
+            "en": "Finish 50 meditations.",
+            "es": "Completa 50 meditaciones.",
+            "pt-BR": "Conclua 50 meditações.",
+            "de": "Schließ 50 Meditationen ab.",
+            "it": "Completa 50 meditazioni.",
+            "fr": "Terminez 50 méditations.",
+            "ru": "Завершите 50 медитаций.",
+            "ja": "瞑想を50回終える。",
+            "ko": "명상 50번 마치기."
           }
         }
       },
@@ -3763,7 +4643,15 @@
         "en": "Fisheye"
       },
       "effect": {
-        "en": "Fisheye-lens view."
+        "en": "Fisheye-lens view.",
+        "es": "Vista de lente ojo de pez.",
+        "pt-BR": "Visão de lente olho de peixe.",
+        "de": "Fischaugen-Ansicht.",
+        "it": "Visuale con obiettivo fisheye.",
+        "fr": "Vue en objectif fisheye.",
+        "ru": "Вид через объектив «рыбий глаз».",
+        "ja": "魚眼レンズ風の見た目。",
+        "ko": "어안 렌즈 화면."
       },
       "sequence": null,
       "unlock": {
@@ -3773,7 +4661,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Catch 100 fish."
+            "en": "Catch 100 fish.",
+            "es": "Pesca 100 peces.",
+            "pt-BR": "Pesque 100 peixes.",
+            "de": "Fang 100 Fische.",
+            "it": "Pesca 100 pesci.",
+            "fr": "Pêchez 100 poissons.",
+            "ru": "Поймайте 100 рыб.",
+            "ja": "魚を100匹釣る。",
+            "ko": "물고기 100마리 잡기."
           }
         }
       },
@@ -3826,7 +4722,15 @@
         "en": "Faded Glory"
       },
       "effect": {
-        "en": "Color old TV look."
+        "en": "Color old TV look.",
+        "es": "Efecto de televisión vieja a color.",
+        "pt-BR": "Visual de TV antiga em cores.",
+        "de": "Look eines alten Farbfernsehers.",
+        "it": "Effetto vecchia TV a colori.",
+        "fr": "Effet de vieille télé en couleur.",
+        "ru": "Эффект старого цветного телевизора.",
+        "ja": "古いカラーテレビ風の見た目。",
+        "ko": "오래된 컬러 TV 느낌."
       },
       "sequence": [
         "down",
@@ -3847,7 +4751,15 @@
           "target": 50,
           "unit": "count",
           "text": {
-            "en": "Rob 50 stores together with your partner."
+            "en": "Rob 50 stores together with your partner.",
+            "es": "Roba 50 tiendas junto con tu pareja.",
+            "pt-BR": "Roube 50 lojas junto com seu parceiro.",
+            "de": "Überfalle 50 Läden zusammen mit deinem Partner.",
+            "it": "Rapina 50 negozi insieme al tuo partner.",
+            "fr": "Braquez 50 magasins avec votre partenaire.",
+            "ru": "Ограбьте 50 магазинов вместе с напарником.",
+            "ja": "パートナーと一緒に店を50軒襲う。",
+            "ko": "파트너와 함께 상점 50곳 털기."
           }
         }
       },
@@ -3902,7 +4814,15 @@
         "en": "Pixel Art"
       },
       "effect": {
-        "en": "Pixelated view."
+        "en": "Pixelated view.",
+        "es": "Vista pixelada.",
+        "pt-BR": "Visão pixelada.",
+        "de": "Verpixelte Ansicht.",
+        "it": "Visuale pixelata.",
+        "fr": "Vue pixélisée.",
+        "ru": "Пиксельная картинка.",
+        "ja": "ピクセル風の見た目。",
+        "ko": "픽셀 화면."
       },
       "sequence": null,
       "unlock": {
@@ -3912,7 +4832,15 @@
           "target": 250000,
           "unit": "dollars",
           "text": {
-            "en": "Make $250,000 selling collectibles."
+            "en": "Make $250,000 selling collectibles.",
+            "es": "Gana $250,000 vendiendo coleccionables.",
+            "pt-BR": "Ganhe $ 250.000 vendendo colecionáveis.",
+            "de": "Verdiene 250.000 $ mit dem Verkauf von Sammlerstücken.",
+            "it": "Guadagna 250.000 $ vendendo oggetti da collezione.",
+            "fr": "Gagnez 250 000 $ en vendant des objets de collection.",
+            "ru": "Заработайте 250 000 $ на продаже коллекционных предметов.",
+            "ja": "収集品を売って$250,000稼ぐ。",
+            "ko": "수집품을 팔아 $250,000 벌기."
           }
         }
       },
@@ -3965,7 +4893,15 @@
         "en": "Hellscape"
       },
       "effect": {
-        "en": "Red-orange world with heat haze."
+        "en": "Red-orange world with heat haze.",
+        "es": "Mundo rojo anaranjado con calima.",
+        "pt-BR": "Mundo vermelho-alaranjado com ar tremulando de calor.",
+        "de": "Rot-orange Welt mit Hitzeflimmern.",
+        "it": "Mondo rosso-arancio con foschia da calore.",
+        "fr": "Monde rouge orangé avec brume de chaleur.",
+        "ru": "Красно-оранжевый мир с маревом от жары.",
+        "ja": "陽炎が揺れる赤橙色の世界。",
+        "ko": "아지랑이가 피어오르는 붉은 주황빛 세상."
       },
       "sequence": null,
       "unlock": {
@@ -3975,7 +4911,15 @@
           "target": 100,
           "unit": "count",
           "text": {
-            "en": "Steal 100 police vehicles."
+            "en": "Steal 100 police vehicles.",
+            "es": "Roba 100 vehículos de policía.",
+            "pt-BR": "Roube 100 viaturas da polícia.",
+            "de": "Stiehl 100 Polizeifahrzeuge.",
+            "it": "Ruba 100 veicoli della polizia.",
+            "fr": "Volez 100 véhicules de police.",
+            "ru": "Угоните 100 полицейских машин.",
+            "ja": "パトカーを100台盗む。",
+            "ko": "경찰 차량 100대 훔치기."
           }
         }
       },

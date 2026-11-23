@@ -1,0 +1,245 @@
+<!doctype html>
+<!--
+  App Store creative asset (product page header / search results).
+  Rendered by render.py with headless Chrome: banner.html?kind=header|search&lang=xx
+  Key content stays inside Apple's art safe area (centered box, see SAFE below).
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  html, body { margin: 0; padding: 0; overflow: hidden; background: #0e0b14; }
+  #stage { position: relative; overflow: hidden; }
+  svg { position: absolute; inset: 0; display: block; }
+  #copy {
+    position: absolute; display: flex; flex-direction: column;
+    align-items: center; justify-content: center; text-align: center;
+  }
+  .line {
+    font-family: "Segoe UI Black", "Arial Black", sans-serif;
+    font-weight: 900; font-style: italic; letter-spacing: -0.01em;
+    line-height: 1.02; white-space: nowrap;
+  }
+  @font-face { font-family: "BannerJA"; src: local("Yu Gothic Bold"), local("YuGothic-Bold"), url("file:///C:/Windows/Fonts/YuGothB.ttc"); }
+  @font-face { font-family: "BannerKO"; src: local("Malgun Gothic Bold"), local("MalgunGothicBold"), url("file:///C:/Windows/Fonts/malgunbd.ttf"); }
+  :lang(ja) .line { font-family: "BannerJA", "Yu Gothic", sans-serif; font-weight: 700; font-style: normal; }
+  :lang(ko) .line { font-family: "BannerKO", "Malgun Gothic", sans-serif; font-weight: 700; font-style: normal; }
+  .l1 { color: #ffffff; -webkit-text-stroke: .03em #1a0730; paint-order: stroke fill; text-shadow: 0 0 .12em rgba(14,11,20,.9), 0 .04em .02em rgba(14,11,20,.8); }
+  .l2 {
+    color: #ff5fae; -webkit-text-stroke: .05em #1a0730; paint-order: stroke fill;
+    text-shadow: 0 0 .06em #ff4fa3, 0 0 .22em rgba(255,79,163,.75), 0 .04em .02em rgba(14,11,20,.9);
+  }
+  #arrows { display: flex; gap: .28em; }
+  .key {
+    width: 1em; height: 1em; border-radius: .22em;
+    background: rgba(20,14,34,.85);
+    border: .045em solid #3cdcff;
+    box-shadow: 0 0 .18em rgba(60,220,255,.8), inset 0 0 .12em rgba(60,220,255,.35);
+    display: flex; align-items: center; justify-content: center;
+  }
+  .key svg { position: static; width: .62em; height: .62em; filter: drop-shadow(0 0 .05em #3cdcff); }
+</style>
+</head>
+<body>
+<div id="stage"></div>
+<script>
+const q = new URLSearchParams(location.search);
+const kind = q.get("kind") || "header";
+const lang = q.get("lang") || "en";
+const debug = q.has("debug");
+
+// Canvas sizes and Apple's art safe areas (x, y, w, h).
+const SPEC = {
+  header: { w: 3840, h: 1646, safe: [1097, 493, 1646, 661] },
+  search: { w: 3840, h: 2560, safe: [836, 765, 2168, 1030] },
+}[kind];
+const { w: W, h: H } = SPEC;
+const [SX, SY, SW, SH] = SPEC.safe;
+
+const COPY = {
+  en: ["Every code.", "Every secret."],
+  es: ["Todos los códigos.", "Todos los secretos."],
+  pt: ["Todos os códigos.", "Todos os segredos."],
+  de: ["Jeder Code.", "Jedes Geheimnis."],
+  fr: ["Tous les codes.", "Tous les secrets."],
+  it: ["Tutti i codici.", "Tutti i segreti."],
+  ru: ["Все коды.", "Все секреты."],
+  ja: ["すべてのコード。", "すべての秘密。"],
+  ko: ["모든 코드.", "모든 비밀."],
+}[lang];
+document.documentElement.lang = lang;
+
+const stage = document.getElementById("stage");
+stage.style.width = W + "px";
+stage.style.height = H + "px";
+
+// ---------- background scene (SVG) ----------
+const NS = "http://www.w3.org/2000/svg";
+const el = (name, attrs, parent) => {
+  const e = document.createElementNS(NS, name);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(e);
+  return e;
+};
+const svg = el("svg", { width: W, height: H, viewBox: `0 0 ${W} ${H}` }, stage);
+const defs = el("defs", {}, svg);
+
+const horizon = Math.round(SY + SH * (kind === "header" ? 0.80 : 0.78));
+
+// Sky
+const sky = el("linearGradient", { id: "sky", x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
+[[0, "#0d0820"], [0.45, "#2a0b4a"], [0.78, "#7a1a86"], [1, "#ff3d9a"]].forEach(([o, c]) =>
+  el("stop", { offset: o, "stop-color": c }, sky));
+el("rect", { x: 0, y: 0, width: W, height: horizon, fill: "url(#sky)" }, svg);
+
+// Stars
+let seed = 7;
+const rnd = () => (seed = (seed * 16807) % 2147483647) / 2147483647;
+for (let i = 0; i < 260; i++) {
+  const y = rnd() * horizon * 0.62;
+  el("circle", { cx: rnd() * W, cy: y, r: 1.5 + rnd() * 3.5, fill: "#ffffff",
+    opacity: (0.15 + rnd() * 0.55) * (1 - y / (horizon * 0.7)) }, svg);
+}
+
+// Sun: centered, sits on the horizon, striped lower half
+const sunR = kind === "header" ? 560 : 700;
+const sunCx = W / 2, sunCy = horizon - sunR * 0.18;
+const sunGrad = el("linearGradient", { id: "sun", x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
+[[0, "#ffe27a"], [0.35, "#ffa24f"], [0.7, "#ff5a9e"], [1, "#ff2f92"]].forEach(([o, c]) =>
+  el("stop", { offset: o, "stop-color": c }, sunGrad));
+const glow = el("radialGradient", { id: "glow" }, defs);
+[[0, "rgba(255,80,170,0.55)"], [0.5, "rgba(255,60,160,0.18)"], [1, "rgba(255,60,160,0)"]].forEach(([o, c]) =>
+  el("stop", { offset: o, "stop-color": c }, glow));
+el("circle", { cx: sunCx, cy: sunCy, r: sunR * 2.1, fill: "url(#glow)" }, svg);
+const mask = el("mask", { id: "stripes" }, defs);
+el("rect", { x: 0, y: 0, width: W, height: H, fill: "white" }, mask);
+for (let i = 0; i < 9; i++) {
+  const t = i / 9;
+  const y = sunCy - sunR * 0.05 + t * sunR * 1.0;
+  el("rect", { x: 0, y, width: W, height: 6 + t * 34, fill: "black" }, mask);
+}
+const clip = el("clipPath", { id: "aboveHorizon" }, defs);
+el("rect", { x: 0, y: 0, width: W, height: horizon }, clip);
+el("circle", { cx: sunCx, cy: sunCy, r: sunR, fill: "url(#sun)", mask: "url(#stripes)",
+  "clip-path": "url(#aboveHorizon)" }, svg);
+
+// Ground: dark sea with a neon perspective grid
+const ground = el("linearGradient", { id: "ground", x1: 0, y1: 0, x2: 0, y2: 1 }, defs);
+[[0, "#2a0838"], [0.35, "#150624"], [1, "#0b0714"]].forEach(([o, c]) =>
+  el("stop", { offset: o, "stop-color": c }, ground));
+el("rect", { x: 0, y: horizon, width: W, height: H - horizon, fill: "url(#ground)" }, svg);
+// sun reflection
+for (let i = 0; i < 7; i++) {
+  const y = horizon + 18 + i * i * 9 + i * 16;
+  const half = sunR * (0.9 - i * 0.1);
+  el("rect", { x: sunCx - half, y, width: half * 2, height: 5 + i * 2, rx: 4,
+    fill: "#ff4fa3", opacity: 0.55 - i * 0.065 }, svg);
+}
+const gridG = el("g", { stroke: "#ff4fa3", "stroke-width": 3, opacity: 0.55 }, svg);
+const depth = H - horizon;
+for (let i = 1; i < 14; i++) {
+  const y = horizon + depth * Math.pow(i / 13, 2.2);
+  el("line", { x1: 0, y1: y, x2: W, y2: y, opacity: 0.25 + 0.6 * (i / 13) }, gridG);
+}
+const vp = W / 2;
+for (let i = -16; i <= 16; i++) {
+  el("line", { x1: vp + i * 60, y1: horizon, x2: vp + i * 520, y2: H, opacity: 0.55 }, gridG);
+}
+el("line", { x1: 0, y1: horizon, x2: W, y2: horizon, stroke: "#ff8fd0", "stroke-width": 5 }, svg);
+
+// Palms: silhouettes at the edges, outside the safe area
+function palm(baseX, baseY, height, lean, flip) {
+  const g = el("g", { fill: "#0b0613" }, svg);
+  const topX = baseX + lean, topY = baseY - height;
+  const bw = height * 0.035, tw = height * 0.016;
+  const cx = baseX + lean * 0.15, cy = baseY - height * 0.5;
+  el("path", { d: `M ${baseX - bw} ${baseY} Q ${cx - bw} ${cy} ${topX - tw} ${topY}
+                   L ${topX + tw} ${topY} Q ${cx + bw} ${cy} ${baseX + bw} ${baseY} Z` }, g);
+  // trunk rings
+  for (let i = 1; i < 16; i++) {
+    const t = i / 16;
+    const x = (1 - t) * (1 - t) * baseX + 2 * (1 - t) * t * cx + t * t * topX;
+    const y = (1 - t) * (1 - t) * baseY + 2 * (1 - t) * t * cy + t * t * topY;
+    const r = bw * (1 - t) + tw * t;
+    el("ellipse", { cx: x, cy: y, rx: r * 1.25, ry: r * 0.28, fill: "#170a24" }, g);
+  }
+  // fronds
+  const angles = [-170, -145, -118, -90, -62, -35, -10, -158, -25];
+  angles.forEach((a, i) => {
+    const ang = (flip ? -180 - a : a) * Math.PI / 180;
+    const len = height * (0.42 + (i % 3) * 0.06);
+    const droop = height * (0.16 + (i % 2) * 0.08);
+    const ex = topX + Math.cos(ang) * len;
+    const ey = topY + Math.sin(ang) * len * 0.45 + droop;
+    const mx = topX + Math.cos(ang) * len * 0.5;
+    const my = topY + Math.sin(ang) * len * 0.5 - height * 0.06;
+    const nx = -(ey - topY), ny = ex - topX;
+    const nl = Math.hypot(nx, ny) || 1;
+    const wdt = height * 0.05;
+    const ox = nx / nl * wdt, oy = ny / nl * wdt;
+    el("path", { d: `M ${topX} ${topY} Q ${mx + ox} ${my + oy} ${ex} ${ey}
+                     Q ${mx - ox * 0.4} ${my - oy * 0.4} ${topX} ${topY} Z` }, g);
+    // leaflets for a feathery edge
+    for (let k = 1; k < 12; k++) {
+      const t = k / 12;
+      const px = (1 - t) * (1 - t) * topX + 2 * (1 - t) * t * mx + t * t * ex;
+      const py = (1 - t) * (1 - t) * topY + 2 * (1 - t) * t * my + t * t * ey;
+      const L = wdt * (1.9 - t * 1.2);
+      el("path", { d: `M ${px} ${py} l ${ox / wdt * L * 0.6} ${L * 0.9 + oy / wdt * L * 0.2}
+                       l ${-ox / wdt * L * 0.25} ${-L * 0.25} Z` }, g);
+      el("path", { d: `M ${px} ${py} l ${-ox / wdt * L * 0.6} ${L * 0.9 - oy / wdt * L * 0.2}
+                       l ${ox / wdt * L * 0.25} ${-L * 0.25} Z` }, g);
+    }
+  });
+  el("circle", { cx: topX, cy: topY, r: tw * 2.2 }, g);
+}
+const pH = kind === "header" ? H * 0.80 : H * 0.74;
+palm(W * 0.07, H + 10, pH, W * 0.035, false);
+palm(W * 0.16, H + 10, pH * 0.72, -W * 0.02, false);
+palm(W * 0.93, H + 10, pH, -W * 0.035, true);
+palm(W * 0.84, H + 10, pH * 0.72, W * 0.02, true);
+
+// Darken the band behind the text so it reads on any crop
+const veil = el("radialGradient", { id: "veil", cx: 0.5, cy: 0.5, r: 0.5 }, defs);
+[[0, "rgba(14,11,20,0.30)"], [0.6, "rgba(14,11,20,0.16)"], [1, "rgba(14,11,20,0)"]].forEach(([o, c]) =>
+  el("stop", { offset: o, "stop-color": c }, veil));
+el("ellipse", { cx: SX + SW / 2, cy: SY + SH / 2, rx: SW * 0.72, ry: SH * 0.72, fill: "url(#veil)" }, svg);
+
+if (debug) el("rect", { x: SX, y: SY, width: SW, height: SH, fill: "none", stroke: "#00ff00", "stroke-width": 6 }, svg);
+
+// ---------- copy inside the safe area ----------
+const copy = document.createElement("div");
+copy.id = "copy";
+Object.assign(copy.style, { left: SX + "px", top: SY + "px", width: SW + "px", height: SH + "px" });
+const arrowPath = {
+  up: "M12 3 L21 13 H15 V21 H9 V13 H3 Z",
+  down: "M12 21 L3 11 H9 V3 H15 V11 H21 Z",
+  left: "M3 12 L13 3 V9 H21 V15 H13 V21 Z",
+  right: "M21 12 L11 21 V15 H3 V9 H11 V3 Z",
+};
+const seq = ["up", "left", "right", "up", "up", "left", "right", "up"];
+copy.innerHTML = `
+  <div class="line l1">${COPY[0]}</div>
+  <div class="line l2">${COPY[1]}</div>
+  <div id="arrows">${seq.map(d => `<div class="key"><svg viewBox="0 0 24 24"><path fill="#3cdcff" d="${arrowPath[d]}"/></svg></div>`).join("")}</div>`;
+stage.appendChild(copy);
+
+// Fit: largest text size whose block fits the safe area with a margin.
+const lines = copy.querySelectorAll(".line");
+const arrows = copy.querySelector("#arrows");
+let size = kind === "header" ? 190 : 260;
+function layout(s) {
+  lines.forEach(l => (l.style.fontSize = s + "px"));
+  arrows.style.fontSize = Math.round(s * 0.62) + "px";
+  arrows.style.marginTop = Math.round(s * 0.28) + "px";
+}
+for (; size > 40; size -= 2) {
+  layout(size);
+  const tooWide = [...lines, arrows].some(n => n.getBoundingClientRect().width > SW * 0.96);
+  const blockH = arrows.getBoundingClientRect().bottom - lines[0].getBoundingClientRect().top;
+  if (!tooWide && blockH <= SH * 0.96) break;
+}
+document.title = "ready " + size;
+</script>
+</body>
+</html>

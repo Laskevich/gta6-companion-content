@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-22",
+  "updated": "2026-11-23",
   "items": [
     {
       "id": "money-250k",
@@ -324,7 +324,15 @@
         "ja": "手配度が上がります。",
         "ko": "수배 레벨이 올라가요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "down",
+        "right",
+        "down",
+        "up",
+        "right",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -355,7 +363,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -379,11 +387,45 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-cheat-codes",
+          "source": "Mobalytics",
+          "source_type": "outlet",
+          "date": "2026-11-18",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-23",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. 2026-11-23: code from GameSpot, GamesRadar, Mobalytics, Rare Thief; Dexerto alone lists an 8-input variant (L D R D U U R U).",
+      "added": "2026-11-23"
     },
     {
       "id": "unlimited-focus",
@@ -538,7 +580,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -617,7 +659,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -788,7 +830,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -867,7 +909,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1222,7 +1264,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1301,7 +1343,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1380,7 +1422,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1459,7 +1501,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1538,7 +1580,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1585,7 +1627,7 @@
         "xsx"
       ],
       "free": true,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1611,10 +1653,21 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "A search snippet showed GameSpot with a different code (D,U,L,R,D,D,U,D); page returned 403, not verified. Keep yellow until checked. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1875,7 +1928,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1954,7 +2007,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2033,7 +2086,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2112,7 +2165,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2281,7 +2334,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2360,7 +2413,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2439,7 +2492,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2518,7 +2571,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2686,7 +2739,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2765,7 +2818,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2934,7 +2987,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3013,7 +3066,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3092,7 +3145,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3171,7 +3224,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3250,7 +3303,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3329,7 +3382,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3408,7 +3461,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3487,7 +3540,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3566,7 +3619,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3645,7 +3698,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3823,7 +3876,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3902,7 +3955,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -3981,7 +4034,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4060,7 +4113,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4139,7 +4192,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4294,7 +4347,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4330,10 +4383,21 @@
             "unlock"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-22",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Code only on Shacknews (22.11); GameRiv/games.gg/iGeeksBlog still TBA.",
       "added": "2026-11-22"
     },
@@ -4397,7 +4461,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4433,10 +4497,21 @@
             "unlock"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-22",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-22",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Code only on Shacknews (22.11); GameRiv/games.gg/iGeeksBlog still TBA.",
       "added": "2026-11-22"
     },
@@ -4516,7 +4591,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4687,7 +4762,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4766,7 +4841,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4845,7 +4920,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -5016,7 +5091,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -5095,7 +5170,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-23",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     }
   ]

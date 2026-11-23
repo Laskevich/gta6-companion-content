@@ -1,0 +1,137 @@
+<!doctype html>
+<!--
+  App Store screenshot frame: caption on top, the app screen below (6.9" iPhone, 1320x2868).
+  Rendered by render.py: frame.html?lang=xx&n=1..7&src=<path to raw screenshot>
+-->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  @font-face { font-family: "FrameJA"; src: local("Yu Gothic Bold"), local("YuGothic-Bold"), url("file:///C:/Windows/Fonts/YuGothB.ttc"); }
+  @font-face { font-family: "FrameKO"; src: local("Malgun Gothic Bold"), local("MalgunGothicBold"), url("file:///C:/Windows/Fonts/malgunbd.ttf"); }
+  html, body { margin: 0; padding: 0; overflow: hidden; }
+  #stage {
+    position: relative; width: 1320px; height: 2868px; overflow: hidden;
+    background:
+      radial-gradient(1200px 700px at 50% 108%, rgba(255,63,154,.55), rgba(255,63,154,0) 70%),
+      radial-gradient(900px 600px at 50% -10%, rgba(122,26,134,.55), rgba(122,26,134,0) 70%),
+      linear-gradient(180deg, #120a22 0%, #1a0b2e 45%, #2a0b3f 100%);
+  }
+  #grid {
+    position: absolute; left: 0; right: 0; bottom: 0; height: 900px; opacity: .35;
+    background:
+      repeating-linear-gradient(90deg, rgba(255,79,163,.55) 0 3px, transparent 3px 110px),
+      repeating-linear-gradient(0deg, rgba(255,79,163,.55) 0 3px, transparent 3px 110px);
+    transform: perspective(700px) rotateX(58deg); transform-origin: 50% 100%;
+    -webkit-mask-image: linear-gradient(180deg, transparent, #000 70%);
+  }
+  #copy { position: absolute; top: 120px; height: 440px; left: 70px; right: 70px; text-align: center;
+           display: flex; flex-direction: column; justify-content: center; }
+  h1 {
+    margin: 0; color: #fff; font-family: "Segoe UI Black", "Arial Black", sans-serif;
+    font-weight: 900; font-size: 104px; line-height: 1.06; letter-spacing: -0.01em;
+  }
+  p {
+    margin: 30px 0 0; color: #ff5fae; font-family: "Segoe UI Semibold", "Segoe UI", sans-serif;
+    font-weight: 600; font-size: 58px; line-height: 1.2;
+    text-shadow: 0 0 24px rgba(255,79,163,.45);
+  }
+  :lang(ja) h1, :lang(ja) p { font-family: "FrameJA", "Yu Gothic", sans-serif; font-weight: 700; }
+  :lang(ko) h1, :lang(ko) p { font-family: "FrameKO", "Malgun Gothic", sans-serif; font-weight: 700; }
+  #phone {
+    position: absolute; left: 50%; transform: translateX(-50%);
+    top: 640px; width: 1000px; border-radius: 116px; padding: 20px; background: #07050c;
+    box-shadow: 0 0 0 4px rgba(60,220,255,.55), 0 0 60px rgba(60,220,255,.35), 0 40px 120px rgba(0,0,0,.6);
+  }
+  #phone img { display: block; width: 100%; border-radius: 98px; }
+</style>
+</head>
+<body>
+<div id="stage"><div id="grid"></div><div id="copy"><h1></h1><p></p></div><div id="phone"><img></div></div>
+<script>
+const q = new URLSearchParams(location.search);
+const lang = q.get("lang") || "en";
+const n = +(q.get("n") || 1);
+document.documentElement.lang = lang;
+
+const CAPTIONS = {
+  en: [["Every GTA 6 cheat code", "With an honest status for each"],
+       ["Secrets & easter eggs", "Where to find them and what you get"],
+       ["Enter codes with no mistakes", "Big arrows guide you step by step"],
+       ["Clear step-by-step guides", "Exactly where to go and what to do"],
+       ["Track every unlock", "Counters right on your Lock Screen"],
+       ["One plan for every cheat", "Closest to done comes first"],
+       ["Updated every day", "Get alerts about new secrets"]],
+  es: [["Todos los trucos de GTA 6", "Con un estado honesto para cada uno"],
+       ["Secretos y easter eggs", "Dónde encontrarlos y qué consigues"],
+       ["Introduce códigos sin errores", "Flechas grandes, paso a paso"],
+       ["Guías claras paso a paso", "Adónde ir y qué hacer"],
+       ["Sigue cada desbloqueo", "Contadores en la pantalla bloqueada"],
+       ["Un plan para todos los trucos", "Primero lo más cercano a la meta"],
+       ["Novedades cada día", "Avisos de nuevos secretos"]],
+  pt: [["Todos os códigos de GTA 6", "Com um status honesto para cada um"],
+       ["Segredos e easter eggs", "Onde achar e o que você ganha"],
+       ["Digite códigos sem erros", "Setas grandes, passo a passo"],
+       ["Guias claros passo a passo", "Para onde ir e o que fazer"],
+       ["Acompanhe cada desbloqueio", "Contadores na tela bloqueada"],
+       ["Um plano para todos os códigos", "O mais perto de concluir vem primeiro"],
+       ["Novidades todo dia", "Alertas de novos segredos"]],
+  de: [["Alle GTA 6 Cheat-Codes", "Mit ehrlichem Status für jeden"],
+       ["Geheimnisse & Easter Eggs", "Wo du sie findest und was du bekommst"],
+       ["Codes ohne Fehler eingeben", "Große Pfeile, Schritt für Schritt"],
+       ["Klare Schritt-für-Schritt-Guides", "Wohin du musst und was zu tun ist"],
+       ["Jede Freischaltung verfolgen", "Zähler direkt auf dem Sperrbildschirm"],
+       ["Ein Plan für alle Cheats", "Was fast fertig ist, kommt zuerst"],
+       ["Jeden Tag neu", "Hinweise auf neue Geheimnisse"]],
+  fr: [["Tous les codes de triche GTA 6", "Avec un statut honnête pour chacun"],
+       ["Secrets et easter eggs", "Où les trouver et ce qu'on gagne"],
+       ["Entrez les codes sans erreur", "De grandes flèches, étape par étape"],
+       ["Des guides clairs pas à pas", "Où aller et quoi faire"],
+       ["Suivez chaque déblocage", "Compteurs sur l'écran verrouillé"],
+       ["Un plan pour tous les codes", "Le plus proche du but d'abord"],
+       ["Mis à jour chaque jour", "Alertes pour les nouveaux secrets"]],
+  it: [["Tutti i trucchi di GTA 6", "Con uno stato onesto per ognuno"],
+       ["Segreti ed easter egg", "Dove trovarli e cosa si ottiene"],
+       ["Inserisci i codici senza errori", "Frecce grandi, passo dopo passo"],
+       ["Guide chiare passo passo", "Dove andare e cosa fare"],
+       ["Segui ogni sblocco", "Contatori sulla schermata di blocco"],
+       ["Un piano per tutti i trucchi", "Prima ciò che è più vicino"],
+       ["Aggiornato ogni giorno", "Avvisi sui nuovi segreti"]],
+  ru: [["Все чит-коды GTA 6", "С честным статусом для каждого"],
+       ["Секреты и пасхалки", "Где найти и что за это дают"],
+       ["Вводите коды без ошибок", "Крупные стрелки шаг за шагом"],
+       ["Понятные пошаговые гайды", "Куда идти и что делать"],
+       ["Следите за испытаниями", "Счётчик прямо на экране блокировки"],
+       ["Один план для всех читов", "Сначала то, что ближе к цели"],
+       ["Обновления каждый день", "Уведомления о новых секретах"]],
+  ja: [["GTA 6のチートコードを網羅", "それぞれの動作状況つき"],
+       ["秘密とイースターエッグ", "場所と手に入るものがわかる"],
+       ["コード入力をミスなく", "大きな矢印でステップごとに"],
+       ["わかりやすい手順ガイド", "どこへ行き、何をするか"],
+       ["解放の進み具合を記録", "ロック画面にカウンター"],
+       ["すべてのチートを一つのプランに", "完了に近いものから順に"],
+       ["毎日アップデート", "新しい秘密をお知らせ"]],
+  ko: [["GTA 6 치트 코드 총정리", "코드마다 정직한 작동 상태"],
+       ["비밀과 이스터 에그", "위치와 보상을 한눈에"],
+       ["실수 없이 코드 입력", "큰 화살표로 한 단계씩"],
+       ["알기 쉬운 단계별 가이드", "어디로 가서 무엇을 할지"],
+       ["모든 해금 진행 추적", "잠금 화면에 카운터 표시"],
+       ["모든 치트를 하나의 플랜으로", "완료에 가까운 것부터"],
+       ["매일 업데이트", "새로운 비밀 알림"]],
+}[lang];
+const [title, sub] = CAPTIONS[n - 1];
+document.querySelector("h1").textContent = title;
+document.querySelector("p").textContent = sub;
+
+// Shrink the title until it fits in two lines.
+const h1 = document.querySelector("h1");
+let size = 104;
+while (h1.getBoundingClientRect().height > size * 1.06 * 2 + 4 && size > 60) {
+  size -= 2; h1.style.fontSize = size + "px";
+}
+const img = document.querySelector("#phone img");
+img.src = q.get("src");
+img.onload = () => { document.title = "ready"; };
+</script>
+</body>
+</html>

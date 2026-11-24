@@ -20,7 +20,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.pages.outputs.page_url }}
+      url: ${{ steps.pages.outputs.page_url || steps.first.outputs.page_url }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -33,5 +33,14 @@ jobs:
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
+      # deploy-pages sometimes can't see a just-uploaded artifact yet ("No artifacts named
+      # github-pages"); give it a moment and retry once instead of failing the release.
+      - run: sleep 20
+      - id: first
+        uses: actions/deploy-pages@v4
+        continue-on-error: true
+      - if: steps.first.outcome == 'failure'
+        run: sleep 45
       - id: pages
+        if: steps.first.outcome == 'failure'
         uses: actions/deploy-pages@v4

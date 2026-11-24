@@ -1,0 +1,362 @@
+[
+ {
+  "kind": "county",
+  "name": "Lummox County",
+  "x": 500.0,
+  "y": 249.1
+ },
+ {
+  "kind": "county",
+  "name": "Kelly County",
+  "x": 418.1,
+  "y": 544.4
+ },
+ {
+  "kind": "county",
+  "name": "Leonard County",
+  "x": 729.5,
+  "y": 511.5
+ },
+ {
+  "kind": "county",
+  "name": "Vice-Dale County",
+  "x": 729.5,
+  "y": 815.2
+ },
+ {
+  "kind": "county",
+  "name": "Mariana County",
+  "x": 392.9,
+  "y": 1050.8
+ },
+ {
+  "kind": "city",
+  "name": "Vice City",
+  "x": 681.3,
+  "y": 727.2
+ },
+ {
+  "kind": "city",
+  "name": "Vice Beach",
+  "x": 877.2,
+  "y": 682.1
+ },
+ {
+  "kind": "city",
+  "name": "Port Gellhorn",
+  "x": 291.2,
+  "y": 492.3
+ },
+ {
+  "kind": "city",
+  "name": "Ambrosia",
+  "x": 558.9,
+  "y": 487.8
+ },
+ {
+  "kind": "city",
+  "name": "Belville",
+  "x": 668.3,
+  "y": 545.1
+ },
+ {
+  "kind": "city",
+  "name": "Hamlet",
+  "x": 565.0,
+  "y": 969.0
+ },
+ {
+  "kind": "city",
+  "name": "Key Lento",
+  "x": 572.7,
+  "y": 1185.5
+ },
+ {
+  "kind": "city",
+  "name": "Grassrivers",
+  "x": 447.2,
+  "y": 936.1
+ },
+ {
+  "kind": "city",
+  "name": "Capri",
+  "x": 272.8,
+  "y": 737.2
+ },
+ {
+  "kind": "city",
+  "name": "Watson Bay",
+  "x": 426.6,
+  "y": 996.5
+ },
+ {
+  "kind": "city",
+  "name": "Millport",
+  "x": 669.8,
+  "y": 301.1
+ },
+ {
+  "kind": "city",
+  "name": "Bonanza",
+  "x": 458.7,
+  "y": 171.8
+ },
+ {
+  "kind": "city",
+  "name": "Grayson",
+  "x": 371.5,
+  "y": 284.3
+ },
+ {
+  "kind": "city",
+  "name": "Draper Island",
+  "x": 227.7,
+  "y": 402.8
+ },
+ {
+  "kind": "city",
+  "name": "Waning Sands",
+  "x": 756.3,
+  "y": 437.3
+ },
+ {
+  "kind": "city",
+  "name": "Southwind",
+  "x": 314.9,
+  "y": 1216.8
+ },
+ {
+  "kind": "city",
+  "name": "Mile Zero Air Station",
+  "x": 259.8,
+  "y": 1239.0
+ },
+ {
+  "kind": "area",
+  "name": "Downtown",
+  "x": 721.9,
+  "y": 760.1
+ },
+ {
+  "kind": "area",
+  "name": "Little Cuba",
+  "x": 664.5,
+  "y": 743.3
+ },
+ {
+  "kind": "area",
+  "name": "Balsero",
+  "x": 591.8,
+  "y": 696.6
+ },
+ {
+  "kind": "area",
+  "name": "Rockridge",
+  "x": 656.8,
+  "y": 698.9
+ },
+ {
+  "kind": "area",
+  "name": "Crosstown",
+  "x": 718.0,
+  "y": 687.4
+ },
+ {
+  "kind": "area",
+  "name": "La Perle",
+  "x": 692.8,
+  "y": 645.4
+ },
+ {
+  "kind": "area",
+  "name": "Stockyard",
+  "x": 738.7,
+  "y": 623.2
+ },
+ {
+  "kind": "area",
+  "name": "Decor District",
+  "x": 743.3,
+  "y": 599.5
+ },
+ {
+  "kind": "area",
+  "name": "Salton",
+  "x": 630.1,
+  "y": 757.0
+ },
+ {
+  "kind": "area",
+  "name": "Tequesta",
+  "x": 685.9,
+  "y": 836.6
+ },
+ {
+  "kind": "area",
+  "name": "Peacock Bay",
+  "x": 676.0,
+  "y": 901.6
+ },
+ {
+  "kind": "area",
+  "name": "Southside",
+  "x": 632.3,
+  "y": 916.9
+ },
+ {
+  "kind": "area",
+  "name": "South Vice-Dale",
+  "x": 626.2,
+  "y": 957.5
+ },
+ {
+  "kind": "area",
+  "name": "Bayside",
+  "x": 754.7,
+  "y": 656.8
+ },
+ {
+  "kind": "area",
+  "name": "Starfish Island",
+  "x": 806.0,
+  "y": 718.0
+ },
+ {
+  "kind": "area",
+  "name": "Waxman Island",
+  "x": 790.7,
+  "y": 745.6
+ },
+ {
+  "kind": "area",
+  "name": "Ocean Beach",
+  "x": 887.1,
+  "y": 729.5
+ },
+ {
+  "kind": "area",
+  "name": "Port Vice City",
+  "x": 827.4,
+  "y": 779.2
+ },
+ {
+  "kind": "area",
+  "name": "Gloriana Key",
+  "x": 817.5,
+  "y": 881.0
+ },
+ {
+  "kind": "area",
+  "name": "Catalan Key",
+  "x": 745.6,
+  "y": 906.2
+ },
+ {
+  "kind": "area",
+  "name": "Dalton Island",
+  "x": 890.2,
+  "y": 836.6
+ },
+ {
+  "kind": "area",
+  "name": "Washington Beach",
+  "x": 890.2,
+  "y": 616.3
+ },
+ {
+  "kind": "area",
+  "name": "Leaf Links",
+  "x": 794.5,
+  "y": 576.5
+ },
+ {
+  "kind": "area",
+  "name": "VCIA",
+  "x": 571.1,
+  "y": 799.9
+ },
+ {
+  "kind": "area",
+  "name": "Mount Kalaga National Park",
+  "x": 497.7,
+  "y": 295.7
+ },
+ {
+  "kind": "area",
+  "name": "Buckskin Swamp",
+  "x": 478.6,
+  "y": 656.8
+ },
+ {
+  "kind": "area",
+  "name": "Breakwater Quarry",
+  "x": 406.7,
+  "y": 818.2
+ },
+ {
+  "kind": "area",
+  "name": "Moreau",
+  "x": 516.8,
+  "y": 207.8
+ },
+ {
+  "kind": "area",
+  "name": "Pelican Valley",
+  "x": 523.7,
+  "y": 1038.6
+ },
+ {
+  "kind": "area",
+  "name": "Corsair Key",
+  "x": 688.2,
+  "y": 1046.2
+ },
+ {
+  "kind": "area",
+  "name": "Shoeless Keys",
+  "x": 613.2,
+  "y": 1076.1
+ },
+ {
+  "kind": "area",
+  "name": "Abismo Key",
+  "x": 446.4,
+  "y": 1271.9
+ },
+ {
+  "kind": "area",
+  "name": "Maroon Key",
+  "x": 446.4,
+  "y": 1226.8
+ },
+ {
+  "kind": "area",
+  "name": "Permit Keys",
+  "x": 355.4,
+  "y": 1201.5
+ },
+ {
+  "kind": "area",
+  "name": "Riquezas Keys",
+  "x": 197.1,
+  "y": 1180.9
+ },
+ {
+  "kind": "water",
+  "name": "Lake Leonida",
+  "x": 612.5,
+  "y": 423.5
+ },
+ {
+  "kind": "water",
+  "name": "Atlantic Ocean",
+  "x": 901.6,
+  "y": 431.1
+ },
+ {
+  "kind": "water",
+  "name": "Gulf of Leonida",
+  "x": 102.2,
+  "y": 901.6
+ }
+]

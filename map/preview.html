@@ -1,0 +1,49 @@
+<!doctype html>
+<!-- Preview of our Leonida map: land.json + labels.json (+ optional pins.json). -->
+<html><head><meta charset="utf-8">
+<style>
+  html, body { margin: 0; background: #0b0912; }
+  svg { display: block; }
+  .county { font: 800 21px "Segoe UI", sans-serif; letter-spacing: .12em; fill: rgba(167,159,181,.55); text-transform: uppercase; }
+  .city { font: 700 17px "Segoe UI", sans-serif; fill: #fff; paint-order: stroke; stroke: #0b0912; stroke-width: 4px; }
+  .area { font: 500 11.5px "Segoe UI", sans-serif; fill: #b9b2c7; paint-order: stroke; stroke: #0b0912; stroke-width: 3px; }
+  .water { font: italic 500 16px Georgia, serif; fill: rgba(60,220,255,.45); }
+</style></head>
+<body><div id="m"></div>
+<script>
+(async () => {
+  const q = new URLSearchParams(location.search);
+  const land = await (await fetch('land.json')).json();
+  const labels = await (await fetch('labels.json')).json();
+  let pins = [];
+  try { pins = await (await fetch('pins.json')).json(); } catch (e) {}
+  const W = land.width, H = land.height;
+  const path = s => 'M' + s.points.map(p => p.join(',')).join('L') + 'Z';
+  const lands = land.shapes.filter(s => !s.hole).map(path).join('');
+  const holes = land.shapes.filter(s => s.hole).map(path).join('');
+  const grid = [];
+  for (let x = 0; x <= W; x += 50) grid.push(`<line x1="${x}" y1="0" x2="${x}" y2="${H}"/>`);
+  for (let y = 0; y <= H; y += 50) grid.push(`<line x1="0" y1="${y}" x2="${W}" y2="${y}"/>`);
+  const lab = labels.map(l => `<text class="${l.kind}" x="${l.x}" y="${l.y}" text-anchor="middle" dominant-baseline="middle">${l.name}</text>`).join('');
+  const pin = pins.map(p => p.r
+    ? `<circle cx="${p.x}" cy="${p.y}" r="${p.r}" fill="rgba(255,79,163,.18)" stroke="#ff4fa3" stroke-width="2" stroke-dasharray="6 4"/>`
+      + (p.n ? `<text x="${p.x}" y="${p.y}" text-anchor="middle" dominant-baseline="middle" style="font:800 12px Segoe UI;fill:#fff">${p.n}</text>` : '')
+    : `<g transform="translate(${p.x},${p.y})"><circle r="11" fill="#ff4fa3" stroke="#fff" stroke-width="2.5" filter="url(#glow)"/>`
+      + `<text text-anchor="middle" dominant-baseline="central" style="font:800 11px Segoe UI;fill:#fff">${p.n || ''}</text></g>`).join('');
+  document.getElementById('m').innerHTML = `
+  <svg xmlns="http://www.w3.org/2000/svg" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <defs>
+      <radialGradient id="sea" cx=".55" cy=".45" r=".75"><stop offset="0" stop-color="#16122a"/><stop offset="1" stop-color="#0b0912"/></radialGradient>
+      <linearGradient id="land" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#241a3a"/><stop offset="1" stop-color="#1c1430"/></linearGradient>
+      <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    </defs>
+    <rect width="${W}" height="${H}" fill="url(#sea)"/>
+    <g stroke="rgba(60,220,255,.05)" stroke-width="1">${grid.join('')}</g>
+    <path d="${lands}" fill="url(#land)" stroke="#3cdcff" stroke-width="1.6" stroke-linejoin="round" filter="url(#glow)" fill-rule="evenodd"/>
+    <path d="${holes}" fill="#12102a" stroke="#3cdcff" stroke-width="1.2" stroke-linejoin="round" opacity=".95"/>
+    ${lab}
+    ${pin}
+  </svg>`;
+  document.title = 'ready';
+})();
+</script></body></html>

@@ -2156,6 +2156,176 @@
       "added": "2026-11-24",
       "last_checked": "2026-11-24",
       "notes": "Found by xGarbett, spread by DiscussingFilm ~2026-11-22. Hat colors disputed (J pink per games.gg, red per Nintendo Life) - not stated. Whether both characters can trigger it is not stated in sources."
+    },
+    {
+      "id": "killer-clown-elevator",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "Killer clown in the elevator",
+        "es": "El payaso asesino del ascensor",
+        "pt-BR": "O palhaço assassino do elevador",
+        "de": "Der Killerclown im Aufzug",
+        "it": "Il clown assassino nell'ascensore",
+        "fr": "Le clown tueur de l'ascenseur",
+        "ru": "Клоун-убийца в лифте",
+        "ja": "エレベーターの殺人ピエロ",
+        "ko": "엘리베이터의 살인 광대"
+      },
+      "summary": {
+        "en": "A nod to Stephen King's It: ride the right elevator at night and the balloons, the darkness and a clown with a knife will give you a proper scare. No reward, just the moment.",
+        "es": "Un guiño a «It» de Stephen King: sube de noche al ascensor correcto y los globos, la oscuridad y un payaso con cuchillo te darán un buen susto. Sin recompensa, solo el momento.",
+        "pt-BR": "Uma referência a «It» de Stephen King: pegue o elevador certo à noite e os balões, o escuro e um palhaço com faca vão te dar um belo susto. Sem recompensa, só o momento.",
+        "de": "Eine Anspielung auf Stephen Kings «Es»: Fahr nachts mit dem richtigen Aufzug, und Ballons, Dunkelheit und ein Clown mit Messer jagen dir einen ordentlichen Schreck ein. Keine Belohnung, nur der Moment.",
+        "it": "Un omaggio a «It» di Stephen King: prendi di notte l'ascensore giusto e palloncini, buio e un clown con il coltello ti faranno prendere un bello spavento. Nessuna ricompensa, solo il momento.",
+        "fr": "Un clin d'œil à «Ça» de Stephen King : prenez le bon ascenseur la nuit, et les ballons, le noir et un clown armé d'un couteau vous feront une belle frayeur. Pas de récompense, juste le moment.",
+        "ru": "Отсылка к «Оно» Стивена Кинга: прокатись ночью в нужном лифте — шарики, темнота и клоун с ножом хорошенько напугают. Наград нет, только момент.",
+        "ja": "スティーヴン・キング『IT』へのオマージュ。夜に正しいエレベーターに乗ると、風船と暗闇、ナイフを持ったピエロが現れて驚かされます。報酬はなく、体験そのものが目的です。",
+        "ko": "스티븐 킹의 「그것」 오마주. 밤에 맞는 엘리베이터를 타면 풍선, 어둠, 칼을 든 광대가 제대로 겁을 줘요. 보상은 없고 그 순간 자체가 재미예요."
+      },
+      "location": {
+        "en": "Haymarket building in Vice Beach, on the bay side facing Starfish Island. The elevators are in the lobby, to the left of reception.",
+        "es": "Edificio Haymarket en Vice Beach, del lado de la bahía frente a Starfish Island. Los ascensores están en el vestíbulo, a la izquierda de la recepción.",
+        "pt-BR": "Prédio Haymarket em Vice Beach, do lado da baía, de frente para Starfish Island. Os elevadores ficam no saguão, à esquerda da recepção.",
+        "de": "Haymarket-Gebäude in Vice Beach, auf der Buchtseite gegenüber von Starfish Island. Die Aufzüge sind in der Lobby, links von der Rezeption.",
+        "it": "Edificio Haymarket a Vice Beach, sul lato della baia di fronte a Starfish Island. Gli ascensori sono nella hall, a sinistra della reception.",
+        "fr": "Immeuble Haymarket à Vice Beach, côté baie face à Starfish Island. Les ascenseurs sont dans le hall, à gauche de l'accueil.",
+        "ru": "Здание Haymarket в Vice Beach, со стороны залива напротив Starfish Island. Лифты в лобби, слева от ресепшена.",
+        "ja": "Vice Beachのハイマーケット・ビル。湾側でStarfish Islandの向かい。エレベーターはロビーの受付の左にあります。",
+        "ko": "Vice Beach의 Haymarket 건물, Starfish Island 맞은편 만 쪽. 엘리베이터는 로비 안내데스크 왼쪽에 있어요."
+      },
+      "reward": {
+        "en": "No reward: just a good scare",
+        "es": "Sin recompensa: solo un buen susto",
+        "pt-BR": "Sem recompensa: só um belo susto",
+        "de": "Keine Belohnung: nur ein ordentlicher Schreck",
+        "it": "Nessuna ricompensa: solo un bello spavento",
+        "fr": "Aucune récompense : juste une bonne frayeur",
+        "ru": "Наград нет — только хороший испуг",
+        "ja": "報酬なし：ちょっとしたドッキリ体験",
+        "ko": "보상 없음: 그냥 제대로 놀라는 재미"
+      },
+      "steps": {
+        "en": [
+          "Come at night: late hours (around 3-4 AM game time) work most reliably.",
+          "In the lobby, find the broken elevator with a red balloon, an Out of Order sign and a yellow No Entry barrier.",
+          "Call the other elevator, the second one, with a flickering light above it. It arrives full of balloons.",
+          "Step in and ride. The lights flicker, fog rolls in, then everything goes dark.",
+          "When the lights come back, the clown lunges at you and vanishes as the balloons pop. You take no damage. If nothing happens, wait for a later hour and try again."
+        ],
+        "es": [
+          "Ve de noche: a última hora (hacia las 3-4 AM del juego) funciona mejor.",
+          "En el vestíbulo, busca el ascensor averiado con un globo rojo, un cartel de Out of Order y una barrera amarilla de No Entry.",
+          "Llama al otro ascensor, el segundo, con una luz parpadeando encima. Llega lleno de globos.",
+          "Entra y sube. Las luces parpadean, entra niebla y luego todo se oscurece.",
+          "Cuando vuelve la luz, el payaso se lanza sobre ti y desaparece mientras revientan los globos. No recibes daño. Si no pasa nada, espera a una hora más tardía y vuelve a intentarlo."
+        ],
+        "pt-BR": [
+          "Vá à noite: de madrugada (por volta de 3-4 da manhã no jogo) funciona melhor.",
+          "No saguão, ache o elevador quebrado com um balão vermelho, uma placa de Out of Order e uma barreira amarela de No Entry.",
+          "Chame o outro elevador, o segundo, com uma luz piscando em cima. Ele chega cheio de balões.",
+          "Entre e suba. As luzes piscam, entra uma névoa e depois tudo fica escuro.",
+          "Quando a luz volta, o palhaço avança em você e some enquanto os balões estouram. Você não leva dano. Se nada acontecer, espere uma hora mais tarde e tente de novo."
+        ],
+        "de": [
+          "Komm nachts: In den späten Stunden (gegen 3-4 Uhr Spielzeit) klappt es am zuverlässigsten.",
+          "Suche in der Lobby den kaputten Aufzug mit rotem Ballon, Out-of-Order-Schild und gelber No-Entry-Absperrung.",
+          "Ruf den anderen, zweiten Aufzug, über dem ein Licht flackert. Er kommt voller Ballons an.",
+          "Steig ein und fahr los. Das Licht flackert, Nebel zieht auf, dann wird alles dunkel.",
+          "Wenn das Licht wiederkommt, springt dich der Clown an und verschwindet, während die Ballons platzen. Du nimmst keinen Schaden. Passiert nichts, warte auf eine spätere Uhrzeit und versuch es erneut."
+        ],
+        "it": [
+          "Vai di notte: nelle ore tarde (verso le 3-4 di gioco) funziona meglio.",
+          "Nella hall trova l'ascensore guasto con un palloncino rosso, un cartello Out of Order e una barriera gialla No Entry.",
+          "Chiama l'altro ascensore, il secondo, con una luce che lampeggia sopra. Arriva pieno di palloncini.",
+          "Entra e sali. Le luci tremolano, arriva la nebbia e poi tutto diventa buio.",
+          "Quando torna la luce, il clown ti si avventa contro e sparisce mentre i palloncini scoppiano. Non subisci danni. Se non succede nulla, aspetta un'ora più tarda e riprova."
+        ],
+        "fr": [
+          "Venez la nuit : tard (vers 3-4 h du matin en jeu), ça marche le mieux.",
+          "Dans le hall, repérez l'ascenseur en panne avec un ballon rouge, un panneau Out of Order et une barrière jaune No Entry.",
+          "Appelez l'autre ascenseur, le deuxième, avec une lumière qui clignote au-dessus. Il arrive rempli de ballons.",
+          "Montez dedans. Les lumières clignotent, du brouillard arrive, puis tout devient noir.",
+          "Quand la lumière revient, le clown se jette sur vous et disparaît pendant que les ballons éclatent. Aucun dégât. S'il ne se passe rien, attendez une heure plus tardive et réessayez."
+        ],
+        "ru": [
+          "Приходи ночью: лучше всего срабатывает поздно (около 3–4 часов по игровому времени).",
+          "В лобби найди сломанный лифт: красный шарик, табличка Out of Order и жёлтый барьер No Entry.",
+          "Вызови другой лифт, второй, над которым мигает свет. Он приедет полный шариков.",
+          "Зайди и поезжай. Свет замигает, появится туман, потом наступит темнота.",
+          "Когда свет вернётся, клоун бросится на тебя и исчезнет, а шарики лопнут. Урона нет. Если ничего не произошло, дождись более позднего часа и попробуй снова."
+        ],
+        "ja": [
+          "夜に行きましょう。深夜（ゲーム内3〜4時ごろ）が最も確実です。",
+          "ロビーで、赤い風船とOut of Orderの札、黄色いNo Entryのバリアがある故障中のエレベーターを探します。",
+          "もう一方の、上でライトが点滅している2基目のエレベーターを呼びます。風船でいっぱいの状態で到着します。",
+          "乗り込んで移動すると、照明が点滅し、霧が出て、真っ暗になります。",
+          "明かりが戻るとピエロが襲いかかり、風船が割れると同時に消えます。ダメージはありません。何も起きなければ、もっと遅い時間に再挑戦しましょう。"
+        ],
+        "ko": [
+          "밤에 가세요. 늦은 시간(게임 시간 새벽 3~4시쯤)에 가장 잘 돼요.",
+          "로비에서 빨간 풍선, Out of Order 표지판, 노란 No Entry 차단대가 있는 고장 난 엘리베이터를 찾으세요.",
+          "다른 엘리베이터, 위에 불이 깜빡이는 두 번째 엘리베이터를 부르세요. 풍선이 가득 찬 채로 도착해요.",
+          "타고 이동하면 불이 깜빡이고 안개가 차오르다가 완전히 어두워져요.",
+          "불이 다시 켜지면 광대가 달려들었다가 풍선이 터지면서 사라져요. 피해는 없어요. 아무 일도 없으면 더 늦은 시간에 다시 시도하세요."
+        ]
+      },
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.gamespot.com/articles/this-terrifying-gta-6-easter-egg-will-give-you-nightmares/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-24",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-stephen-king-horror-icon-surprise-crossover",
+          "source": "PlayStation LifeStyle",
+          "source_type": "outlet",
+          "date": "2026-11-24",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://vgtimes.com/gaming-news/175535-gta-6-reportedly-hides-a-pennywise-like-clown-in-a-horror-encounter.html",
+          "source": "VGTimes",
+          "source_type": "outlet",
+          "date": "2026-11-24",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.sportskeeda.com/gta/where-find-it-pennywise-gta-6-easter-egg-location",
+          "source": "Sportskeeda",
+          "source_type": "outlet",
+          "date": "2026-11-24",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-24",
+      "last_checked": "2026-11-24",
+      "notes": "Found ~2026-11-22 (xGarbett per user, spread by DiscussingFilm). Exists per GameSpot, PS LifeStyle, VGTimes, Sportskeeda. Trigger details vary: second elevator with flickering light; late night (3-4 AM per community). No reward."
     }
   ]
 }

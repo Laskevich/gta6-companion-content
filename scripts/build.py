@@ -38,6 +38,9 @@ def main():
         guides = public_items("guides.json")
         if guides["items"]:
             files["guides.json"] = guides
+    # Our Leonida map (coastline, place names); the app shows guide pins on it.
+    if (CONTENT / "map.json").exists():
+        files["map.json"] = json.loads((CONTENT / "map.json").read_text(encoding="utf-8"))
     hashes = {}
     for name, obj in files.items():
         raw = json.dumps(obj, ensure_ascii=False, separators=(",", ":")).encode("utf-8")

@@ -80,6 +80,21 @@
           "$ref": "cheats.schema.json#/$defs/localeLists",
           "description": "Paid unless free: step-by-step, our own wording."
         },
+        "map": {
+          "type": "array",
+          "description": "Pins on our Leonida map (map.json units, 0..1000 wide). No r: exact spot; r: search area radius; n: label on the pin (chain step).",
+          "items": {
+            "type": "object",
+            "required": ["x", "y"],
+            "additionalProperties": false,
+            "properties": {
+              "x": {"type": "number", "minimum": 0, "maximum": 1000},
+              "y": {"type": "number", "minimum": 0, "maximum": 1500},
+              "r": {"type": "number", "exclusiveMinimum": 0},
+              "n": {"type": "string", "maxLength": 3}
+            }
+          }
+        },
         "free": {
           "type": "boolean"
         },

@@ -13,7 +13,7 @@ HERE = pathlib.Path(__file__).resolve().parent
 SCALE = 1000 / 1746 * (1870 / 1400)  # view px -> map units
 
 PINS = {
-    "tv-tower-easter-egg": [dict(x=900, y=1180, r=45)],
+    "tv-tower-easter-egg": [dict(x=790, y=1220, r=18)],
     "skunk-ape-kirk": [dict(x=785, y=1300, r=30)],
     "ufo-encounter": [dict(x=520, y=740, r=55)],
     "dexter-apartment": [dict(x=1163, y=840)],
@@ -36,6 +36,19 @@ PINS = {
     "dexter-kill-room": [dict(x=745, y=1640, r=18)],
     "simulation-garage": [dict(x=920, y=772, r=25)],
     "collateral-hitman": [dict(x=1180, y=960, r=40)],
+    "satan-hell": [dict(x=427, y=632, r=16)],
+    "hyde-island-hunt": [dict(x=803, y=215, r=22)],
+    "marbelle-hotel": [dict(x=975, y=962, r=12)],
+    "scarface-motel": [dict(x=1200, y=1040, r=12)],
+    "mushroom-trip": [dict(x=905, y=405, r=14)],
+    "final-flush": [dict(x=946, y=1414, r=14, n="1"), dict(x=943, y=1140, r=16, n="2"), dict(x=790, y=1290, r=22, n="3")],
+    "ghost-ship": [dict(x=1083, y=470, r=18)],
+    "red-hulk": [dict(x=625, y=655, r=30)],
+    "christine-car": [dict(x=850, y=490, r=35)],
+    "dom-vamos": [dict(x=385, y=1005, r=16)],
+    "ninja-turtles": [dict(x=915, y=422, r=16)],
+    "ufo-house": [dict(x=762, y=690, r=14)],
+    "michaels-boat": [dict(x=830, y=1540, r=35)],
 }
 
 

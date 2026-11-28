@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-24",
+  "updated": "2026-11-28",
   "items": [
     {
       "id": "tv-tower-easter-egg",
@@ -29,15 +29,15 @@
         "ko": "가장 높은 전파탑 꼭대기에 색칠된 알이 든 둥지가 있어요. 알을 던지면 비밀 컷신이 나와요."
       },
       "location": {
-        "en": "The tallest radio/TV tower in Vice-Dale County, south of Vice City. Guides name different towers, so pick the tallest one with a ladder.",
-        "es": "La torre de radio/TV más alta del condado de Vice-Dale, al sur de Vice City. Las guías mencionan torres distintas: busca la más alta con escalera.",
-        "pt-BR": "A torre de rádio/TV mais alta do condado de Vice-Dale, ao sul de Vice City. Os guias citam torres diferentes: procure a mais alta com escada.",
-        "de": "Der höchste Funk-/Fernsehturm im Vice-Dale County, südlich von Vice City. Guides nennen verschiedene Türme – nimm den höchsten mit Leiter.",
-        "it": "La torre radio/TV più alta della contea di Vice-Dale, a sud di Vice City. Le guide indicano torri diverse: scegli la più alta con la scala.",
-        "fr": "La plus haute tour radio/TV du comté de Vice-Dale, au sud de Vice City. Les guides citent des tours différentes : prenez la plus haute avec une échelle.",
-        "ru": "Самая высокая радио/телевышка в округе Vice-Dale, южнее Vice City. В гайдах называют разные вышки — ищи самую высокую с лестницей.",
-        "ja": "Vice City南、Vice-Dale郡で一番高い電波塔/テレビ塔。ガイドによって塔が異なるので、はしごのある一番高い塔を選びましょう。",
-        "ko": "Vice City 남쪽 Vice-Dale 카운티에서 가장 높은 전파탑/TV탑. 가이드마다 탑이 달라서, 사다리가 있는 가장 높은 탑을 고르세요."
+        "en": "The red-and-white communications tower in Bluegrass, southern Vice-Dale County, just north of Hamlet. Take the highway north through Hamlet to reach it.",
+        "es": "La torre de comunicaciones roja y blanca de Bluegrass, al sur de Vice-Dale County, justo al norte de Hamlet. Toma la autopista hacia el norte desde Hamlet.",
+        "pt-BR": "A torre de comunicação vermelha e branca em Bluegrass, sul de Vice-Dale County, logo ao norte de Hamlet. Pegue a rodovia para o norte saindo de Hamlet.",
+        "de": "Der rot-weiße Funkturm in Bluegrass, im Süden von Vice-Dale County, direkt nördlich von Hamlet. Nimm den Highway von Hamlet aus nach Norden.",
+        "it": "La torre di comunicazione bianca e rossa a Bluegrass, nel sud di Vice-Dale County, appena a nord di Hamlet. Prendi l'autostrada verso nord da Hamlet.",
+        "fr": "La tour de communication rouge et blanche de Bluegrass, au sud de Vice-Dale County, juste au nord de Hamlet. Prenez l'autoroute vers le nord depuis Hamlet.",
+        "ru": "Красно-белая вышка связи в Bluegrass, юг Vice-Dale County, сразу севернее Hamlet. Езжай по шоссе на север через Hamlet.",
+        "ja": "Vice-Dale County南部、Hamletのすぐ北にあるBluegrassの紅白の通信塔。Hamletから幹線道路を北へ。",
+        "ko": "Vice-Dale County 남쪽, Hamlet 바로 북쪽 Bluegrass의 빨강·하양 통신탑. Hamlet에서 고속도로를 타고 북쪽으로 가세요."
       },
       "reward": {
         "en": "A secret cutscene and a BASE jump",
@@ -108,19 +108,31 @@
       },
       "map": [
         {
-          "x": 653.0,
-          "y": 867.2,
-          "r": 34.4
+          "x": 568.9,
+          "y": 897.8,
+          "r": 13.8
         }
       ],
       "free": true,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://www.ibtimes.co.uk/gta-6-player-discovers-literal-easter-egg-leonida-1833342",
           "source": "IBTimes UK",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/easter-egg-nest-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -132,7 +144,7 @@
           "url": "https://www.theclick.gg/gta-6-tv-tower-easter-egg-location/",
           "source": "The Click",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -144,7 +156,7 @@
           "url": "https://grandleonida.com/news/gta-6-radio-tower-easter-egg/",
           "source": "Grand Leonida",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -155,8 +167,8 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
-      "notes": "Tower location differs between guides (south Vice-Dale County / south of Bluegrass)."
+      "last_checked": "2026-11-28",
+      "notes": "Tower: Bluegrass, southern Vice-Dale County, just north of Hamlet (Dexerto, games.gg, GTABoom). Earlier guides were vaguer."
     },
     {
       "id": "skunk-ape-kirk",
@@ -276,7 +288,7 @@
           "url": "https://www.powerpyx.com/gta-6-help-kirk-find-mr-mangrove-walkthrough/",
           "source": "PowerPyx",
           "source_type": "video",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -288,7 +300,7 @@
           "url": "https://game8.co/games/GTA-6/archives/637136",
           "source": "Game8",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -300,7 +312,7 @@
           "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-skunk-ape-mission-guide/",
           "source": "games.gg",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -311,7 +323,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Start location: Hamlet (Skeeter's bar) per most guides, Key Lento per one. Part 1 pays $1,000 (one run reported $500)."
     },
     {
@@ -432,7 +444,7 @@
           "url": "https://vgtimes.com/gaming-news/175102-gta-6-players-discover-ufo-encounter-that-unlocks-a-secret-trophy.html",
           "source": "VGTimes",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -444,7 +456,7 @@
           "url": "https://intoindiegames.com/walkthroughs/tips-tricks/grand-theft-auto-6-gta6-unlock-the-truth-is-out-there-trophy-achievement-ufo-alien-easter-egg/",
           "source": "Into Indie Games",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -456,7 +468,7 @@
           "url": "https://www.theclick.gg/gta-6-ufo-location/",
           "source": "The Click",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -467,7 +479,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Chapter gating differs: after Chapter 1 / in Chapter 2. Exact road differs slightly between guides."
     },
     {
@@ -578,7 +590,7 @@
           "url": "https://www.dexerto.com/gta/gta-6-players-find-dexters-apartment-serial-killer-kit-and-can-even-steal-his-boat-3429888/",
           "source": "Dexerto",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -590,7 +602,7 @@
           "url": "https://gamerant.com/gta-6-where-find-dexter-morgans-apartment-secret-easter-egg-trinity/",
           "source": "Game Rant",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -602,7 +614,7 @@
           "url": "https://bloody-disgusting.com/video-games/3976301/grand-theft-auto-vi-contains-a-dexter-easter-egg/",
           "source": "Bloody Disgusting",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -613,7 +625,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Island named Washington Island / Vice Beach in different guides. Apartment has no interior."
     },
     {
@@ -733,7 +745,7 @@
           "url": "https://insider-gaming.com/paul-walker-gta-6-easter-egg/",
           "source": "Insider Gaming",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -745,7 +757,7 @@
           "url": "https://www.vice.com/en/article/gta-6-paul-walker-mitsubishi-eclipse-location/",
           "source": "VICE",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -757,7 +769,7 @@
           "url": "https://www.jalopnik.com/2322396/gta-6-grand-theft-auto-paul-walker-fast-and-furious-toyota-supra-turbo-tribute/",
           "source": "Jalopnik",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -768,7 +780,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "BGR describes different colors. Model per Techtroduce: Maibatsu Penumbra FF."
     },
     {
@@ -889,7 +901,7 @@
           "url": "https://game8.co/games/GTA-6/archives/638651",
           "source": "Game8",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -901,7 +913,7 @@
           "url": "https://vgtimes.com/gaming-news/175197-gta-6-has-a-jet-ski-dog-that-rescues-players-and-leads-them-to-an-island.html",
           "source": "VGTimes",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -913,7 +925,7 @@
           "url": "https://www.theclick.gg/gta-6-jet-ski-dog-location/",
           "source": "The Click",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -924,7 +936,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Open-water encounter, not a fixed spot. Cash amount from player reports."
     },
     {
@@ -1054,7 +1066,7 @@
           "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/giant-crab-easter-egg/",
           "source": "Dexerto",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1066,7 +1078,7 @@
           "url": "https://gameriv.com/gta-6-pelican-valley-secret-puzzle/",
           "source": "GameRiv",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1078,7 +1090,7 @@
           "url": "https://www.youtube.com/watch?v=gcEeJaT-ibU",
           "source": "YouTube",
           "source_type": "video",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1089,7 +1101,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Area named Gullet Marsh / Grassrivers. Crab scene not conclusively tied to the puzzle in every guide."
     },
     {
@@ -1201,7 +1213,7 @@
           "url": "https://www.thegamer.com/gta-6-arthur-morgan-red-dead-redemption-2-easter-egg-hat-unlock/",
           "source": "TheGamer",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1213,7 +1225,7 @@
           "url": "https://www.gfinityesports.com/article/gta-6-how-to-find-arthur-morgans-hat-red-dead-redemption-2-easter-egg",
           "source": "Gfinity",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1225,7 +1237,7 @@
           "url": "https://games.gg/grand-theft-auto-vi/guides/where-to-find-arthurs-hat-in-grand-theft-auto-6/",
           "source": "games.gg",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1236,7 +1248,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Price ($5 vs $35) and character (Lucia/Jason) disputed. May need several visits to spawn."
     },
     {
@@ -1357,7 +1369,7 @@
           "url": "https://www.pushsquare.com/guides/gta-6-get-shirleys-rum-walkthrough",
           "source": "Push Square",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1369,7 +1381,7 @@
           "url": "https://www.shacknews.com/article/151404/how-to-get-the-rum-for-shirley-in-gta-6",
           "source": "Shacknews",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1381,7 +1393,7 @@
           "url": "https://www.gtabase.com/gta-6/missions/get-shirleys-rum",
           "source": "GTABase",
           "source_type": "wiki",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1392,7 +1404,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "GTABase EN: not needed for 100%; DE/IT pages say required. Steal the Scooter details from summary only."
     },
     {
@@ -1506,7 +1518,7 @@
           "url": "https://www.powerpyx.com/gta-6-all-strangers-freaks-side-missions/",
           "source": "PowerPyx",
           "source_type": "video",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1518,7 +1530,7 @@
           "url": "https://gmtreks.com/gta6/page/01M7QVGK6BDTA8232FS0MEXMBE",
           "source": "GMTreks",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1530,7 +1542,7 @@
           "url": "https://grandleonida.com/guides/gta-6-strangers-and-freaks/",
           "source": "Grand Leonida",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1541,7 +1553,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Guides disagree on Kyle and on Bret/Randy/Dunk. Re-check as guides update."
     },
     {
@@ -1662,7 +1674,7 @@
           "url": "https://egamers.io/gta-6-hunting-guide-how-to-finish-veteran-hunted-with-bret/",
           "source": "EGamers",
           "source_type": "fansite",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1674,7 +1686,7 @@
           "url": "https://www.gtabase.com/gta-6/strangers/brets-hunting-decks",
           "source": "GTABase",
           "source_type": "wiki",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1686,7 +1698,7 @@
           "url": "https://www.gamerguides.com/grand-theft-auto-vi/psn-trophies/fair-game",
           "source": "GamerGuides",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1697,7 +1709,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Weapon name from one guide (egamers); weapon type (rifle vs sniper) unconfirmed. Grok claimed a sniper rifle."
     },
     {
@@ -1820,7 +1832,7 @@
           "url": "https://www.powerpyx.com/gta-6-how-to-get-ultimate-edition-rewards/",
           "source": "PowerPyx",
           "source_type": "video",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1832,7 +1844,7 @@
           "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-ultimate-edition-bonus-content",
           "source": "Mobalytics",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1844,7 +1856,7 @@
           "url": "https://www.vice.com/en/article/gta-6-ultimate-edition-unlocks/",
           "source": "VICE",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -1855,7 +1867,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-22",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Vintage Vice City Pack is a pre-order bonus (all editions). Squalo dock location unconfirmed, left out."
     },
     {
@@ -2090,7 +2102,7 @@
           "url": "https://www.vice.com/en/article/gta-6-tommy-vercetti-shirt-vice-city-easter-egg/",
           "source": "VICE",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2102,7 +2114,7 @@
           "url": "https://gameriv.com/gta-6-how-to-unlock-the-secret-vice-city-portal/",
           "source": "GameRiv",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2114,7 +2126,7 @@
           "url": "https://dotesports.com/gta/news/gta-6-portal-vice-city-easter-egg-tommy-vercetti-time-travel",
           "source": "Dot Esports",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2126,7 +2138,7 @@
           "url": "https://www.dualshockers.com/you-can-visit-the-original-vice-city-in-gta-6-with-this-hidden-easter-egg/",
           "source": "DualShockers",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2137,7 +2149,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-24",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Found by YouTuber Memeio ~2026-11-21. Order identical on VICE and GameRiv. Bike name only on GameRiv (Western Malibu Zombie Bobber); VICE mentions only the shirt. VICE: full map may need Chapter 3. Lever-by-the-door detail only in community summaries."
     },
     {
@@ -2267,7 +2279,7 @@
           "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-mario-easter-egg-location-j-and-l-hats/",
           "source": "games.gg",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2279,7 +2291,7 @@
           "url": "https://kotaku.com/gta-6-includes-a-mario-and-luigi-easter-egg-2000759536",
           "source": "Kotaku",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2291,7 +2303,7 @@
           "url": "https://www.nintendolife.com/news/2026/11/random-gta-6-hides-an-adorable-mario-and-luigi-easter-egg-in-its-massive-world",
           "source": "Nintendo Life",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2303,7 +2315,7 @@
           "url": "https://mobalytics.gg/gamebase/guides/grand-theft-auto-6-super-mario-easter-egg",
           "source": "Mobalytics",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2314,7 +2326,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-24",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Found by xGarbett, spread by DiscussingFilm ~2026-11-22. Hat colors disputed (J pink per games.gg, red per Nintendo Life) - not stated. Whether both characters can trigger it is not stated in sources."
     },
     {
@@ -2443,7 +2455,7 @@
           "url": "https://www.gamespot.com/articles/this-terrifying-gta-6-easter-egg-will-give-you-nightmares/",
           "source": "GameSpot",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2455,7 +2467,7 @@
           "url": "https://www.playstationlifestyle.net/2026/11/23/gta-6-stephen-king-horror-icon-surprise-crossover",
           "source": "PlayStation LifeStyle",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2467,7 +2479,7 @@
           "url": "https://vgtimes.com/gaming-news/175535-gta-6-reportedly-hides-a-pennywise-like-clown-in-a-horror-encounter.html",
           "source": "VGTimes",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2479,7 +2491,7 @@
           "url": "https://www.sportskeeda.com/gta/where-find-it-pennywise-gta-6-easter-egg-location",
           "source": "Sportskeeda",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2490,7 +2502,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-24",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Found ~2026-11-22 (xGarbett per user, spread by DiscussingFilm). Exists per GameSpot, PS LifeStyle, VGTimes, Sportskeeda. Trigger details vary: second elevator with flickering light; late night (3-4 AM per community). No reward."
     },
     {
@@ -2602,7 +2614,7 @@
           "url": "https://dotesports.com/gta/guides/gta-6-dexter-easter-egg-bay-harbour-tv-apartments",
           "source": "Dot Esports",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2614,7 +2626,7 @@
           "url": "https://beebom.com/gta-6-dexter-easter-eggs/",
           "source": "Beebom",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2626,7 +2638,7 @@
           "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/dexter-easter-eggs/",
           "source": "Dexerto",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2637,7 +2649,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-24",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Dot Esports, Beebom, bo3.gg, Dexerto wiki; user's video (Key Lento map, Surfside Dr). Contents per Beebom/DexterDaily."
     },
     {
@@ -2749,7 +2761,7 @@
           "url": "https://www.dexerto.com/gta/gta-6-screenshot-hidden-in-san-andreas-back-in-2021-was-real-and-the-house-has-a-dark-secret-3429837/",
           "source": "Dexerto",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2761,7 +2773,7 @@
           "url": "https://kotaku.com/turns-out-gta-san-andreas-remastered-was-teasing-gta-6-back-in-2021-2000758132",
           "source": "Kotaku",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2773,7 +2785,7 @@
           "url": "https://www.videogameschronicle.com/news/gta-6-players-discover-our-real-first-look-at-the-game-was-likely-hidden-in-a-2021-remaster/",
           "source": "VGC",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2784,7 +2796,7 @@
       ],
       "game_patch": null,
       "added": "2026-11-24",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Belville house matching the 2021 San Andreas DE image; garage conspiracy board. Dexerto, Kotaku, VGC, games.gg; user's video shows a collectible card prompt in the garage."
     },
     {
@@ -2905,7 +2917,7 @@
           "url": "https://movieweb.com/tom-cruise-gta-6-easter-egg/",
           "source": "MovieWeb",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2917,7 +2929,7 @@
           "url": "https://www.comingsoon.net/games/news/2228502-gta-6-tom-cruise-collateral-easter-egg-npc-mission",
           "source": "ComingSoon",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2929,7 +2941,7 @@
           "url": "https://fandomwire.com/gta-6-how-to-find-tom-cruise-collateral-npc/",
           "source": "FandomWire",
           "source_type": "outlet",
-          "date": "2026-11-24",
+          "date": "2026-11-28",
           "claims": [
             "exists",
             "unlock",
@@ -2940,8 +2952,1974 @@
       ],
       "game_patch": null,
       "added": "2026-11-24",
-      "last_checked": "2026-11-24",
+      "last_checked": "2026-11-28",
       "notes": "Random encounter ('Forced Driver' on informant.gg), first clip by @Testyment 2026-11-19. Trigger conditions not documented; seen as Jason driving in Vice City. User's video: starts Downtown, ~$3.5k cash in stash. MovieWeb, ComingSoon, FandomWire, OnPoint4Gamers."
+    },
+    {
+      "id": "satan-hell",
+      "kind": "secret",
+      "mode": "story",
+      "title": {
+        "en": "A night trip to Hell",
+        "es": "Un viaje nocturno al infierno",
+        "pt-BR": "Uma viagem noturna ao inferno",
+        "de": "Ein nächtlicher Ausflug in die Hölle",
+        "it": "Un viaggio notturno all'inferno",
+        "fr": "Une virée nocturne en enfer",
+        "ru": "Ночное путешествие в ад",
+        "ja": "真夜中の地獄行き",
+        "ko": "한밤의 지옥 여행"
+      },
+      "summary": {
+        "en": "Two metalheads in Port Gellhorn take you to a bonfire ritual, and you wake up in Hell. Beat its master for a permanent health boost and a unique shotgun.",
+        "es": "Dos metaleros de Port Gellhorn te llevan a un ritual junto a una hoguera y despiertas en el infierno. Vence a su amo y gana más salud para siempre y una escopeta única.",
+        "pt-BR": "Dois metaleiros de Port Gellhorn te levam a um ritual numa fogueira e você acorda no inferno. Derrote o chefe e ganhe vida máxima extra para sempre e uma escopeta única.",
+        "de": "Zwei Metalheads aus Port Gellhorn nehmen dich zu einem Ritual am Lagerfeuer mit, und du wachst in der Hölle auf. Besiege ihren Herrn für dauerhaft mehr Gesundheit und eine einzigartige Schrotflinte.",
+        "it": "Due metallari di Port Gellhorn ti portano a un rito attorno al falò e ti risvegli all'inferno. Sconfiggi il padrone di casa per più salute permanente e un fucile a pompa unico.",
+        "fr": "Deux métalleux de Port Gellhorn vous emmènent à un rituel autour d'un feu et vous vous réveillez en enfer. Battez son maître pour un bonus de santé permanent et un fusil à pompe unique.",
+        "ru": "Два металлиста из Port Gellhorn везут тебя на ритуал у костра — и ты просыпаешься в аду. Победи его хозяина и получи навсегда больше здоровья и уникальный дробовик.",
+        "ja": "Port Gellhornのメタル好き2人に焚き火の儀式へ連れて行かれ、目覚めると地獄に。主を倒すと体力が永久に上がり、ユニークなショットガンも手に入ります。",
+        "ko": "Port Gellhorn의 메탈 팬 두 명이 모닥불 의식에 데려가고, 깨어나면 지옥이에요. 지옥의 주인을 쓰러뜨리면 최대 체력이 영구히 오르고 특별한 산탄총을 얻어요."
+      },
+      "location": {
+        "en": "A corner house in north Port Gellhorn on Gellhorn Avenue by Draper Bay, with 'Welcome to the Hell hole' painted on the front. Chapter 2 or later.",
+        "es": "Una casa de esquina al norte de Port Gellhorn, en Gellhorn Avenue junto a Draper Bay, con «Welcome to the Hell hole» pintado en la fachada. Desde el capítulo 2.",
+        "pt-BR": "Uma casa de esquina no norte de Port Gellhorn, na Gellhorn Avenue perto da Draper Bay, com «Welcome to the Hell hole» pintado na frente. A partir do capítulo 2.",
+        "de": "Ein Eckhaus im Norden von Port Gellhorn an der Gellhorn Avenue bei der Draper Bay, vorne steht «Welcome to the Hell hole». Ab Kapitel 2.",
+        "it": "Una casa d'angolo a nord di Port Gellhorn, su Gellhorn Avenue vicino a Draper Bay, con «Welcome to the Hell hole» dipinto sulla facciata. Dal capitolo 2.",
+        "fr": "Une maison d'angle au nord de Port Gellhorn, sur Gellhorn Avenue près de Draper Bay, avec « Welcome to the Hell hole » peint sur la façade. À partir du chapitre 2.",
+        "ru": "Угловой дом на севере Port Gellhorn, на Gellhorn Avenue у Draper Bay, с надписью «Welcome to the Hell hole» на фасаде. С 2-й главы.",
+        "ja": "Port Gellhorn北部、Draper Bay沿いのGellhorn Avenueにある角の家。正面に「Welcome to the Hell hole」と書かれています。第2章以降。",
+        "ko": "Port Gellhorn 북쪽, Draper Bay 옆 Gellhorn Avenue의 모퉁이 집. 정면에 「Welcome to the Hell hole」이라고 적혀 있어요. 2장부터."
+      },
+      "reward": {
+        "en": "Permanent max health boost, the Hellspawn Comshot 12 shotgun, the Circles of Hell top and a tattoo design",
+        "es": "Más salud máxima para siempre, la escopeta Hellspawn Comshot 12, la camiseta Circles of Hell y un diseño de tatuaje",
+        "pt-BR": "Vida máxima extra para sempre, a escopeta Hellspawn Comshot 12, a blusa Circles of Hell e um desenho de tatuagem",
+        "de": "Dauerhaft mehr maximale Gesundheit, die Schrotflinte Hellspawn Comshot 12, das Oberteil Circles of Hell und ein Tattoo-Motiv",
+        "it": "Salute massima aumentata per sempre, il fucile a pompa Hellspawn Comshot 12, la maglia Circles of Hell e un tatuaggio",
+        "fr": "Santé max augmentée pour toujours, le fusil à pompe Hellspawn Comshot 12, le haut Circles of Hell et un motif de tatouage",
+        "ru": "Навсегда больше здоровья, дробовик Hellspawn Comshot 12, кофта Circles of Hell и эскиз татуировки",
+        "ja": "最大体力の永久アップ、ショットガン「Hellspawn Comshot 12」、トップス「Circles of Hell」、タトゥーデザイン",
+        "ko": "최대 체력 영구 증가, 산탄총 Hellspawn Comshot 12, 상의 Circles of Hell, 타투 도안"
+      },
+      "steps": {
+        "en": [
+          "Come alone as Jason or Lucia between midnight and 4 AM. The garage must be open, glowing red and playing metal; if it's shut, leave and come back another night.",
+          "Talk to Beelzebub and Dave and say you like their music, then climb into the back of their van.",
+          "At their camp in the woods, look into the fire by the carved throne. You wake up in Hell with a shotgun.",
+          "Fight through the demons and take the green doorways to the arena. Shoot the boss once his health bar turns red. If you die, start again from the throne.",
+          "Back at the camp, collect the rewards by the throne."
+        ],
+        "es": [
+          "Ve solo con Jason o Lucia entre la medianoche y las 4 AM. El garaje debe estar abierto, con luz roja y metal sonando; si está cerrado, vete y vuelve otra noche.",
+          "Habla con Beelzebub y Dave, di que te gusta su música y súbete a la parte trasera de su furgoneta.",
+          "En su campamento del bosque, mira el fuego junto al trono tallado. Despiertas en el infierno con una escopeta.",
+          "Abre paso entre demonios y cruza las puertas verdes hasta la arena. Dispara al jefe cuando su barra de vida se ponga roja. Si mueres, empieza otra vez desde el trono.",
+          "De vuelta en el campamento, recoge las recompensas junto al trono."
+        ],
+        "pt-BR": [
+          "Vá sozinho com Jason ou Lucia entre meia-noite e 4 da manhã. A garagem precisa estar aberta, com luz vermelha e metal tocando; se estiver fechada, saia e volte outra noite.",
+          "Fale com Beelzebub e Dave, diga que curte o som deles e suba na traseira da van.",
+          "No acampamento na mata, olhe para o fogo ao lado do trono entalhado. Você acorda no inferno com uma escopeta.",
+          "Passe pelos demônios e atravesse as portas verdes até a arena. Atire no chefe quando a barra de vida dele ficar vermelha. Se morrer, recomece pelo trono.",
+          "De volta ao acampamento, pegue as recompensas ao lado do trono."
+        ],
+        "de": [
+          "Komm allein als Jason oder Lucia zwischen Mitternacht und 4 Uhr. Die Garage muss offen sein, rot leuchten und Metal spielen; ist sie zu, geh und komm in einer anderen Nacht wieder.",
+          "Sprich mit Beelzebub und Dave, sag, dass dir ihre Musik gefällt, und steig hinten in ihren Van.",
+          "Schau in ihrem Lager im Wald ins Feuer neben dem geschnitzten Thron. Du wachst mit einer Schrotflinte in der Hölle auf.",
+          "Kämpf dich durch die Dämonen und nimm die grünen Durchgänge zur Arena. Schieß auf den Boss, sobald seine Lebensleiste rot wird. Stirbst du, geht es am Thron neu los.",
+          "Zurück im Lager holst du die Belohnungen am Thron ab."
+        ],
+        "it": [
+          "Vai da solo con Jason o Lucia tra mezzanotte e le 4. Il garage deve essere aperto, con luce rossa e metal a tutto volume; se è chiuso, vai via e torna un'altra notte.",
+          "Parla con Beelzebub e Dave, di' che ti piace la loro musica e sali sul retro del loro furgone.",
+          "Al loro accampamento nel bosco, guarda il fuoco accanto al trono intagliato. Ti risvegli all'inferno con un fucile a pompa.",
+          "Fatti strada tra i demoni e attraversa le porte verdi fino all'arena. Spara al boss quando la sua barra della salute diventa rossa. Se muori, riparti dal trono.",
+          "Tornato all'accampamento, raccogli le ricompense accanto al trono."
+        ],
+        "fr": [
+          "Venez seul avec Jason ou Lucia entre minuit et 4 h. Le garage doit être ouvert, éclairé en rouge avec du metal ; s'il est fermé, partez et revenez une autre nuit.",
+          "Parlez à Beelzebub et Dave, dites que vous aimez leur musique et montez à l'arrière de leur van.",
+          "À leur camp dans les bois, regardez le feu près du trône sculpté. Vous vous réveillez en enfer avec un fusil à pompe.",
+          "Frayez-vous un chemin parmi les démons et passez les portes vertes jusqu'à l'arène. Tirez sur le boss quand sa barre de vie devient rouge. Si vous mourez, reprenez depuis le trône.",
+          "De retour au camp, récupérez les récompenses près du trône."
+        ],
+        "ru": [
+          "Приходи один за Джейсона или Люсию между полуночью и 4 утра. Гараж должен быть открыт, светиться красным и играть метал; если закрыт — уходи и возвращайся в другую ночь.",
+          "Поговори с Beelzebub и Dave, скажи, что тебе нравится их музыка, и залезь в кузов их фургона.",
+          "В их лагере в лесу посмотри в огонь у резного трона — очнёшься в аду с дробовиком.",
+          "Пробейся через демонов и пройди зелёными проходами на арену. Стреляй в босса, когда его полоска здоровья покраснеет. Если погибнешь — начнёшь снова от трона.",
+          "Вернувшись в лагерь, забери награды у трона."
+        ],
+        "ja": [
+          "深夜0時から4時の間に、ジェイソンかルシア1人で行きます。ガレージが開いて赤く光り、メタルが流れている必要があります。閉まっていたら別の夜に。",
+          "BeelzebubとDaveに話しかけ、音楽が好きだと答えてバンの荷台に乗ります。",
+          "森のキャンプで、彫刻された玉座の横の焚き火を見つめると、ショットガンを持って地獄で目覚めます。",
+          "悪魔を倒しながら緑の扉を抜けてアリーナへ。ボスの体力バーが赤くなったら撃ちます。死んだら玉座からやり直し。",
+          "キャンプに戻ったら玉座の横で報酬を受け取ります。"
+        ],
+        "ko": [
+          "자정에서 새벽 4시 사이에 제이슨이나 루시아 혼자 가세요. 차고가 열려 있고 빨간 불에 메탈이 울려야 해요. 닫혀 있으면 다른 날 밤에 다시 오세요.",
+          "Beelzebub, Dave와 대화하며 음악이 좋다고 답하고 밴 뒤칸에 타세요.",
+          "숲속 캠프에서 조각된 왕좌 옆 모닥불을 바라보면, 산탄총을 든 채 지옥에서 깨어나요.",
+          "악마들을 뚫고 초록색 문을 지나 아레나로 가세요. 보스의 체력 바가 빨갛게 바뀌면 쏘세요. 죽으면 왕좌에서 다시 시작해요.",
+          "캠프로 돌아와 왕좌 옆에서 보상을 챙기세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 291.2,
+          "y": 448.0,
+          "r": 12.2
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/satan-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.vice.com/en/article/gta-6-hellspawn-shotgun-satan-easter-egg/",
+          "source": "VICE",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gtabase.com/gta-6/articles/how-to-fight-satan-in-gta-6",
+          "source": "GTABase",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, VICE, GTABase. Time window varies by guide (10PM-4AM / midnight-2AM / midnight-4AM); midnight-4AM most cited. Some guides call the boss 'the Pretender'."
+    },
+    {
+      "id": "hyde-island-hunt",
+      "kind": "secret",
+      "mode": "story",
+      "title": {
+        "en": "The Hyde Island hunt",
+        "es": "La cacería de Hyde Island",
+        "pt-BR": "A caçada de Hyde Island",
+        "de": "Die Jagd auf Hyde Island",
+        "it": "La caccia di Hyde Island",
+        "fr": "La chasse de Hyde Island",
+        "ru": "Охота на острове Hyde",
+        "ja": "ハイド島の人間狩り",
+        "ko": "하이드 섬의 사냥"
+      },
+      "summary": {
+        "en": "A nod to Saw and Manhunt: explore a remote island and you get darted, collared and hunted. Win and you keep the hunter's rifle and a big cash prize.",
+        "es": "Un guiño a Saw y Manhunt: explora una isla remota y te dardean, te ponen un collar y te cazan. Si ganas, te quedas el rifle del cazador y un buen premio en efectivo.",
+        "pt-BR": "Uma referência a Jogos Mortais e Manhunt: explore uma ilha remota e você leva um dardo, ganha uma coleira e vira caça. Vença e fique com o rifle do caçador e uma bolada.",
+        "de": "Eine Anspielung auf Saw und Manhunt: Erkunde eine abgelegene Insel, und du wirst betäubt, bekommst ein Halsband und wirst gejagt. Gewinnst du, gehören dir das Gewehr des Jägers und viel Geld.",
+        "it": "Un omaggio a Saw e Manhunt: esplora un'isola remota e vieni narcotizzato, ti mettono un collare e ti danno la caccia. Vinci e tieni il fucile del cacciatore e un bel premio.",
+        "fr": "Un clin d'œil à Saw et Manhunt : explorez une île isolée, vous êtes endormi, équipé d'un collier et traqué. Gagnez et gardez le fusil du chasseur et un gros magot.",
+        "ru": "Отсылка к «Пиле» и Manhunt: исследуешь отдалённый остров — тебя усыпляют дротиком, надевают ошейник и начинают охоту. Победишь — заберёшь винтовку охотника и крупную сумму.",
+        "ja": "『ソウ』と『マンハント』へのオマージュ。離島を探索すると麻酔ダーツで眠らされ、首輪を付けられて狩られます。勝てばハンターのライフルと大金が手に。",
+        "ko": "「쏘우」와 「맨헌트」 오마주. 외딴섬을 탐험하면 마취 다트를 맞고 목걸이가 채워진 채 사냥당해요. 이기면 사냥꾼의 소총과 큰돈을 얻어요."
+      },
+      "location": {
+        "en": "Hyde Island, a roadless island off the far north coast of Leonida. Reach it by boat or jet ski.",
+        "es": "Hyde Island, una isla sin carreteras frente a la costa norte de Leonida. Se llega en barco o moto acuática.",
+        "pt-BR": "Hyde Island, uma ilha sem estradas na costa norte de Leonida. Chegue de barco ou jet ski.",
+        "de": "Hyde Island, eine Insel ohne Straßen vor der Nordküste von Leonida. Mit Boot oder Jetski erreichbar.",
+        "it": "Hyde Island, un'isola senza strade al largo della costa nord di Leonida. Ci si arriva in barca o moto d'acqua.",
+        "fr": "Hyde Island, une île sans routes au large de la côte nord de Leonida. Accessible en bateau ou en jet-ski.",
+        "ru": "Hyde Island — остров без дорог у северного побережья Leonida. Добраться можно на лодке или гидроцикле.",
+        "ja": "Leonida北岸沖の道路のない島、Hyde Island。ボートか水上バイクで向かいます。",
+        "ko": "Leonida 북쪽 해안 앞바다, 도로가 없는 Hyde Island. 보트나 제트스키로 가세요."
+      },
+      "reward": {
+        "en": "The Island Poacher FF-50 sniper rifle and $20,000-30,000",
+        "es": "El rifle de francotirador Island Poacher FF-50 y entre 20 000 y 30 000 $",
+        "pt-BR": "O rifle de precisão Island Poacher FF-50 e entre US$ 20 mil e 30 mil",
+        "de": "Das Scharfschützengewehr Island Poacher FF-50 und 20.000-30.000 $",
+        "it": "Il fucile di precisione Island Poacher FF-50 e 20.000-30.000 $",
+        "fr": "Le fusil de précision Island Poacher FF-50 et 20 000 à 30 000 $",
+        "ru": "Снайперская винтовка Island Poacher FF-50 и 20–30 тысяч долларов",
+        "ja": "スナイパーライフル「Island Poacher FF-50」と2万〜3万ドル",
+        "ko": "저격소총 Island Poacher FF-50과 2만~3만 달러"
+      },
+      "steps": {
+        "en": [
+          "Land on the island alone as Jason or Lucia and explore. A tranquilizer dart knocks you out.",
+          "You wake in a shipping container with an explosive collar. After a short countdown it opens: take cover at once.",
+          "Grab the lit weapon stashes, a shotgun first. Don't swim away or cross the fence, or the collar goes off.",
+          "The hunter wears armor: shoot when you have a clear shot and finish him up close.",
+          "Take his rifle, then go to the boathouse to get your gear back and collect the cash."
+        ],
+        "es": [
+          "Desembarca solo con Jason o Lucia y explora. Un dardo tranquilizante te deja fuera de combate.",
+          "Despiertas en un contenedor con un collar explosivo. Tras una breve cuenta atrás se abre: cúbrete enseguida.",
+          "Toma las armas de los alijos iluminados, primero una escopeta. No nades lejos ni cruces la valla, o el collar explota.",
+          "El cazador lleva blindaje: dispara cuando tengas un tiro limpio y remátalo de cerca.",
+          "Toma su rifle y ve al cobertizo de botes para recuperar tu equipo y cobrar el dinero."
+        ],
+        "pt-BR": [
+          "Desembarque sozinho com Jason ou Lucia e explore. Um dardo tranquilizante te apaga.",
+          "Você acorda num contêiner com uma coleira explosiva. Depois de uma contagem rápida ele abre: se proteja na hora.",
+          "Pegue as armas dos esconderijos iluminados, uma escopeta primeiro. Não nade para longe nem cruze a cerca, ou a coleira explode.",
+          "O caçador usa colete: atire quando tiver mira limpa e finalize de perto.",
+          "Pegue o rifle dele e vá à garagem de barcos para recuperar seu equipamento e receber o dinheiro."
+        ],
+        "de": [
+          "Geh allein als Jason oder Lucia an Land und erkunde die Insel. Ein Betäubungspfeil schickt dich schlafen.",
+          "Du wachst in einem Container mit einem Sprengstoff-Halsband auf. Nach einem kurzen Countdown öffnet er sich: sofort in Deckung.",
+          "Schnapp dir Waffen aus den beleuchteten Verstecken, zuerst eine Schrotflinte. Schwimm nicht weg und überquer nicht den Zaun, sonst explodiert das Halsband.",
+          "Der Jäger trägt Panzerung: Schieß nur mit freier Schusslinie und erledige ihn aus der Nähe.",
+          "Nimm sein Gewehr und geh zum Bootshaus, um deine Ausrüstung und das Geld zu holen."
+        ],
+        "it": [
+          "Sbarca da solo con Jason o Lucia ed esplora. Un dardo tranquillante ti mette KO.",
+          "Ti risvegli in un container con un collare esplosivo. Dopo un breve conto alla rovescia si apre: mettiti subito al riparo.",
+          "Prendi le armi dai depositi illuminati, prima un fucile a pompa. Non allontanarti a nuoto e non superare la recinzione, o il collare esplode.",
+          "Il cacciatore ha la corazza: spara quando hai il colpo pulito e finiscilo da vicino.",
+          "Prendi il suo fucile e vai alla rimessa delle barche per riavere l'equipaggiamento e incassare i soldi."
+        ],
+        "fr": [
+          "Débarquez seul avec Jason ou Lucia et explorez. Une fléchette tranquillisante vous assomme.",
+          "Vous vous réveillez dans un conteneur avec un collier explosif. Après un court compte à rebours il s'ouvre : mettez-vous à couvert.",
+          "Prenez les armes dans les caches éclairées, un fusil à pompe d'abord. Ne partez pas à la nage et ne franchissez pas la clôture, sinon le collier explose.",
+          "Le chasseur porte une armure : tirez quand vous avez une ligne de tir dégagée et achevez-le de près.",
+          "Prenez son fusil puis allez au hangar à bateaux pour récupérer votre équipement et l'argent."
+        ],
+        "ru": [
+          "Высадись на остров один за Джейсона или Люсию и исследуй его. Транквилизаторный дротик тебя вырубит.",
+          "Очнёшься в контейнере со взрывным ошейником. После короткого отсчёта он откроется — сразу в укрытие.",
+          "Собирай оружие из подсвеченных тайников, в первую очередь дробовик. Не уплывай и не перелезай забор — ошейник взорвётся.",
+          "На охотнике броня: стреляй, только когда открыт, и добивай вблизи.",
+          "Забери его винтовку и иди в лодочный сарай — там вернёшь снаряжение и получишь деньги."
+        ],
+        "ja": [
+          "ジェイソンかルシア1人で島に上陸し探索すると、麻酔ダーツで気絶させられます。",
+          "爆発する首輪を付けられてコンテナで目覚めます。短いカウントダウンの後に開くので、すぐ物陰へ。",
+          "光る武器の隠し場所から武器を確保。まずはショットガン。泳いで逃げたりフェンスを越えると首輪が爆発します。",
+          "ハンターは防弾装備なので、狙える瞬間に撃ち、近距離でとどめを。",
+          "ライフルを奪い、ボートハウスで装備を取り戻して賞金を受け取ります。"
+        ],
+        "ko": [
+          "제이슨이나 루시아 혼자 섬에 상륙해 탐험하면 마취 다트를 맞고 쓰러져요.",
+          "폭발 목걸이를 찬 채 컨테이너에서 깨어나요. 짧은 카운트다운 뒤 문이 열리면 바로 엄폐하세요.",
+          "불 켜진 무기 은닉처에서 무기를 챙기세요. 산탄총이 먼저예요. 헤엄쳐 도망치거나 울타리를 넘으면 목걸이가 터져요.",
+          "사냥꾼은 방탄 장비를 입었어요. 확실히 노릴 수 있을 때 쏘고 가까이서 마무리하세요.",
+          "소총을 챙기고 보트하우스로 가서 장비를 되찾고 상금을 받으세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 578.8,
+          "y": 129.0,
+          "r": 16.8
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/hyde-island-hunt-easter-egg-manhuntsaw/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://gamerant.com/gta-6-island-poacher-location-saw-hunger-games-easter-egg/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://esports.gg/guides/grand-theft-auto-6/gta-6-saw-mission-hyde-island/",
+          "source": "esports.gg",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, Game Rant, esports.gg, Yahoo. Cash reported $20k-$30k. Hunter wears armor."
+    },
+    {
+      "id": "marbelle-hotel",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "The Marbelle Hotel (Silent Hill)",
+        "es": "El hotel Marbelle (Silent Hill)",
+        "pt-BR": "O hotel Marbelle (Silent Hill)",
+        "de": "Das Marbelle Hotel (Silent Hill)",
+        "it": "L'hotel Marbelle (Silent Hill)",
+        "fr": "L'hôtel Marbelle (Silent Hill)",
+        "ru": "Отель Marbelle (Silent Hill)",
+        "ja": "マーベル・ホテル（サイレントヒル）",
+        "ko": "마벨 호텔(사일런트 힐)"
+      },
+      "summary": {
+        "en": "An abandoned hotel turns into Silent Hill: mannequins, doors opening by themselves and a city lost in fog. On the roof you find the code to a safe full of loot.",
+        "es": "Un hotel abandonado se convierte en Silent Hill: maniquíes, puertas que se abren solas y una ciudad perdida en la niebla. En la azotea está el código de una caja fuerte con botín.",
+        "pt-BR": "Um hotel abandonado vira Silent Hill: manequins, portas que abrem sozinhas e uma cidade perdida na névoa. No terraço fica o código de um cofre cheio de saque.",
+        "de": "Ein verlassenes Hotel wird zu Silent Hill: Schaufensterpuppen, Türen, die von allein aufgehen, und eine Stadt im Nebel. Auf dem Dach findest du den Code für einen Safe voller Beute.",
+        "it": "Un hotel abbandonato diventa Silent Hill: manichini, porte che si aprono da sole e una città persa nella nebbia. Sul tetto trovi il codice di una cassaforte piena di bottino.",
+        "fr": "Un hôtel abandonné devient Silent Hill : mannequins, portes qui s'ouvrent seules et une ville noyée dans le brouillard. Sur le toit, le code d'un coffre plein de butin.",
+        "ru": "Заброшенный отель превращается в Silent Hill: манекены, двери открываются сами, город тонет в тумане. На крыше — код от сейфа с добычей.",
+        "ja": "廃ホテルがサイレントヒルに。マネキン、勝手に開く扉、霧に沈む街。屋上で戦利品の詰まった金庫の番号が見つかります。",
+        "ko": "버려진 호텔이 사일런트 힐로 변해요. 마네킹, 저절로 열리는 문, 안개에 잠긴 도시. 옥상에서 전리품이 든 금고 번호를 찾을 수 있어요."
+      },
+      "location": {
+        "en": "Marbelle Hotel in south Crosstown, Vice City: NW 8th Street near the Nine1Nine club, just off the interstate. Boarded windows and a For Sale sign.",
+        "es": "Hotel Marbelle al sur de Crosstown, Vice City: NW 8th Street cerca del club Nine1Nine, junto a la interestatal. Ventanas tapiadas y un cartel de venta.",
+        "pt-BR": "Hotel Marbelle no sul de Crosstown, Vice City: NW 8th Street perto do clube Nine1Nine, ao lado da interestadual. Janelas tapadas e placa de venda.",
+        "de": "Marbelle Hotel im Süden von Crosstown, Vice City: NW 8th Street nahe dem Club Nine1Nine, direkt an der Interstate. Vernagelte Fenster und ein Zu-verkaufen-Schild.",
+        "it": "Hotel Marbelle a sud di Crosstown, Vice City: NW 8th Street vicino al club Nine1Nine, accanto all'interstatale. Finestre sbarrate e cartello vendesi.",
+        "fr": "Hôtel Marbelle au sud de Crosstown, Vice City : NW 8th Street près du club Nine1Nine, à côté de l'autoroute. Fenêtres condamnées et panneau à vendre.",
+        "ru": "Отель Marbelle на юге Crosstown, Vice City: NW 8th Street у клуба Nine1Nine, прямо у шоссе. Заколоченные окна и табличка «Продаётся».",
+        "ja": "Vice City、Crosstown南部のマーベル・ホテル。州間高速道路のすぐ脇、Nine1Nineクラブ近くのNW 8th Street。窓は板張りで売り物件の看板あり。",
+        "ko": "Vice City Crosstown 남쪽의 마벨 호텔. 고속도로 바로 옆, Nine1Nine 클럽 근처 NW 8th Street. 판자로 막힌 창문과 매물 표지판이 있어요."
+      },
+      "reward": {
+        "en": "Cash, a collectible watch and a comic card",
+        "es": "Dinero, un reloj coleccionable y una carta de cómic",
+        "pt-BR": "Dinheiro, um relógio colecionável e uma carta de quadrinhos",
+        "de": "Geld, eine Sammleruhr und eine Comic-Karte",
+        "it": "Soldi, un orologio da collezione e una carta fumetto",
+        "fr": "De l'argent, une montre de collection et une carte BD",
+        "ru": "Деньги, коллекционные часы и карточка-комикс",
+        "ja": "現金、コレクション腕時計、コミックカード",
+        "ko": "현금, 수집용 시계, 만화 카드"
+      },
+      "steps": {
+        "en": [
+          "The front is locked: walk around and enter through the back door.",
+          "Climb the stairs toward the roof. Mannequins face the corners and doors open on their own: go through each one.",
+          "The lights flicker, red symbols and whispers appear. Wait for the roof door to open; if it stays shut, go down and climb again.",
+          "Outside, Vice City is drowned in fog. Pick up the Old Note on the roof: the safe code is 955214.",
+          "Open the safe in the ground-floor office (it also clears the fog), and grab the comic card from the cabinet opposite the stairs."
+        ],
+        "es": [
+          "La entrada principal está cerrada: rodea el edificio y entra por la puerta trasera.",
+          "Sube las escaleras hacia la azotea. Los maniquíes miran a las esquinas y las puertas se abren solas: atraviesa cada una.",
+          "Las luces parpadean, aparecen símbolos rojos y susurros. Espera a que se abra la puerta de la azotea; si sigue cerrada, baja y vuelve a subir.",
+          "Afuera, Vice City está cubierta de niebla. Toma la Old Note de la azotea: el código de la caja fuerte es 955214.",
+          "Abre la caja fuerte de la oficina de la planta baja (también quita la niebla) y toma la carta de cómic del mueble frente a la escalera."
+        ],
+        "pt-BR": [
+          "A entrada da frente está trancada: dê a volta e entre pela porta dos fundos.",
+          "Suba as escadas rumo ao terraço. Os manequins olham para os cantos e as portas abrem sozinhas: passe por cada uma.",
+          "As luzes piscam, surgem símbolos vermelhos e sussurros. Espere a porta do terraço abrir; se continuar fechada, desça e suba de novo.",
+          "Lá fora, Vice City está tomada pela névoa. Pegue a Old Note no terraço: o código do cofre é 955214.",
+          "Abra o cofre do escritório no térreo (isso também tira a névoa) e pegue a carta de quadrinhos no armário em frente à escada."
+        ],
+        "de": [
+          "Vorne ist abgeschlossen: Geh ums Haus und durch die Hintertür hinein.",
+          "Steig die Treppe Richtung Dach hoch. Schaufensterpuppen schauen in die Ecken, Türen gehen von selbst auf: Geh durch jede.",
+          "Das Licht flackert, rote Symbole und Flüstern erscheinen. Warte, bis die Dachtür aufgeht; bleibt sie zu, geh runter und steig erneut hoch.",
+          "Draußen liegt Vice City im Nebel. Nimm die Old Note auf dem Dach: Der Safe-Code lautet 955214.",
+          "Öffne den Safe im Büro im Erdgeschoss (das vertreibt auch den Nebel) und nimm die Comic-Karte vom Schrank gegenüber der Treppe."
+        ],
+        "it": [
+          "L'ingresso principale è chiuso: gira attorno all'edificio ed entra dalla porta sul retro.",
+          "Sali le scale verso il tetto. I manichini guardano gli angoli e le porte si aprono da sole: attraversale tutte.",
+          "Le luci tremolano, compaiono simboli rossi e sussurri. Aspetta che si apra la porta del tetto; se resta chiusa, scendi e risali.",
+          "Fuori Vice City è avvolta dalla nebbia. Prendi la Old Note sul tetto: il codice della cassaforte è 955214.",
+          "Apri la cassaforte nell'ufficio al pianterreno (toglie anche la nebbia) e prendi la carta fumetto dal mobile di fronte alle scale."
+        ],
+        "fr": [
+          "L'entrée principale est fermée : faites le tour et entrez par la porte de derrière.",
+          "Montez l'escalier vers le toit. Les mannequins fixent les coins et les portes s'ouvrent seules : passez-les toutes.",
+          "Les lumières clignotent, des symboles rouges et des murmures apparaissent. Attendez que la porte du toit s'ouvre ; si elle reste fermée, redescendez et remontez.",
+          "Dehors, Vice City est noyée dans le brouillard. Prenez la Old Note sur le toit : le code du coffre est 955214.",
+          "Ouvrez le coffre du bureau au rez-de-chaussée (ça dissipe aussi le brouillard) et prenez la carte BD sur le meuble face à l'escalier."
+        ],
+        "ru": [
+          "Главный вход закрыт — обойди здание и войди через заднюю дверь.",
+          "Поднимайся по лестнице к крыше. Манекены смотрят в углы, двери открываются сами — проходи через каждую.",
+          "Свет мигает, появляются красные символы и шёпот. Дождись, пока откроется дверь на крышу; если не открывается — спустись и поднимись снова.",
+          "Снаружи Vice City утонул в тумане. Возьми на крыше Old Note — код от сейфа 955214.",
+          "Открой сейф в офисе на первом этаже (это заодно рассеет туман) и забери карточку-комикс со шкафа напротив лестницы."
+        ],
+        "ja": [
+          "正面は施錠されているので、裏に回って裏口から入ります。",
+          "屋上へ向かって階段を上ります。マネキンは隅を向き、扉が勝手に開くので一つずつ通り抜けます。",
+          "照明が点滅し、赤い記号とささやき声が。屋上の扉が開くのを待ち、開かなければ一度下りて上り直します。",
+          "外のVice Cityは霧に沈んでいます。屋上のOld Noteを拾うと金庫の番号は955214。",
+          "1階事務所の金庫を開け（霧も晴れます）、階段向かいの棚からコミックカードを取ります。"
+        ],
+        "ko": [
+          "정문은 잠겨 있으니 건물을 돌아 뒷문으로 들어가세요.",
+          "옥상 쪽으로 계단을 오르세요. 마네킹이 구석을 보고 문이 저절로 열려요. 하나씩 통과하세요.",
+          "불빛이 깜빡이고 빨간 기호와 속삭임이 나타나요. 옥상 문이 열릴 때까지 기다리고, 안 열리면 내려갔다가 다시 오르세요.",
+          "밖의 Vice City는 안개에 잠겨 있어요. 옥상의 Old Note를 주우면 금고 번호는 955214.",
+          "1층 사무실 금고를 여세요(안개도 걷혀요). 계단 맞은편 장식장에서 만화 카드도 챙기세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 710.4,
+          "y": 700.4,
+          "r": 9.2
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/marbelle-hotel--silent-hill-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.videogameschronicle.com/guide/gta-6-marbelle-hotel-location-and-safe-code-how-to-find-the-silent-hill-easter-egg/",
+          "source": "VGC",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, VGC, NPCWire, HoldToReset. Safe code 955214 consistent."
+    },
+    {
+      "id": "scarface-motel",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "Scarface motel and the Little Friend",
+        "es": "El motel de Scarface y el Little Friend",
+        "pt-BR": "O motel de Scarface e a Little Friend",
+        "de": "Das Scarface-Motel und der Little Friend",
+        "it": "Il motel di Scarface e la Little Friend",
+        "fr": "Le motel de Scarface et le Little Friend",
+        "ru": "Мотель из «Лица со шрамом» и Little Friend",
+        "ja": "スカーフェイスのモーテルとリトル・フレンド",
+        "ko": "스카페이스 모텔과 리틀 프렌드"
+      },
+      "summary": {
+        "en": "The famous chainsaw scene from Scarface, recreated in Ocean Beach. Come at noon to open the motel room and take a unique SMG.",
+        "es": "La famosa escena de la motosierra de Scarface, recreada en Ocean Beach. Ve al mediodía para abrir la habitación del motel y llevarte un subfusil único.",
+        "pt-BR": "A famosa cena da motosserra de Scarface, recriada em Ocean Beach. Vá ao meio-dia para abrir o quarto do motel e levar uma submetralhadora única.",
+        "de": "Die berühmte Kettensägen-Szene aus Scarface, nachgebaut in Ocean Beach. Komm mittags, um das Motelzimmer zu öffnen und eine einzigartige MP mitzunehmen.",
+        "it": "La famosa scena della motosega di Scarface, ricreata a Ocean Beach. Vai a mezzogiorno per aprire la stanza del motel e prendere un mitra unico.",
+        "fr": "La célèbre scène de la tronçonneuse de Scarface, recréée à Ocean Beach. Venez à midi pour ouvrir la chambre du motel et prendre une mitraillette unique.",
+        "ru": "Знаменитая сцена с бензопилой из «Лица со шрамом» в Ocean Beach. Приходи в полдень — откроется номер мотеля с уникальным пистолетом-пулемётом.",
+        "ja": "『スカーフェイス』の有名なチェーンソーの場面がOcean Beachに。正午に行くとモーテルの部屋が開き、ユニークなSMGが手に入ります。",
+        "ko": "「스카페이스」의 유명한 전기톱 장면이 Ocean Beach에 재현됐어요. 정오에 가면 모텔 방이 열리고 특별한 기관단총을 얻어요."
+      },
+      "location": {
+        "en": "Sunlite Motel on Shore Drive, at the south end of Ocean Beach, Vice Beach.",
+        "es": "Sunlite Motel en Shore Drive, en el extremo sur de Ocean Beach, Vice Beach.",
+        "pt-BR": "Sunlite Motel na Shore Drive, na ponta sul de Ocean Beach, Vice Beach.",
+        "de": "Sunlite Motel am Shore Drive, am Südende von Ocean Beach, Vice Beach.",
+        "it": "Sunlite Motel su Shore Drive, all'estremità sud di Ocean Beach, Vice Beach.",
+        "fr": "Sunlite Motel sur Shore Drive, au sud d'Ocean Beach, Vice Beach.",
+        "ru": "Мотель Sunlite на Shore Drive, южный край Ocean Beach, Vice Beach.",
+        "ja": "Vice Beach、Ocean Beach南端のShore Driveにあるサンライト・モーテル。",
+        "ko": "Vice Beach, Ocean Beach 남쪽 끝 Shore Drive의 선라이트 모텔."
+      },
+      "reward": {
+        "en": "The Little Friend W-10 SMG, plus cash and drugs to sell",
+        "es": "El subfusil Little Friend W-10, además de dinero y droga para vender",
+        "pt-BR": "A submetralhadora Little Friend W-10, além de dinheiro e drogas para vender",
+        "de": "Die MP Little Friend W-10 sowie Geld und Drogen zum Verkaufen",
+        "it": "Il mitra Little Friend W-10, più soldi e droga da vendere",
+        "fr": "La mitraillette Little Friend W-10, plus de l'argent et de la drogue à revendre",
+        "ru": "Пистолет-пулемёт Little Friend W-10, а также деньги и наркотики на продажу",
+        "ja": "SMG「Little Friend W-10」、現金と売却用のドラッグ",
+        "ko": "기관단총 Little Friend W-10, 현금과 팔 수 있는 마약"
+      },
+      "steps": {
+        "en": [
+          "Arrive between 12:00 and 13:00 game time.",
+          "Go upstairs and try the first door on the right: it's locked.",
+          "Walk along the balcony and go down a different staircase, then come back around to the front. Using the same stairs again stops the scene.",
+          "Watch the scene, then return upstairs: the room is open. Take the Little Friend W-10 and the cash and drugs inside."
+        ],
+        "es": [
+          "Llega entre las 12:00 y las 13:00 del juego.",
+          "Sube y prueba la primera puerta a la derecha: está cerrada.",
+          "Recorre el balcón y baja por otra escalera, luego vuelve al frente. Si usas la misma escalera, la escena no empieza.",
+          "Mira la escena y vuelve a subir: la habitación está abierta. Toma el Little Friend W-10 y el dinero y la droga de dentro."
+        ],
+        "pt-BR": [
+          "Chegue entre 12h e 13h no jogo.",
+          "Suba e tente a primeira porta à direita: está trancada.",
+          "Siga pela varanda e desça por outra escada, depois volte pela frente. Usar a mesma escada impede a cena.",
+          "Assista à cena e suba de novo: o quarto está aberto. Pegue a Little Friend W-10 e o dinheiro e as drogas lá dentro."
+        ],
+        "de": [
+          "Komm zwischen 12:00 und 13:00 Spielzeit.",
+          "Geh nach oben und versuch die erste Tür rechts: Sie ist verschlossen.",
+          "Geh den Balkon entlang und eine andere Treppe hinunter, dann zurück nach vorn. Nimmst du dieselbe Treppe, startet die Szene nicht.",
+          "Sieh dir die Szene an und geh wieder hoch: Das Zimmer ist offen. Nimm die Little Friend W-10 und das Geld und die Drogen darin."
+        ],
+        "it": [
+          "Arriva tra le 12:00 e le 13:00 di gioco.",
+          "Sali e prova la prima porta a destra: è chiusa.",
+          "Percorri il balcone e scendi da un'altra scala, poi torna sul davanti. Usare la stessa scala blocca la scena.",
+          "Guarda la scena e risali: la stanza è aperta. Prendi la Little Friend W-10 e soldi e droga all'interno."
+        ],
+        "fr": [
+          "Arrivez entre 12 h et 13 h (heure du jeu).",
+          "Montez et essayez la première porte à droite : elle est fermée.",
+          "Longez le balcon et descendez par un autre escalier, puis revenez devant. Reprendre le même escalier empêche la scène.",
+          "Regardez la scène puis remontez : la chambre est ouverte. Prenez la Little Friend W-10 ainsi que l'argent et la drogue."
+        ],
+        "ru": [
+          "Приходи с 12:00 до 13:00 по игровым часам.",
+          "Поднимись и подёргай первую дверь справа — заперто.",
+          "Пройди по балкону и спустись по другой лестнице, затем вернись к фасаду. Если пойти по той же лестнице, сцена не начнётся.",
+          "Посмотри сцену и поднимись снова — номер открыт. Забери Little Friend W-10, деньги и наркотики."
+        ],
+        "ja": [
+          "ゲーム内12:00〜13:00に到着します。",
+          "2階へ上がり、右側の最初のドアを開けようとすると施錠されています。",
+          "バルコニーを進んで別の階段から下り、正面に回ります。同じ階段を使うと場面が始まりません。",
+          "場面を見たら再び2階へ。部屋が開いているので、Little Friend W-10と中の現金・ドラッグを入手。"
+        ],
+        "ko": [
+          "게임 시간 12:00~13:00 사이에 도착하세요.",
+          "2층으로 올라가 오른쪽 첫 번째 문을 열어 보면 잠겨 있어요.",
+          "발코니를 따라가 다른 계단으로 내려온 뒤 정면으로 돌아오세요. 같은 계단을 쓰면 장면이 시작되지 않아요.",
+          "장면을 본 뒤 다시 올라가면 방이 열려 있어요. Little Friend W-10과 안의 현금, 마약을 챙기세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 882.5,
+          "y": 760.1,
+          "r": 9.2
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/scarface/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://gamerant.com/gta-6-scarface-tony-montana-little-friend-smg-location-easter-egg/",
+          "source": "Game Rant",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://holdtoreset.com/where-to-find-the-scarface-easter-eggs-in-gta-6/",
+          "source": "Hold to Reset",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, Game Rant, HoldToReset, xGarbett clip. Time 12-1 PM; use a different staircase back down."
+    },
+    {
+      "id": "mushroom-trip",
+      "kind": "secret",
+      "mode": "story",
+      "title": {
+        "en": "The mushroom trip",
+        "es": "El viaje de los hongos",
+        "pt-BR": "A viagem do cogumelo",
+        "de": "Der Pilztrip",
+        "it": "Il viaggio dei funghi",
+        "fr": "Le trip aux champignons",
+        "ru": "Грибной трип",
+        "ja": "キノコ・トリップ",
+        "ko": "버섯 트립"
+      },
+      "summary": {
+        "en": "Eat a mysterious package in a shipping container and you're thrown into a hallucinated obstacle course. Finish it for a permanent stamina boost and a tattoo.",
+        "es": "Come un paquete misterioso en un contenedor y acabas en una pista de obstáculos alucinada. Termínala para ganar más resistencia para siempre y un tatuaje.",
+        "pt-BR": "Coma um pacote misterioso num contêiner e caia numa pista de obstáculos alucinada. Termine para ganhar fôlego extra para sempre e uma tatuagem.",
+        "de": "Iss ein geheimnisvolles Päckchen in einem Container, und du landest in einem halluzinierten Hindernisparcours. Schaff ihn für dauerhaft mehr Ausdauer und ein Tattoo.",
+        "it": "Mangia un pacchetto misterioso in un container e finisci in un percorso a ostacoli allucinato. Completalo per più resistenza permanente e un tatuaggio.",
+        "fr": "Mangez un mystérieux paquet dans un conteneur et vous voilà dans un parcours d'obstacles halluciné. Terminez-le pour plus d'endurance pour toujours et un tatouage.",
+        "ru": "Съешь загадочный свёрток в контейнере — и окажешься в полосе препятствий из галлюцинаций. Пройди её — получишь навсегда больше выносливости и татуировку.",
+        "ja": "コンテナの中の謎の包みを食べると、幻覚の障害物コースへ。クリアするとスタミナが永久に上がり、タトゥーも手に入ります。",
+        "ko": "컨테이너 안 수수께끼의 꾸러미를 먹으면 환각 속 장애물 코스로 빠져요. 완주하면 지구력이 영구히 오르고 타투도 얻어요."
+      },
+      "location": {
+        "en": "A small camp by a construction site on the southeast shore of Lake Tallaloko, north of Millport. Look for the middle of three containers, the open orange one with white doors.",
+        "es": "Un pequeño campamento junto a una obra en la orilla sureste del lago Tallaloko, al norte de Millport. Busca el contenedor naranja abierto con puertas blancas, el del medio de tres.",
+        "pt-BR": "Um pequeno acampamento perto de uma obra na margem sudeste do lago Tallaloko, ao norte de Millport. Procure o contêiner laranja aberto com portas brancas, o do meio de três.",
+        "de": "Ein kleines Lager an einer Baustelle am Südostufer des Lake Tallaloko, nördlich von Millport. Such den mittleren von drei Containern, den offenen orangefarbenen mit weißen Türen.",
+        "it": "Un piccolo accampamento vicino a un cantiere sulla riva sud-est del lago Tallaloko, a nord di Millport. Cerca il container arancione aperto con le porte bianche, quello centrale dei tre.",
+        "fr": "Un petit camp près d'un chantier sur la rive sud-est du lac Tallaloko, au nord de Millport. Repérez le conteneur orange ouvert aux portes blanches, celui du milieu.",
+        "ru": "Небольшой лагерь у стройки на юго-восточном берегу озера Tallaloko, севернее Millport. Нужен средний из трёх контейнеров — открытый оранжевый с белыми дверями.",
+        "ja": "Millportの北、Tallaloko湖の南東岸にある工事現場そばの小さなキャンプ。3つ並んだ真ん中の、白い扉が開いたオレンジのコンテナです。",
+        "ko": "Millport 북쪽, Tallaloko 호수 남동쪽 기슭 공사장 옆 작은 캠프. 세 개 중 가운데, 흰 문이 열린 주황색 컨테이너예요."
+      },
+      "reward": {
+        "en": "Permanent max stamina boost and the Mind Maze Left Leg Award tattoo",
+        "es": "Más resistencia máxima para siempre y el tatuaje Mind Maze Left Leg Award",
+        "pt-BR": "Fôlego máximo extra para sempre e a tatuagem Mind Maze Left Leg Award",
+        "de": "Dauerhaft mehr maximale Ausdauer und das Tattoo Mind Maze Left Leg Award",
+        "it": "Resistenza massima aumentata per sempre e il tatuaggio Mind Maze Left Leg Award",
+        "fr": "Endurance max augmentée pour toujours et le tatouage Mind Maze Left Leg Award",
+        "ru": "Навсегда больше выносливости и татуировка Mind Maze Left Leg Award",
+        "ja": "最大スタミナの永久アップとタトゥー「Mind Maze Left Leg Award」",
+        "ko": "최대 지구력 영구 증가와 타투 Mind Maze Left Leg Award"
+      },
+      "steps": {
+        "en": [
+          "Enter the open orange container (not the locked yellow SCOOP one) and take the package on the workbench. Whoever eats it gets the reward.",
+          "When the trip starts, walk to the dead end and pull the lever on the wall. Ignore the Give Up prompt.",
+          "Cross the room of swinging logs, follow the pink hallway, then the red one after the dark stretch.",
+          "Climb the containers in the big room, squeeze through the blue-lit hole, then jump across and head for the exit sign.",
+          "Drop into the flooded tunnel, swim down and climb toward the flashing red and green light. Follow the path out to end the trip."
+        ],
+        "es": [
+          "Entra en el contenedor naranja abierto (no en el amarillo cerrado de SCOOP) y toma el paquete del banco. Quien lo coma se lleva la recompensa.",
+          "Cuando empiece el viaje, ve al callejón sin salida y tira de la palanca de la pared. Ignora la opción de rendirte.",
+          "Cruza la sala de troncos colgantes, sigue el pasillo rosa y, tras el tramo oscuro, el rojo.",
+          "Trepa los contenedores de la sala grande, pasa por el hueco con luz azul, salta al otro lado y ve hacia el cartel de salida.",
+          "Baja al túnel inundado, bucea y sube hacia la luz roja y verde que parpadea. Sigue el camino para terminar el viaje."
+        ],
+        "pt-BR": [
+          "Entre no contêiner laranja aberto (não no amarelo trancado da SCOOP) e pegue o pacote na bancada. Quem comer ganha a recompensa.",
+          "Quando a viagem começar, vá até o beco sem saída e puxe a alavanca da parede. Ignore a opção de desistir.",
+          "Atravesse a sala de toras balançando, siga o corredor rosa e, depois do trecho escuro, o vermelho.",
+          "Escale os contêineres da sala grande, passe pelo buraco com luz azul, pule para o outro lado e siga a placa de saída.",
+          "Desça no túnel alagado, mergulhe e suba até a luz vermelha e verde piscando. Siga o caminho para encerrar a viagem."
+        ],
+        "de": [
+          "Geh in den offenen orangefarbenen Container (nicht den verschlossenen gelben SCOOP-Container) und nimm das Päckchen von der Werkbank. Wer es isst, bekommt die Belohnung.",
+          "Wenn der Trip beginnt, geh in die Sackgasse und zieh den Hebel an der Wand. Ignoriere die Option zum Aufgeben.",
+          "Durchquer den Raum mit schwingenden Stämmen, folge dem rosa Gang und nach dem dunklen Abschnitt dem roten.",
+          "Kletter im großen Raum auf die Container, zwäng dich durch das blau beleuchtete Loch, spring hinüber und lauf zum Ausgangsschild.",
+          "Spring in den gefluteten Tunnel, tauch nach unten und kletter zum rot-grün blinkenden Licht. Folge dem Weg nach draußen, um den Trip zu beenden."
+        ],
+        "it": [
+          "Entra nel container arancione aperto (non in quello giallo chiuso di SCOOP) e prendi il pacchetto sul banco. Chi lo mangia ottiene la ricompensa.",
+          "Quando inizia il trip, vai nel vicolo cieco e tira la leva sul muro. Ignora l'opzione per arrenderti.",
+          "Attraversa la stanza dei tronchi oscillanti, segui il corridoio rosa e, dopo il tratto buio, quello rosso.",
+          "Arrampicati sui container della sala grande, passa dal buco illuminato di blu, salta dall'altra parte e vai verso l'uscita.",
+          "Tuffati nel tunnel allagato, nuota in basso e risali verso la luce rossa e verde lampeggiante. Segui il percorso per finire il trip."
+        ],
+        "fr": [
+          "Entrez dans le conteneur orange ouvert (pas le jaune SCOOP fermé) et prenez le paquet sur l'établi. Celui qui le mange reçoit la récompense.",
+          "Quand le trip commence, allez au cul-de-sac et tirez le levier du mur. Ignorez l'option pour abandonner.",
+          "Traversez la salle des troncs qui se balancent, suivez le couloir rose puis, après le passage sombre, le rouge.",
+          "Escaladez les conteneurs de la grande salle, glissez-vous par le trou éclairé en bleu, sautez de l'autre côté et suivez le panneau de sortie.",
+          "Plongez dans le tunnel inondé, nagez vers le bas et remontez vers la lumière rouge et verte qui clignote. Suivez le chemin pour finir le trip."
+        ],
+        "ru": [
+          "Зайди в открытый оранжевый контейнер (не в запертый жёлтый SCOOP) и возьми свёрток на верстаке. Награда достанется тому, кто его съест.",
+          "Когда начнётся трип, дойди до тупика и дёрни рычаг на стене. Кнопку «Сдаться» игнорируй.",
+          "Пройди комнату с качающимися брёвнами, затем розовый коридор, а после тёмного участка — красный.",
+          "В большом зале заберись по контейнерам, пролезь в дыру с синим светом, перепрыгни на другую сторону и иди к табличке выхода.",
+          "Спрыгни в затопленный тоннель, нырни вниз и поднимись к мигающему красно-зелёному огню. Иди по тропе к выходу — трип закончится."
+        ],
+        "ja": [
+          "開いたオレンジのコンテナ（施錠された黄色のSCOOPではない方）に入り、作業台の包みを取ります。食べたキャラクターが報酬を得ます。",
+          "トリップが始まったら行き止まりへ行き、壁のレバーを引きます。「諦める」は無視。",
+          "揺れる丸太の部屋を抜け、ピンクの廊下、暗い区間の先の赤い廊下へ。",
+          "大部屋でコンテナを登り、青く光る穴をくぐり、飛び移って出口の表示へ。",
+          "水没したトンネルに飛び込み、潜ってから赤と緑に点滅する光へ登ります。道なりに進めばトリップ終了。"
+        ],
+        "ko": [
+          "열린 주황색 컨테이너(잠긴 노란 SCOOP 컨테이너 말고)에 들어가 작업대의 꾸러미를 집으세요. 먹은 캐릭터가 보상을 받아요.",
+          "트립이 시작되면 막다른 곳으로 가서 벽의 레버를 당기세요. 포기 버튼은 무시하세요.",
+          "흔들리는 통나무 방을 지나 분홍 복도로, 어두운 구간 뒤에는 빨간 복도로 가세요.",
+          "큰 방에서 컨테이너를 오르고 파란 불빛의 구멍을 빠져나와 건너뛴 뒤 출구 표지판으로 가세요.",
+          "물에 잠긴 터널로 뛰어들어 아래로 헤엄친 뒤 빨강·초록으로 깜빡이는 불빛 쪽으로 오르세요. 길을 따라가면 트립이 끝나요."
+        ]
+      },
+      "map": [
+        {
+          "x": 656.8,
+          "y": 274.3,
+          "r": 10.7
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/mushroom-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.powerpyx.com/gta-6-mushroom-easter-egg/",
+          "source": "PowerPyx",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gtabase.com/gta-6/articles/all-permanent-stat-boost-missions-in-gta-6",
+          "source": "GTABase",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, PowerPyx, GTABase, gtaboss. Use the open orange container (not the yellow SCOOP one)."
+    },
+    {
+      "id": "final-flush",
+      "kind": "secret",
+      "mode": "story",
+      "title": {
+        "en": "\"Don't Flush\": the secret mission",
+        "es": "«Don't Flush»: la misión secreta",
+        "pt-BR": "«Don't Flush»: a missão secreta",
+        "de": "«Don't Flush»: die geheime Mission",
+        "it": "«Don't Flush»: la missione segreta",
+        "fr": "« Don't Flush » : la mission secrète",
+        "ru": "«Don't Flush»: секретная миссия",
+        "ja": "「Don't Flush」：秘密のミッション",
+        "ko": "「Don't Flush」: 비밀 미션"
+      },
+      "summary": {
+        "en": "A QR code on a toilet poster leads to a secret society that refuses to flush, and to a hidden mission. The reward is a permanent stamina boost.",
+        "es": "Un código QR en un cartel del baño lleva a una sociedad secreta que se niega a tirar de la cadena y a una misión oculta. La recompensa: más resistencia para siempre.",
+        "pt-BR": "Um QR code num cartaz de banheiro leva a uma sociedade secreta que se recusa a dar descarga e a uma missão escondida. A recompensa: fôlego extra para sempre.",
+        "de": "Ein QR-Code auf einem Toilettenplakat führt zu einem Geheimbund, der nicht spült, und zu einer versteckten Mission. Belohnung: dauerhaft mehr Ausdauer.",
+        "it": "Un codice QR su un cartello del bagno porta a una società segreta che rifiuta di tirare l'acqua e a una missione nascosta. Ricompensa: più resistenza per sempre.",
+        "fr": "Un QR code sur une affiche de toilettes mène à une société secrète qui refuse de tirer la chasse, et à une mission cachée. Récompense : plus d'endurance pour toujours.",
+        "ru": "QR-код на плакате в туалете ведёт к тайному обществу тех, кто не смывает, и к скрытой миссии. Награда — навсегда больше выносливости.",
+        "ja": "トイレのポスターのQRコードから、水を流さない秘密結社と隠しミッションへ。報酬はスタミナの永久アップです。",
+        "ko": "화장실 포스터의 QR 코드가 물을 내리지 않는 비밀 결사와 숨겨진 미션으로 이어져요. 보상은 지구력 영구 증가예요."
+      },
+      "location": {
+        "en": "The easiest poster is in the public restroom on Corsair Key, northeast of Key Lento. Others: the Nine1Nine club bathroom and the gym toilets north of the Chapter 3 apartment. The meeting is at Frank's Waffles in Tequesta, Vice City.",
+        "es": "El cartel más fácil está en el baño público de Corsair Key, al noreste de Key Lento. Otros: el baño del club Nine1Nine y los del gimnasio al norte del apartamento del capítulo 3. La cita es en Frank's Waffles, Tequesta, Vice City.",
+        "pt-BR": "O cartaz mais fácil fica no banheiro público de Corsair Key, a nordeste de Key Lento. Outros: o banheiro do clube Nine1Nine e os da academia ao norte do apartamento do capítulo 3. O encontro é no Frank's Waffles, Tequesta, Vice City.",
+        "de": "Das einfachste Plakat hängt in der öffentlichen Toilette auf Corsair Key, nordöstlich von Key Lento. Weitere: Toilette im Club Nine1Nine und die Fitnessstudio-Toiletten nördlich der Wohnung aus Kapitel 3. Treffpunkt ist Frank's Waffles in Tequesta, Vice City.",
+        "it": "Il cartello più comodo è nel bagno pubblico di Corsair Key, a nord-est di Key Lento. Altri: il bagno del club Nine1Nine e quelli della palestra a nord dell'appartamento del capitolo 3. L'incontro è da Frank's Waffles a Tequesta, Vice City.",
+        "fr": "L'affiche la plus simple est dans les toilettes publiques de Corsair Key, au nord-est de Key Lento. Autres : les toilettes du club Nine1Nine et celles de la salle de sport au nord de l'appartement du chapitre 3. Rendez-vous au Frank's Waffles, Tequesta, Vice City.",
+        "ru": "Проще всего плакат найти в общественном туалете на Corsair Key, северо-восточнее Key Lento. Ещё есть в туалете клуба Nine1Nine и в спортзале севернее квартиры из 3-й главы. Встреча — в Frank's Waffles в Tequesta, Vice City.",
+        "ja": "一番見つけやすいポスターはKey Lentoの北東、Corsair Keyの公衆トイレ。ほかにNine1Nineクラブのトイレ、第3章のアパート北のジムのトイレにも。待ち合わせはVice City、TequestaのFrank's Waffles。",
+        "ko": "가장 찾기 쉬운 포스터는 Key Lento 북동쪽 Corsair Key 공중화장실에 있어요. 그 밖에 Nine1Nine 클럽 화장실, 3장 아파트 북쪽 헬스장 화장실에도 있어요. 만남 장소는 Vice City Tequesta의 Frank's Waffles."
+      },
+      "reward": {
+        "en": "Permanent max stamina boost",
+        "es": "Más resistencia máxima para siempre",
+        "pt-BR": "Fôlego máximo extra para sempre",
+        "de": "Dauerhaft mehr maximale Ausdauer",
+        "it": "Resistenza massima aumentata per sempre",
+        "fr": "Endurance max augmentée pour toujours",
+        "ru": "Навсегда больше выносливости",
+        "ja": "最大スタミナの永久アップ",
+        "ko": "최대 지구력 영구 증가"
+      },
+      "steps": {
+        "en": [
+          "Find a 'Stop! Don't Flush' poster and scan its QR code with the WAiNK app (the normal camera won't read it).",
+          "Follow the page to get a text and reply TRUTH to join the No Flushers. You get the code 00-00-02.",
+          "At night, meet Dr. Merle at Frank's Waffles in Tequesta and give him the code. This starts The Final Flush.",
+          "Follow his van to the sewage plant in Hamlet. When asked, choose Defuse and Lie. Don't blow up Merle or the gate: that can fail the mission.",
+          "Upstairs, turn the middle and bottom red lights green and pull the main lever; downstairs, press the red button."
+        ],
+        "es": [
+          "Busca un cartel «Stop! Don't Flush» y escanea el QR con la app WAiNK (la cámara normal no lo lee).",
+          "Sigue la página para recibir un mensaje y responde TRUTH para unirte a los No Flushers. Te dan el código 00-00-02.",
+          "De noche, reúnete con el Dr. Merle en Frank's Waffles, Tequesta, y dale el código. Así empieza The Final Flush.",
+          "Sigue su furgoneta hasta la depuradora de Hamlet. Cuando te pregunten, elige Defuse y Lie. No vueles a Merle ni la verja: puede fallar la misión.",
+          "Arriba, pon en verde las luces rojas del medio y de abajo y tira de la palanca principal; abajo, pulsa el botón rojo."
+        ],
+        "pt-BR": [
+          "Ache um cartaz «Stop! Don't Flush» e escaneie o QR com o app WAiNK (a câmera comum não lê).",
+          "Siga a página para receber uma mensagem e responda TRUTH para entrar nos No Flushers. Você recebe o código 00-00-02.",
+          "À noite, encontre o Dr. Merle no Frank's Waffles, em Tequesta, e entregue o código. Assim começa The Final Flush.",
+          "Siga a van dele até a estação de esgoto em Hamlet. Quando perguntarem, escolha Defuse e Lie. Não exploda Merle nem o portão: a missão pode falhar.",
+          "Em cima, deixe verdes as luzes vermelhas do meio e de baixo e puxe a alavanca principal; embaixo, aperte o botão vermelho."
+        ],
+        "de": [
+          "Such ein «Stop! Don't Flush»-Plakat und scanne den QR-Code mit der WAiNK-App (die normale Kamera liest ihn nicht).",
+          "Folge der Seite, um eine SMS zu bekommen, und antworte TRUTH, um den No Flushers beizutreten. Du erhältst den Code 00-00-02.",
+          "Triff nachts Dr. Merle bei Frank's Waffles in Tequesta und gib ihm den Code. Damit startet The Final Flush.",
+          "Folge seinem Van zur Kläranlage in Hamlet. Wähl bei Nachfrage Defuse und Lie. Spreng weder Merle noch das Tor, sonst kann die Mission scheitern.",
+          "Oben die mittlere und untere rote Lampe auf Grün schalten und den Haupthebel ziehen; unten den roten Knopf drücken."
+        ],
+        "it": [
+          "Trova un cartello «Stop! Don't Flush» e scansiona il QR con l'app WAiNK (la fotocamera normale non lo legge).",
+          "Segui la pagina per ricevere un SMS e rispondi TRUTH per unirti ai No Flushers. Ricevi il codice 00-00-02.",
+          "Di notte, incontra il Dr. Merle da Frank's Waffles a Tequesta e dagli il codice. Inizia The Final Flush.",
+          "Segui il suo furgone fino al depuratore di Hamlet. Quando richiesto, scegli Defuse e Lie. Non far saltare Merle né il cancello: la missione può fallire.",
+          "Al piano di sopra fai diventare verdi le luci rosse centrale e inferiore e tira la leva principale; di sotto, premi il pulsante rosso."
+        ],
+        "fr": [
+          "Trouvez une affiche « Stop! Don't Flush » et scannez son QR code avec l'appli WAiNK (l'appareil photo normal ne le lit pas).",
+          "Suivez la page pour recevoir un SMS et répondez TRUTH pour rejoindre les No Flushers. Vous obtenez le code 00-00-02.",
+          "La nuit, retrouvez le Dr Merle au Frank's Waffles à Tequesta et donnez-lui le code. The Final Flush commence.",
+          "Suivez son van jusqu'à la station d'épuration de Hamlet. Quand on vous le demande, choisissez Defuse et Lie. Ne faites sauter ni Merle ni le portail : la mission peut échouer.",
+          "En haut, passez au vert les voyants rouges du milieu et du bas et tirez le levier principal ; en bas, appuyez sur le bouton rouge."
+        ],
+        "ru": [
+          "Найди плакат «Stop! Don't Flush» и отсканируй QR-код приложением WAiNK (обычная камера его не читает).",
+          "Перейди по ссылке, получишь SMS — ответь TRUTH, чтобы вступить в No Flushers. Тебе дадут код 00-00-02.",
+          "Ночью встреться с доктором Мерлом в Frank's Waffles в Tequesta и назови код — начнётся миссия The Final Flush.",
+          "Езжай за его фургоном к очистной станции в Hamlet. Когда спросят, выбери Defuse и Lie. Не взрывай Мерла и ворота — миссию можно провалить.",
+          "Наверху переключи средний и нижний красные огни на зелёный и дёрни главный рычаг; внизу нажми красную кнопку."
+        ],
+        "ja": [
+          "「Stop! Don't Flush」のポスターを探し、WAiNKアプリでQRコードを読み取ります（通常のカメラでは読めません）。",
+          "ページに従うとメッセージが届くので、TRUTHと返信してNo Flushersに加入。コード00-00-02がもらえます。",
+          "夜にTequestaのFrank's WafflesでDr.マールに会い、コードを伝えるとミッション「The Final Flush」開始。",
+          "彼のバンを追ってHamletの下水処理場へ。選択肢はDefuseとLie。マールや門を爆破すると失敗することがあります。",
+          "上の階で中央と下の赤いランプを緑にしてメインレバーを引き、下の階で赤いボタンを押します。"
+        ],
+        "ko": [
+          "「Stop! Don't Flush」 포스터를 찾아 WAiNK 앱으로 QR 코드를 스캔하세요(일반 카메라로는 안 읽혀요).",
+          "페이지를 따라가면 문자가 오니 TRUTH라고 답해 No Flushers에 가입하세요. 코드 00-00-02를 받아요.",
+          "밤에 Tequesta의 Frank's Waffles에서 멀 박사를 만나 코드를 알려 주면 The Final Flush가 시작돼요.",
+          "그의 밴을 따라 Hamlet의 하수 처리장으로 가세요. 선택지에서 Defuse와 Lie를 고르세요. 멀이나 정문을 폭파하면 미션이 실패할 수 있어요.",
+          "위층에서 가운데와 아래쪽 빨간 불을 초록으로 바꾸고 메인 레버를 당긴 뒤, 아래층에서 빨간 버튼을 누르세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 688.2,
+          "y": 1046.2,
+          "r": 10.7,
+          "n": "1"
+        },
+        {
+          "x": 685.9,
+          "y": 836.6,
+          "r": 12.2,
+          "n": "2"
+        },
+        {
+          "x": 568.9,
+          "y": 951.4,
+          "r": 16.8,
+          "n": "3"
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/dont-flush-qr-code-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gtabase.com/gta-6/strangers/the-final-flush",
+          "source": "GTABase",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.thegamer.com/grand-theft-auto-6-the-final-flush-walkthrough/",
+          "source": "TheGamer",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, GTABase, TheGamer, Sportskeeda. Merle appears at night. Blowing up Merle or the gate can fail it (gta6bugs)."
+    },
+    {
+      "id": "ghost-ship",
+      "kind": "secret",
+      "mode": "story",
+      "title": {
+        "en": "The lighthouse ghosts and the Cursed Knife",
+        "es": "Los fantasmas del faro y el Cuchillo Maldito",
+        "pt-BR": "Os fantasmas do farol e a Faca Amaldiçoada",
+        "de": "Die Leuchtturmgeister und das Verfluchte Messer",
+        "it": "I fantasmi del faro e il Coltello Maledetto",
+        "fr": "Les fantômes du phare et le Couteau Maudit",
+        "ru": "Призраки маяка и Проклятый нож",
+        "ja": "灯台の幽霊と呪われたナイフ",
+        "ko": "등대의 유령과 저주받은 칼"
+      },
+      "summary": {
+        "en": "A night-time ghost story at a lonely lighthouse: two ghosts, a keeper's journal, a sunken wreck with a cursed knife and a ghost ship on the horizon.",
+        "es": "Una historia de fantasmas nocturna en un faro solitario: dos fantasmas, el diario del farero, un pecio con un cuchillo maldito y un barco fantasma en el horizonte.",
+        "pt-BR": "Uma história de fantasmas à noite num farol solitário: dois fantasmas, o diário do faroleiro, um naufrágio com uma faca amaldiçoada e um navio fantasma no horizonte.",
+        "de": "Eine nächtliche Geistergeschichte an einem einsamen Leuchtturm: zwei Geister, das Tagebuch des Wärters, ein Wrack mit einem verfluchten Messer und ein Geisterschiff am Horizont.",
+        "it": "Una storia di fantasmi notturna in un faro solitario: due fantasmi, il diario del guardiano, un relitto con un coltello maledetto e una nave fantasma all'orizzonte.",
+        "fr": "Une histoire de fantômes nocturne dans un phare isolé : deux fantômes, le journal du gardien, une épave avec un couteau maudit et un vaisseau fantôme à l'horizon.",
+        "ru": "Ночная история о призраках у одинокого маяка: два призрака, дневник смотрителя, затонувшее судно с проклятым ножом и корабль-призрак на горизонте.",
+        "ja": "寂しい灯台で起こる夜の怪談。2人の幽霊、灯台守の日誌、呪われたナイフが眠る沈没船、そして水平線の幽霊船。",
+        "ko": "외딴 등대의 밤 유령 이야기. 두 유령, 등대지기의 일지, 저주받은 칼이 있는 난파선, 수평선의 유령선까지."
+      },
+      "location": {
+        "en": "St. Lucia lighthouse on Little Hardin Island, off the coast of Leonard County. The wreck lies off the island's eastern point.",
+        "es": "Faro de St. Lucia en Little Hardin Island, frente a la costa de Leonard County. El pecio está frente al extremo este de la isla.",
+        "pt-BR": "Farol de St. Lucia na Little Hardin Island, na costa de Leonard County. O naufrágio fica na ponta leste da ilha.",
+        "de": "Leuchtturm St. Lucia auf Little Hardin Island vor der Küste von Leonard County. Das Wrack liegt vor der Ostspitze der Insel.",
+        "it": "Faro di St. Lucia su Little Hardin Island, al largo della costa di Leonard County. Il relitto è davanti alla punta est dell'isola.",
+        "fr": "Phare de St. Lucia sur Little Hardin Island, au large de Leonard County. L'épave se trouve au large de la pointe est de l'île.",
+        "ru": "Маяк St. Lucia на острове Little Hardin у побережья Leonard County. Затонувшее судно — у восточной оконечности острова.",
+        "ja": "Leonard County沖、Little Hardin Islandのセント・ルシア灯台。沈没船は島の東端の沖にあります。",
+        "ko": "Leonard County 앞바다 Little Hardin Island의 세인트 루시아 등대. 난파선은 섬 동쪽 끝 앞바다에 있어요."
+      },
+      "reward": {
+        "en": "The Cursed Knife, a unique knife",
+        "es": "El Cuchillo Maldito, un cuchillo único",
+        "pt-BR": "A Faca Amaldiçoada, uma faca única",
+        "de": "Das Verfluchte Messer, ein einzigartiges Messer",
+        "it": "Il Coltello Maledetto, un coltello unico",
+        "fr": "Le Couteau Maudit, un couteau unique",
+        "ru": "Проклятый нож — уникальный нож",
+        "ja": "ユニークナイフ「呪われたナイフ」",
+        "ko": "특별한 칼, 저주받은 칼"
+      },
+      "steps": {
+        "en": [
+          "Come at night. Watch the lighthouse with binoculars: two ghosts argue and one pushes the other off. Then climb the lighthouse.",
+          "Climb down, break into the house northwest of the lighthouse and read the keeper's book by the fireplace.",
+          "Around 1:00-1:30 AM, take the boat with scuba gear from the dock by the house to the island's eastern point. The engine dies and fog rolls in.",
+          "Dive to the sunken boat (a metal detector helps) and take the Cursed Knife. Be quick: the event ends at dawn.",
+          "Before daylight, climb back to the top of the lighthouse and look out to sea for the ghost ship."
+        ],
+        "es": [
+          "Ve de noche. Observa el faro con prismáticos: dos fantasmas discuten y uno empuja al otro. Luego sube al faro.",
+          "Baja, entra a la fuerza en la casa al noroeste del faro y lee el libro del farero junto a la chimenea.",
+          "Hacia la 1:00-1:30 AM, toma el barco con equipo de buceo del muelle junto a la casa y ve al extremo este de la isla. El motor se apaga y llega la niebla.",
+          "Bucea hasta el barco hundido (un detector de metales ayuda) y toma el Cuchillo Maldito. Date prisa: el evento termina al amanecer.",
+          "Antes de que salga el sol, vuelve a lo alto del faro y busca el barco fantasma en el mar."
+        ],
+        "pt-BR": [
+          "Vá à noite. Observe o farol com binóculos: dois fantasmas discutem e um empurra o outro. Depois suba o farol.",
+          "Desça, arrombe a casa a noroeste do farol e leia o livro do faroleiro perto da lareira.",
+          "Por volta de 1h-1h30, pegue o barco com equipamento de mergulho no cais ao lado da casa e vá até a ponta leste da ilha. O motor morre e a névoa chega.",
+          "Mergulhe até o barco afundado (um detector de metais ajuda) e pegue a Faca Amaldiçoada. Seja rápido: o evento acaba ao amanhecer.",
+          "Antes do dia clarear, volte ao topo do farol e procure o navio fantasma no mar."
+        ],
+        "de": [
+          "Komm nachts. Beobachte den Leuchtturm mit dem Fernglas: Zwei Geister streiten, einer stößt den anderen hinunter. Dann steig auf den Leuchtturm.",
+          "Steig hinunter, brich in das Haus nordwestlich des Leuchtturms ein und lies das Buch des Wärters am Kamin.",
+          "Gegen 1:00-1:30 Uhr nimm das Boot mit Tauchausrüstung vom Steg am Haus zur Ostspitze der Insel. Der Motor geht aus, Nebel zieht auf.",
+          "Tauch zum gesunkenen Boot (ein Metalldetektor hilft) und nimm das Verfluchte Messer. Beeil dich: Mit der Morgendämmerung ist es vorbei.",
+          "Steig vor Tagesanbruch wieder auf den Leuchtturm und halte nach dem Geisterschiff Ausschau."
+        ],
+        "it": [
+          "Vai di notte. Osserva il faro col binocolo: due fantasmi litigano e uno spinge l'altro giù. Poi sali sul faro.",
+          "Scendi, entra con la forza nella casa a nord-ovest del faro e leggi il libro del guardiano vicino al camino.",
+          "Verso l'1:00-1:30 prendi la barca con l'attrezzatura da sub dal pontile accanto alla casa e vai alla punta est dell'isola. Il motore si spegne e arriva la nebbia.",
+          "Immergiti fino alla barca affondata (il metal detector aiuta) e prendi il Coltello Maledetto. Fai in fretta: l'evento finisce all'alba.",
+          "Prima che faccia giorno, torna in cima al faro e cerca la nave fantasma all'orizzonte."
+        ],
+        "fr": [
+          "Venez la nuit. Observez le phare aux jumelles : deux fantômes se disputent et l'un pousse l'autre. Puis montez au phare.",
+          "Redescendez, forcez la maison au nord-ouest du phare et lisez le livre du gardien près de la cheminée.",
+          "Vers 1 h-1 h 30, prenez le bateau avec l'équipement de plongée au ponton près de la maison et allez à la pointe est de l'île. Le moteur cale, le brouillard arrive.",
+          "Plongez jusqu'au bateau coulé (un détecteur de métaux aide) et prenez le Couteau Maudit. Faites vite : l'événement s'arrête à l'aube.",
+          "Avant le jour, remontez en haut du phare et cherchez le vaisseau fantôme au large."
+        ],
+        "ru": [
+          "Приходи ночью. Посмотри на маяк в бинокль: два призрака ссорятся, один сталкивает другого. Затем поднимись на маяк.",
+          "Спустись, вломись в дом северо-западнее маяка и прочитай книгу смотрителя у камина.",
+          "Около 1:00–1:30 возьми у причала рядом с домом лодку со снаряжением для дайвинга и плыви к восточной оконечности острова. Мотор заглохнет, придёт туман.",
+          "Нырни к затонувшей лодке (поможет металлоискатель) и забери Проклятый нож. Не тяни: на рассвете всё исчезнет.",
+          "До рассвета поднимись на вершину маяка и высматривай в море корабль-призрак."
+        ],
+        "ja": [
+          "夜に行き、双眼鏡で灯台を見ると2人の幽霊が口論し、1人が突き落とします。その後灯台に登ります。",
+          "降りたら灯台の北西の家に押し入り、暖炉のそばの灯台守の本を読みます。",
+          "午前1:00〜1:30ごろ、家の横の桟橋からダイビング装備付きのボートで島の東端へ。エンジンが止まり霧が出ます。",
+          "沈没船まで潜り（金属探知機が便利）、呪われたナイフを入手。夜明けまでに急いで。",
+          "夜が明ける前に灯台の頂上へ戻り、海に幽霊船を探します。"
+        ],
+        "ko": [
+          "밤에 가서 쌍안경으로 등대를 보면 두 유령이 다투다 하나가 다른 하나를 밀어요. 그다음 등대에 오르세요.",
+          "내려와서 등대 북서쪽 집에 침입해 벽난로 옆 등대지기의 책을 읽으세요.",
+          "새벽 1:00~1:30쯤 집 옆 선착장에서 다이빙 장비가 있는 보트를 타고 섬 동쪽 끝으로 가세요. 엔진이 꺼지고 안개가 껴요.",
+          "가라앉은 배까지 잠수해(금속 탐지기가 도움 돼요) 저주받은 칼을 챙기세요. 새벽이 오면 끝나니 서두르세요.",
+          "날이 밝기 전에 등대 꼭대기로 돌아가 바다에서 유령선을 찾아보세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 793.0,
+          "y": 324.0,
+          "r": 13.8
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/ghost-ship/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gtaboom.com/gta-6-ghost-lighthouse-cursed-knife-ghost-ship-guide-6682",
+          "source": "GTABoom",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, GTABoom, handheld.guru. Start time varies (10 PM / after midnight); dive around 1-1:30 AM; ship visible from the top before dawn."
+    },
+    {
+      "id": "red-hulk",
+      "kind": "secret",
+      "mode": "story",
+      "title": {
+        "en": "Kyle the crop duster and the Red Hulk",
+        "es": "Kyle el fumigador y el Hulk Rojo",
+        "pt-BR": "Kyle, o piloto agrícola, e o Hulk Vermelho",
+        "de": "Kyle der Sprühflieger und der Rote Hulk",
+        "it": "Kyle il pilota agricolo e l'Hulk Rosso",
+        "fr": "Kyle le pilote d'épandage et le Hulk Rouge",
+        "ru": "Пилот Кайл и Красный Халк",
+        "ja": "農薬散布パイロットのカイルとレッドハルク",
+        "ko": "농약 살포 조종사 카일과 레드 헐크"
+      },
+      "summary": {
+        "en": "A strange side story on a Kelly County farm: help pilot Kyle with his chemicals, and in Chapter 3 he turns into something big, red and angry. You choose how it ends.",
+        "es": "Una historia secundaria rara en una granja de Kelly County: ayuda al piloto Kyle con sus químicos y en el capítulo 3 se convierte en algo grande, rojo y furioso. Tú eliges el final.",
+        "pt-BR": "Uma história paralela estranha numa fazenda de Kelly County: ajude o piloto Kyle com os químicos e no capítulo 3 ele vira algo grande, vermelho e furioso. Você escolhe o final.",
+        "de": "Eine seltsame Nebengeschichte auf einer Farm in Kelly County: Hilf Pilot Kyle mit seinen Chemikalien, und in Kapitel 3 wird er zu etwas Großem, Rotem und Wütendem. Du wählst das Ende.",
+        "it": "Una strana storia secondaria in una fattoria di Kelly County: aiuta il pilota Kyle con i suoi prodotti chimici e nel capitolo 3 diventa qualcosa di grosso, rosso e furioso. Scegli tu il finale.",
+        "fr": "Une étrange histoire secondaire dans une ferme de Kelly County : aidez le pilote Kyle avec ses produits chimiques, et au chapitre 3 il devient quelque chose de grand, rouge et furieux. Vous choisissez la fin.",
+        "ru": "Странная побочная история на ферме в Kelly County: помоги пилоту Кайлу с химикатами, а в 3-й главе он превратится в нечто большое, красное и злое. Концовку выбираешь ты.",
+        "ja": "Kelly Countyの農場の奇妙なサイドストーリー。パイロットのカイルの薬品集めを手伝うと、第3章で彼は大きく赤く怒れる何かに。結末は自分で選べます。",
+        "ko": "Kelly County 농장의 이상한 사이드 스토리. 조종사 카일의 약품을 도와주면 3장에서 그가 크고 빨갛고 화난 무언가로 변해요. 결말은 직접 골라요."
+      },
+      "location": {
+        "en": "McKittrick Farm in Frogswater, Kelly County: northeast of the Starlet Motel, east of Port Gellhorn.",
+        "es": "Granja McKittrick en Frogswater, Kelly County: al noreste del Starlet Motel, al este de Port Gellhorn.",
+        "pt-BR": "Fazenda McKittrick em Frogswater, Kelly County: a nordeste do Starlet Motel, a leste de Port Gellhorn.",
+        "de": "McKittrick-Farm in Frogswater, Kelly County: nordöstlich des Starlet Motel, östlich von Port Gellhorn.",
+        "it": "Fattoria McKittrick a Frogswater, Kelly County: a nord-est dello Starlet Motel, a est di Port Gellhorn.",
+        "fr": "Ferme McKittrick à Frogswater, Kelly County : au nord-est du Starlet Motel, à l'est de Port Gellhorn.",
+        "ru": "Ферма Маккитриков во Frogswater, Kelly County: северо-восточнее Starlet Motel, восточнее Port Gellhorn.",
+        "ja": "Kelly County、FrogswaterのマキットリックFarm。Starlet Motelの北東、Port Gellhornの東。",
+        "ko": "Kelly County Frogswater의 맥키트릭 농장. Starlet Motel 북동쪽, Port Gellhorn 동쪽."
+      },
+      "reward": {
+        "en": "$5,000 if you kill him; sparing him unlocks a hug",
+        "es": "5000 $ si lo matas; perdonarlo desbloquea un abrazo",
+        "pt-BR": "US$ 5.000 se matar; poupar libera um abraço",
+        "de": "5.000 $, wenn du ihn tötest; Verschonen schaltet eine Umarmung frei",
+        "it": "5.000 $ se lo uccidi; risparmiarlo sblocca un abbraccio",
+        "fr": "5 000 $ si vous le tuez ; l'épargner débloque un câlin",
+        "ru": "5000 $ за убийство; если пощадить — можно обняться",
+        "ja": "倒すと5,000ドル。見逃すとハグが可能に",
+        "ko": "처치하면 5,000달러, 살려 주면 포옹 가능"
+      },
+      "steps": {
+        "en": [
+          "In Chapter 2, read the 'Pilot Wanted' flyer in the Starlet Motel reception.",
+          "Go to the airstrip northeast of the motel, meet Kyle when he lands, then do 'Check Out McKittrick Farm' and 'Collect Chemicals for Kyle'.",
+          "In Chapter 3, after Kyle's last text, return to the farm for 'Buddy? (Check on Kyle)'.",
+          "Search for him: the Red Hulk shows up at the barn. Kill him for cash or spare him (you can even hug him, but it hurts)."
+        ],
+        "es": [
+          "En el capítulo 2, lee el folleto «Pilot Wanted» en la recepción del Starlet Motel.",
+          "Ve a la pista al noreste del motel, conoce a Kyle cuando aterrice y haz «Check Out McKittrick Farm» y «Collect Chemicals for Kyle».",
+          "En el capítulo 3, tras el último mensaje de Kyle, vuelve a la granja para «Buddy? (Check on Kyle)».",
+          "Búscalo: el Hulk Rojo aparece en el granero. Mátalo por dinero o perdónale la vida (incluso puedes abrazarlo, pero duele)."
+        ],
+        "pt-BR": [
+          "No capítulo 2, leia o folheto «Pilot Wanted» na recepção do Starlet Motel.",
+          "Vá à pista a nordeste do motel, conheça Kyle quando ele pousar e faça «Check Out McKittrick Farm» e «Collect Chemicals for Kyle».",
+          "No capítulo 3, depois da última mensagem do Kyle, volte à fazenda para «Buddy? (Check on Kyle)».",
+          "Procure por ele: o Hulk Vermelho aparece no celeiro. Mate-o pelo dinheiro ou poupe-o (dá até para abraçar, mas machuca)."
+        ],
+        "de": [
+          "Lies in Kapitel 2 den Flyer «Pilot Wanted» an der Rezeption des Starlet Motel.",
+          "Fahr zur Landebahn nordöstlich des Motels, triff Kyle nach der Landung und erledige «Check Out McKittrick Farm» und «Collect Chemicals for Kyle».",
+          "Kehr in Kapitel 3 nach Kyles letzter SMS zur Farm zurück für «Buddy? (Check on Kyle)».",
+          "Such ihn: Der Rote Hulk taucht an der Scheune auf. Töte ihn für Geld oder verschone ihn (du kannst ihn sogar umarmen, aber das tut weh)."
+        ],
+        "it": [
+          "Nel capitolo 2 leggi il volantino «Pilot Wanted» alla reception dello Starlet Motel.",
+          "Vai alla pista a nord-est del motel, incontra Kyle all'atterraggio e completa «Check Out McKittrick Farm» e «Collect Chemicals for Kyle».",
+          "Nel capitolo 3, dopo l'ultimo SMS di Kyle, torna alla fattoria per «Buddy? (Check on Kyle)».",
+          "Cercalo: l'Hulk Rosso compare al fienile. Uccidilo per i soldi o risparmialo (puoi persino abbracciarlo, ma fa male)."
+        ],
+        "fr": [
+          "Au chapitre 2, lisez le prospectus « Pilot Wanted » à l'accueil du Starlet Motel.",
+          "Allez à la piste au nord-est du motel, rencontrez Kyle à l'atterrissage puis faites « Check Out McKittrick Farm » et « Collect Chemicals for Kyle ».",
+          "Au chapitre 3, après le dernier SMS de Kyle, retournez à la ferme pour « Buddy? (Check on Kyle) ».",
+          "Cherchez-le : le Hulk Rouge surgit à la grange. Tuez-le pour l'argent ou épargnez-le (vous pouvez même l'enlacer, mais ça fait mal)."
+        ],
+        "ru": [
+          "Во 2-й главе прочитай листовку «Pilot Wanted» на ресепшене Starlet Motel.",
+          "Езжай на взлётную полосу северо-восточнее мотеля, встреть Кайла после посадки и пройди «Check Out McKittrick Farm» и «Collect Chemicals for Kyle».",
+          "В 3-й главе, после последнего SMS от Кайла, вернись на ферму на «Buddy? (Check on Kyle)».",
+          "Ищи его: у амбара появится Красный Халк. Убей ради денег или пощади (можно даже обнять, но будет больно)."
+        ],
+        "ja": [
+          "第2章でStarlet Motelの受付にある「Pilot Wanted」のチラシを読みます。",
+          "モーテル北東の滑走路でカイルの着陸を待って会い、「Check Out McKittrick Farm」と「Collect Chemicals for Kyle」をこなします。",
+          "第3章でカイルから最後のメッセージが来たら農場に戻り「Buddy? (Check on Kyle)」を開始。",
+          "彼を探すと納屋にレッドハルクが現れます。倒して報酬を得るか、見逃すか（ハグもできますがダメージを受けます）。"
+        ],
+        "ko": [
+          "2장에서 Starlet Motel 접수처의 「Pilot Wanted」 전단을 읽으세요.",
+          "모텔 북동쪽 활주로에서 착륙한 카일을 만나 「Check Out McKittrick Farm」과 「Collect Chemicals for Kyle」을 하세요.",
+          "3장에서 카일의 마지막 문자를 받은 뒤 농장으로 돌아가 「Buddy? (Check on Kyle)」을 시작하세요.",
+          "그를 찾다 보면 헛간에 레드 헐크가 나타나요. 처치해 돈을 받거나 살려 줄 수 있어요(안아 줄 수도 있지만 아파요)."
+        ]
+      },
+      "map": [
+        {
+          "x": 442.6,
+          "y": 465.6,
+          "r": 23.0
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/red-hulk-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gfinityesports.com/article/gta-6-how-to-find-the-red-hulk-easter-egg",
+          "source": "Gfinity",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, Gfinity, Game8, theclick. Kyle McKittrick questline; barn scene details vary."
+    },
+    {
+      "id": "christine-car",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "Christine, Stephen King's car",
+        "es": "Christine, el coche de Stephen King",
+        "pt-BR": "Christine, o carro de Stephen King",
+        "de": "Christine, das Auto von Stephen King",
+        "it": "Christine, l'auto di Stephen King",
+        "fr": "Christine, la voiture de Stephen King",
+        "ru": "Кристина — машина из романа Кинга",
+        "ja": "スティーヴン・キングの車クリスティーン",
+        "ko": "스티븐 킹의 차 크리스틴"
+      },
+      "summary": {
+        "en": "The possessed car from Christine waits in a farm garage: red headlights and the plate P05 ESD. You can drive it away and keep it.",
+        "es": "El coche poseído de Christine espera en el garaje de una granja: faros rojos y matrícula P05 ESD. Puedes llevártelo y quedártelo.",
+        "pt-BR": "O carro possuído de Christine espera na garagem de uma fazenda: faróis vermelhos e placa P05 ESD. Dá para levar e ficar com ele.",
+        "de": "Das besessene Auto aus Christine wartet in einer Farmgarage: rote Scheinwerfer und das Kennzeichen P05 ESD. Du kannst es mitnehmen und behalten.",
+        "it": "L'auto posseduta di Christine aspetta nel garage di una fattoria: fari rossi e targa P05 ESD. Puoi portarla via e tenerla.",
+        "fr": "La voiture possédée de Christine attend dans le garage d'une ferme : phares rouges et plaque P05 ESD. Vous pouvez la prendre et la garder.",
+        "ru": "Одержимая машина из «Кристины» ждёт в гараже на ферме: красные фары и номер P05 ESD. Её можно угнать и оставить себе.",
+        "ja": "『クリスティーン』の呪われた車が農場のガレージに。赤いヘッドライトとナンバー「P05 ESD」。乗って持ち帰れます。",
+        "ko": "「크리스틴」의 저주받은 차가 농장 차고에 있어요. 빨간 헤드라이트와 번호판 P05 ESD. 몰고 가서 가질 수 있어요."
+      },
+      "location": {
+        "en": "A farmhouse in North Leonard County. The car is in the small garage opposite the house.",
+        "es": "Una granja en North Leonard County. El coche está en el pequeño garaje frente a la casa.",
+        "pt-BR": "Uma casa de fazenda em North Leonard County. O carro fica na pequena garagem em frente à casa.",
+        "de": "Ein Farmhaus in North Leonard County. Das Auto steht in der kleinen Garage gegenüber dem Haus.",
+        "it": "Una fattoria a North Leonard County. L'auto è nel piccolo garage di fronte alla casa.",
+        "fr": "Une ferme à North Leonard County. La voiture est dans le petit garage en face de la maison.",
+        "ru": "Фермерский дом в North Leonard County. Машина — в маленьком гараже напротив дома.",
+        "ja": "North Leonard Countyの農家。車は家の向かいの小さなガレージにあります。",
+        "ko": "North Leonard County의 농가. 차는 집 맞은편 작은 차고에 있어요."
+      },
+      "reward": {
+        "en": "The Albany Driveshaft Devanity (Christine) to keep",
+        "es": "El Albany Driveshaft Devanity (Christine) para quedártelo",
+        "pt-BR": "O Albany Driveshaft Devanity (Christine) para ficar",
+        "de": "Den Albany Driveshaft Devanity (Christine) zum Behalten",
+        "it": "L'Albany Driveshaft Devanity (Christine) da tenere",
+        "fr": "L'Albany Driveshaft Devanity (Christine) à garder",
+        "ru": "Albany Driveshaft Devanity («Кристина») в свой гараж",
+        "ja": "Albany Driveshaft Devanity（クリスティーン）を入手",
+        "ko": "Albany Driveshaft Devanity(크리스틴) 획득"
+      },
+      "steps": {
+        "en": [
+          "Drive to the farmhouse in North Leonard County.",
+          "Open the small garage opposite the house: the red Albany Driveshaft Devanity is inside.",
+          "Get in and drive it away. Register it at a workshop to keep it."
+        ],
+        "es": [
+          "Ve a la granja de North Leonard County.",
+          "Abre el pequeño garaje frente a la casa: dentro está el Albany Driveshaft Devanity rojo.",
+          "Súbete y llévatelo. Regístralo en un taller para quedártelo."
+        ],
+        "pt-BR": [
+          "Vá até a fazenda em North Leonard County.",
+          "Abra a pequena garagem em frente à casa: o Albany Driveshaft Devanity vermelho está lá.",
+          "Entre e saia dirigindo. Registre numa oficina para ficar com ele."
+        ],
+        "de": [
+          "Fahr zum Farmhaus in North Leonard County.",
+          "Öffne die kleine Garage gegenüber dem Haus: Darin steht der rote Albany Driveshaft Devanity.",
+          "Steig ein und fahr los. Lass ihn in einer Werkstatt registrieren, um ihn zu behalten."
+        ],
+        "it": [
+          "Vai alla fattoria di North Leonard County.",
+          "Apri il piccolo garage di fronte alla casa: dentro c'è l'Albany Driveshaft Devanity rossa.",
+          "Sali e portala via. Registrala in un'officina per tenerla."
+        ],
+        "fr": [
+          "Rendez-vous à la ferme de North Leonard County.",
+          "Ouvrez le petit garage en face de la maison : l'Albany Driveshaft Devanity rouge est dedans.",
+          "Montez et partez avec. Enregistrez-la dans un atelier pour la garder."
+        ],
+        "ru": [
+          "Езжай к ферме в North Leonard County.",
+          "Открой маленький гараж напротив дома — внутри красный Albany Driveshaft Devanity.",
+          "Садись и уезжай. Зарегистрируй машину в мастерской, чтобы оставить себе."
+        ],
+        "ja": [
+          "North Leonard Countyの農家へ向かいます。",
+          "家の向かいの小さなガレージを開けると、赤いAlbany Driveshaft Devanityが。",
+          "乗り込んで走り去り、工房で登録すれば自分の車に。"
+        ],
+        "ko": [
+          "North Leonard County의 농가로 가세요.",
+          "집 맞은편 작은 차고를 열면 빨간 Albany Driveshaft Devanity가 있어요.",
+          "타고 떠난 뒤 정비소에서 등록하면 내 차가 돼요."
+        ]
+      },
+      "map": [
+        {
+          "x": 614.8,
+          "y": 339.3,
+          "r": 26.8
+        }
+      ],
+      "free": false,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/christine-stephen-king/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://gta6bugs.com/easter-eggs/christine-driveshaft-devanity-north-leonard-county-farmhouse",
+          "source": "gta6bugs",
+          "source_type": "fansite",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto + gta6bugs. Plate P05 ESD. Model year reported as '58/'59."
+    },
+    {
+      "id": "dom-vamos",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "Dom Toretto's muscle car",
+        "es": "El muscle car de Dom Toretto",
+        "pt-BR": "O muscle car do Dom Toretto",
+        "de": "Dom Torettos Muscle-Car",
+        "it": "La muscle car di Dom Toretto",
+        "fr": "La muscle car de Dom Toretto",
+        "ru": "Маслкар Доминика Торетто",
+        "ja": "ドム・トレットのマッスルカー",
+        "ko": "돔 토레토의 머슬카"
+      },
+      "summary": {
+        "en": "Another Fast & Furious nod: a red-and-black '74 Declasse Vamos like Dom's Chevelle sits in a garage in Capri, free to take.",
+        "es": "Otro guiño a Rápidos y furiosos: un Declasse Vamos del 74 rojo y negro, como el Chevelle de Dom, espera en un garaje de Capri, listo para llevártelo.",
+        "pt-BR": "Outra referência a Velozes e Furiosos: um Declasse Vamos 74 vermelho e preto, como o Chevelle do Dom, espera numa garagem em Capri, pronto para levar.",
+        "de": "Noch eine Fast-&-Furious-Anspielung: Ein rot-schwarzer Declasse Vamos von '74 wie Doms Chevelle steht in einer Garage in Capri und wartet auf dich.",
+        "it": "Un altro omaggio a Fast & Furious: una Declasse Vamos del '74 rossa e nera, come la Chevelle di Dom, aspetta in un garage di Capri.",
+        "fr": "Un autre clin d'œil à Fast & Furious : une Declasse Vamos de 74 rouge et noire, comme la Chevelle de Dom, attend dans un garage à Capri.",
+        "ru": "Ещё одна отсылка к «Форсажу»: красно-чёрный Declasse Vamos 74-го года, как Chevelle Дома, стоит в гараже в Capri — забирай.",
+        "ja": "もう一つの『ワイルド・スピード』ネタ。ドムのシェベルのような赤黒の'74 Declasse VamosがCapriのガレージに眠っています。",
+        "ko": "또 하나의 「분노의 질주」 오마주. 돔의 쉐벨 같은 빨강·검정 '74 Declasse Vamos가 Capri의 차고에 있어요."
+      },
+      "location": {
+        "en": "West side of Capri: a house with a supercar parked in the driveway. The car is behind the large brown garage door left of the entrance.",
+        "es": "Lado oeste de Capri: una casa con un superdeportivo en la entrada. El coche está tras la gran puerta marrón del garaje, a la izquierda de la entrada.",
+        "pt-BR": "Lado oeste de Capri: uma casa com um superesportivo na entrada. O carro fica atrás do grande portão marrom à esquerda da entrada.",
+        "de": "Westseite von Capri: ein Haus mit einem Supersportwagen in der Einfahrt. Das Auto steht hinter dem großen braunen Garagentor links vom Eingang.",
+        "it": "Lato ovest di Capri: una casa con una supercar nel vialetto. L'auto è dietro la grande saracinesca marrone a sinistra dell'ingresso.",
+        "fr": "Ouest de Capri : une maison avec une supercar dans l'allée. La voiture est derrière la grande porte de garage marron à gauche de l'entrée.",
+        "ru": "Западная часть Capri: дом с суперкаром у въезда. Машина — за большими коричневыми воротами гаража слева от входа.",
+        "ja": "Capriの西側、私道にスーパーカーが停まっている家。車は入口左の大きな茶色のガレージの中です。",
+        "ko": "Capri 서쪽, 진입로에 슈퍼카가 서 있는 집. 차는 입구 왼쪽의 큰 갈색 차고 안에 있어요."
+      },
+      "reward": {
+        "en": "The '74 Declasse Vamos to keep",
+        "es": "El Declasse Vamos del 74 para quedártelo",
+        "pt-BR": "O Declasse Vamos 74 para ficar",
+        "de": "Den Declasse Vamos von '74 zum Behalten",
+        "it": "La Declasse Vamos del '74 da tenere",
+        "fr": "La Declasse Vamos de 74 à garder",
+        "ru": "Declasse Vamos 74-го года в свой гараж",
+        "ja": "'74 Declasse Vamosを入手",
+        "ko": "'74 Declasse Vamos 획득"
+      },
+      "steps": {
+        "en": [
+          "Find the house with the supercar in the driveway on the west side of Capri.",
+          "Break open the brown garage door left of the entrance (no code needed).",
+          "Get into the Vamos (Slim Jim or a broken window) and take it to a workshop to register it."
+        ],
+        "es": [
+          "Busca la casa con el superdeportivo en la entrada, en el oeste de Capri.",
+          "Fuerza la puerta marrón del garaje a la izquierda de la entrada (no hace falta código).",
+          "Entra en el Vamos (con Slim Jim o rompiendo una ventana) y llévalo a un taller para registrarlo."
+        ],
+        "pt-BR": [
+          "Ache a casa com o superesportivo na entrada, no oeste de Capri.",
+          "Arrombe o portão marrom à esquerda da entrada (não precisa de código).",
+          "Entre no Vamos (com Slim Jim ou quebrando um vidro) e leve a uma oficina para registrar."
+        ],
+        "de": [
+          "Such im Westen von Capri das Haus mit dem Supersportwagen in der Einfahrt.",
+          "Brich das braune Garagentor links vom Eingang auf (kein Code nötig).",
+          "Steig in den Vamos (Slim Jim oder Scheibe einschlagen) und bring ihn zum Registrieren in eine Werkstatt."
+        ],
+        "it": [
+          "Trova la casa con la supercar nel vialetto, a ovest di Capri.",
+          "Forza la saracinesca marrone a sinistra dell'ingresso (niente codice).",
+          "Entra nella Vamos (Slim Jim o finestrino rotto) e portala in officina per registrarla."
+        ],
+        "fr": [
+          "Trouvez la maison avec la supercar dans l'allée, à l'ouest de Capri.",
+          "Forcez la porte de garage marron à gauche de l'entrée (pas de code).",
+          "Montez dans la Vamos (Slim Jim ou vitre cassée) et emmenez-la dans un atelier pour l'enregistrer."
+        ],
+        "ru": [
+          "Найди на западе Capri дом с суперкаром у въезда.",
+          "Взломай коричневые ворота гаража слева от входа (код не нужен).",
+          "Попади в Vamos (Slim Jim или разбей стекло) и отгони в мастерскую, чтобы зарегистрировать."
+        ],
+        "ja": [
+          "Capri西側で、私道にスーパーカーがある家を探します。",
+          "入口左の茶色のガレージをこじ開けます（コード不要）。",
+          "Vamosに乗り込み（スリムジムか窓を割る）、工房で登録します。"
+        ],
+        "ko": [
+          "Capri 서쪽에서 진입로에 슈퍼카가 있는 집을 찾으세요.",
+          "입구 왼쪽의 갈색 차고 문을 따세요(코드 필요 없음).",
+          "Vamos에 타고(슬림짐이나 창문 깨기) 정비소에서 등록하세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 259.0,
+          "y": 733.3,
+          "r": 12.2
+        }
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/dominic-toretto-fast-and-furious-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://game8.co/games/GTA-6/archives/639229",
+          "source": "Game8",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.theclick.gg/gta-6-dom-toretto-car-location/",
+          "source": "TheClick",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, Game8, TheClick. Not the keypad Vamos near Grayson (Moses, code 2727)."
+    },
+    {
+      "id": "ninja-turtles",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "Four turtles and a rat",
+        "es": "Cuatro tortugas y una rata",
+        "pt-BR": "Quatro tartarugas e um rato",
+        "de": "Vier Schildkröten und eine Ratte",
+        "it": "Quattro tartarughe e un ratto",
+        "fr": "Quatre tortues et un rat",
+        "ru": "Четыре черепахи и крыса",
+        "ja": "4匹のカメとネズミ",
+        "ko": "거북이 넷과 쥐 하나"
+      },
+      "summary": {
+        "en": "A Teenage Mutant Ninja Turtles nod: at night, four turtles and a rat share pizza in a storm drain.",
+        "es": "Un guiño a las Tortugas Ninja: de noche, cuatro tortugas y una rata comparten pizza en un desagüe.",
+        "pt-BR": "Uma referência às Tartarugas Ninja: à noite, quatro tartarugas e um rato dividem pizza num bueiro.",
+        "de": "Eine Ninja-Turtles-Anspielung: Nachts teilen sich vier Schildkröten und eine Ratte in einem Abflusskanal eine Pizza.",
+        "it": "Un omaggio alle Tartarughe Ninja: di notte quattro tartarughe e un ratto si dividono una pizza in un canale di scolo.",
+        "fr": "Un clin d'œil aux Tortues Ninja : la nuit, quatre tortues et un rat partagent une pizza dans un égout pluvial.",
+        "ru": "Отсылка к Черепашкам-ниндзя: ночью в ливневом стоке четыре черепахи и крыса делят пиццу.",
+        "ja": "ミュータント・タートルズへのオマージュ。夜になると雨水路で4匹のカメとネズミがピザを囲んでいます。",
+        "ko": "닌자 거북이 오마주. 밤이 되면 빗물 배수로에서 거북이 넷과 쥐 하나가 피자를 나눠 먹어요."
+      },
+      "location": {
+        "en": "The concrete storm drain by the water treatment facility north of Millport, between Lake Tallaloko and North Leonard County.",
+        "es": "El desagüe de hormigón junto a la depuradora al norte de Millport, entre el lago Tallaloko y North Leonard County.",
+        "pt-BR": "O bueiro de concreto perto da estação de tratamento ao norte de Millport, entre o lago Tallaloko e North Leonard County.",
+        "de": "Der Betonabfluss an der Wasseraufbereitung nördlich von Millport, zwischen Lake Tallaloko und North Leonard County.",
+        "it": "Il canale di cemento vicino al depuratore a nord di Millport, tra il lago Tallaloko e North Leonard County.",
+        "fr": "L'égout pluvial en béton près de la station d'eau au nord de Millport, entre le lac Tallaloko et North Leonard County.",
+        "ru": "Бетонный ливневый сток у водоочистной станции севернее Millport, между озером Tallaloko и North Leonard County.",
+        "ja": "Millport北、Tallaloko湖とNorth Leonard Countyの間にある浄水施設横のコンクリートの雨水路。",
+        "ko": "Millport 북쪽, Tallaloko 호수와 North Leonard County 사이 정수 시설 옆 콘크리트 배수로."
+      },
+      "reward": {
+        "en": "A Curiosity entry and the Ratster collectible card",
+        "es": "Una entrada de Curiosidades y la carta coleccionable Ratster",
+        "pt-BR": "Um registro de Curiosidade e a carta colecionável Ratster",
+        "de": "Ein Kuriositäten-Eintrag und die Ratster-Sammelkarte",
+        "it": "Una voce delle Curiosità e la carta collezionabile Ratster",
+        "fr": "Une entrée de Curiosités et la carte à collectionner Ratster",
+        "ru": "Запись в Курьёзах и коллекционная карточка Ratster",
+        "ja": "珍品コレクションの登録とRatsterのコレクションカード",
+        "ko": "진기한 것 등록과 Ratster 수집 카드"
+      },
+      "steps": {
+        "en": [
+          "Go after dark: the scene only appears at night.",
+          "Watch from a distance with binoculars: four turtles and a rat by the pizza boxes. Get too close and the rat runs off.",
+          "While you're there, scan the crack in the wall with WAiNK for a Curiosity and grab the Ratster collectible card."
+        ],
+        "es": [
+          "Ve cuando oscurezca: la escena solo aparece de noche.",
+          "Observa de lejos con prismáticos: cuatro tortugas y una rata junto a las cajas de pizza. Si te acercas mucho, la rata huye.",
+          "Ya que estás, escanea la grieta del muro con WAiNK para una Curiosidad y toma la carta coleccionable de Ratster."
+        ],
+        "pt-BR": [
+          "Vá depois que escurecer: a cena só aparece à noite.",
+          "Observe de longe com binóculos: quatro tartarugas e um rato junto às caixas de pizza. Chegue perto demais e o rato foge.",
+          "Aproveite e escaneie a rachadura na parede com o WAiNK para uma Curiosidade e pegue a carta colecionável do Ratster."
+        ],
+        "de": [
+          "Komm nach Einbruch der Dunkelheit: Die Szene gibt es nur nachts.",
+          "Beobachte aus der Ferne mit dem Fernglas: vier Schildkröten und eine Ratte bei den Pizzakartons. Kommst du zu nah, rennt die Ratte weg.",
+          "Scanne dort auch den Riss in der Wand mit WAiNK für eine Kuriosität und nimm die Ratster-Sammelkarte mit."
+        ],
+        "it": [
+          "Vai dopo il tramonto: la scena compare solo di notte.",
+          "Osserva da lontano col binocolo: quattro tartarughe e un ratto vicino ai cartoni della pizza. Se ti avvicini troppo, il ratto scappa.",
+          "Già che ci sei, scansiona la crepa nel muro con WAiNK per una Curiosità e prendi la carta collezionabile Ratster."
+        ],
+        "fr": [
+          "Venez à la nuit tombée : la scène n'apparaît que la nuit.",
+          "Observez de loin aux jumelles : quatre tortues et un rat près des boîtes à pizza. Trop près, le rat s'enfuit.",
+          "Profitez-en pour scanner la fissure du mur avec WAiNK (une Curiosité) et prendre la carte à collectionner Ratster."
+        ],
+        "ru": [
+          "Приходи после заката — сцена бывает только ночью.",
+          "Смотри издалека в бинокль: четыре черепахи и крыса у коробок с пиццей. Подойдёшь близко — крыса убежит.",
+          "Заодно отсканируй трещину в стене через WAiNK (это Курьёз) и забери коллекционную карточку Ratster."
+        ],
+        "ja": [
+          "暗くなってから行きます。夜だけ見られる場面です。",
+          "双眼鏡で遠くから見ると、ピザの箱のそばに4匹のカメとネズミ。近づきすぎるとネズミが逃げます。",
+          "ついでに壁のひび割れをWAiNKでスキャン（珍品）し、Ratsterのコレクションカードも入手。"
+        ],
+        "ko": [
+          "어두워진 뒤에 가세요. 밤에만 나타나는 장면이에요.",
+          "쌍안경으로 멀리서 보면 피자 상자 옆에 거북이 넷과 쥐 하나가 있어요. 너무 다가가면 쥐가 도망가요.",
+          "간 김에 벽의 갈라진 틈을 WAiNK로 스캔(진기한 것)하고 Ratster 수집 카드도 챙기세요."
+        ]
+      },
+      "map": [
+        {
+          "x": 664.5,
+          "y": 287.3,
+          "r": 12.2
+        }
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/teenage-mutant-ninja-turtles/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://khelnow.com/gaming/gta-6-ninja-turtle-easter-egg-location-secret-storm-drain-more-details",
+          "source": "Khelnow",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto, Khelnow. Night only; keep your distance or the rat runs."
+    },
+    {
+      "id": "ufo-house",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "The UFO watcher's rooftop",
+        "es": "La azotea del observador de ovnis",
+        "pt-BR": "O terraço do caçador de óvnis",
+        "de": "Das Dach des UFO-Beobachters",
+        "it": "Il tetto dell'osservatore di UFO",
+        "fr": "Le toit de l'observateur d'OVNI",
+        "ru": "Крыша любителя НЛО",
+        "ja": "UFOウォッチャーの屋上",
+        "ko": "UFO 관찰자의 옥상"
+      },
+      "summary": {
+        "en": "A house with a homemade space shuttle on the roof. Sit in its chair late at night and a UFO races past.",
+        "es": "Una casa con un transbordador casero en el tejado. Siéntate en su silla de madrugada y un ovni pasa a toda velocidad.",
+        "pt-BR": "Uma casa com um ônibus espacial caseiro no telhado. Sente na cadeira de madrugada e um óvni passa voando.",
+        "de": "Ein Haus mit selbstgebautem Space Shuttle auf dem Dach. Setz dich spät nachts auf den Stuhl, und ein UFO rast vorbei.",
+        "it": "Una casa con uno space shuttle fatto in casa sul tetto. Siediti sulla sedia a notte fonda e un UFO sfreccia via.",
+        "fr": "Une maison avec une navette spatiale bricolée sur le toit. Asseyez-vous sur la chaise tard dans la nuit et un OVNI passe en trombe.",
+        "ru": "Дом с самодельным шаттлом на крыше. Сядь в кресло глубокой ночью — мимо пронесётся НЛО.",
+        "ja": "屋根に手作りのスペースシャトルがある家。深夜に椅子に座るとUFOが猛スピードで通り過ぎます。",
+        "ko": "지붕에 직접 만든 우주왕복선이 있는 집. 늦은 밤 의자에 앉으면 UFO가 휙 지나가요."
+      },
+      "location": {
+        "en": "West side of Ambrosia near the liquor store: the house with a makeshift shuttle on the roof and a UFO drawing in the garden.",
+        "es": "Lado oeste de Ambrosia, cerca de la licorería: la casa con un transbordador improvisado en el tejado y un dibujo de ovni en el jardín.",
+        "pt-BR": "Lado oeste de Ambrosia, perto da loja de bebidas: a casa com um ônibus espacial improvisado no telhado e um desenho de óvni no jardim.",
+        "de": "Westseite von Ambrosia nahe dem Spirituosenladen: das Haus mit improvisiertem Shuttle auf dem Dach und UFO-Zeichnung im Garten.",
+        "it": "Lato ovest di Ambrosia vicino al negozio di liquori: la casa con uno shuttle improvvisato sul tetto e un disegno di UFO in giardino.",
+        "fr": "Ouest d'Ambrosia près du magasin d'alcool : la maison avec une navette bricolée sur le toit et un dessin d'OVNI dans le jardin.",
+        "ru": "Западная часть Ambrosia, у винного магазина: дом с самодельным шаттлом на крыше и рисунком НЛО во дворе.",
+        "ja": "Ambrosia西側、酒屋の近く。屋根に手作りシャトル、庭にUFOの絵がある家。",
+        "ko": "Ambrosia 서쪽 주류 가게 근처. 지붕에 엉성한 우주왕복선, 마당에 UFO 그림이 있는 집."
+      },
+      "reward": {
+        "en": "The 'The Truth Is Out There' trophy, if you don't have it yet",
+        "es": "El trofeo «The Truth Is Out There», si aún no lo tienes",
+        "pt-BR": "O troféu «The Truth Is Out There», se ainda não tiver",
+        "de": "Die Trophäe «The Truth Is Out There», falls du sie noch nicht hast",
+        "it": "Il trofeo «The Truth Is Out There», se non l'hai ancora",
+        "fr": "Le trophée « The Truth Is Out There », si vous ne l'avez pas",
+        "ru": "Трофей «The Truth Is Out There», если его ещё нет",
+        "ja": "トロフィー「The Truth Is Out There」（未取得の場合）",
+        "ko": "트로피 「The Truth Is Out There」(아직 없다면)"
+      },
+      "steps": {
+        "en": [
+          "Come after 2 AM.",
+          "Climb the ladder at the back of the house to the roof.",
+          "Sit in the chair facing the town. After a few seconds the lights go out and a UFO speeds past."
+        ],
+        "es": [
+          "Ve después de las 2 AM.",
+          "Sube por la escalera de la parte trasera de la casa hasta el tejado.",
+          "Siéntate en la silla que mira al pueblo. A los pocos segundos se apagan las luces y pasa un ovni a toda velocidad."
+        ],
+        "pt-BR": [
+          "Vá depois das 2h.",
+          "Suba pela escada nos fundos da casa até o telhado.",
+          "Sente na cadeira virada para a cidade. Em segundos as luzes se apagam e um óvni passa voando."
+        ],
+        "de": [
+          "Komm nach 2 Uhr nachts.",
+          "Steig die Leiter hinter dem Haus aufs Dach.",
+          "Setz dich auf den Stuhl mit Blick auf die Stadt. Nach ein paar Sekunden geht das Licht aus und ein UFO rast vorbei."
+        ],
+        "it": [
+          "Vai dopo le 2 di notte.",
+          "Sali sul tetto con la scala sul retro della casa.",
+          "Siediti sulla sedia rivolta verso la città. Dopo qualche secondo le luci si spengono e passa un UFO."
+        ],
+        "fr": [
+          "Venez après 2 h du matin.",
+          "Montez sur le toit par l'échelle à l'arrière de la maison.",
+          "Asseyez-vous sur la chaise face à la ville. Au bout de quelques secondes, les lumières s'éteignent et un OVNI file."
+        ],
+        "ru": [
+          "Приходи после 2 часов ночи.",
+          "Поднимись на крышу по лестнице с задней стороны дома.",
+          "Сядь в кресло лицом к городу. Через несколько секунд погаснет свет и пронесётся НЛО."
+        ],
+        "ja": [
+          "午前2時以降に行きます。",
+          "家の裏のはしごで屋根に上ります。",
+          "町を見下ろす椅子に座ると、数秒後に明かりが消えてUFOが通り過ぎます。"
+        ],
+        "ko": [
+          "새벽 2시 이후에 가세요.",
+          "집 뒤쪽 사다리로 지붕에 오르세요.",
+          "마을을 바라보는 의자에 앉으면 몇 초 뒤 불이 꺼지고 UFO가 지나가요."
+        ]
+      },
+      "map": [
+        {
+          "x": 547.4,
+          "y": 492.3,
+          "r": 10.7
+        }
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://www.dexerto.com/wikis/gta-6/easter-eggs/ufo-house-easter-egg/",
+          "source": "Dexerto",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.aoeah.com/news/4948--top-30-gta-6-best-easter-eggs--secrets-location--loot",
+          "source": "AOEAH",
+          "source_type": "fansite",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "Dexerto + AOEAH (San Andreas UFO House). Trophy shared with the Kelly County UFO and Marbelle safe."
+    },
+    {
+      "id": "michaels-boat",
+      "kind": "easter_egg",
+      "mode": "story",
+      "title": {
+        "en": "Michael's boat from GTA V",
+        "es": "El barco de Michael de GTA V",
+        "pt-BR": "O barco do Michael do GTA V",
+        "de": "Michaels Boot aus GTA V",
+        "it": "La barca di Michael di GTA V",
+        "fr": "Le bateau de Michael de GTA V",
+        "ru": "Лодка Майкла из GTA V",
+        "ja": "GTA Vのマイケルのボート",
+        "ko": "GTA V 마이클의 보트"
+      },
+      "summary": {
+        "en": "A boat in Jason's yard still has Los Santos on its GPS: a quiet nod to GTA V. Bonus: Michael's ringtone is in your phone settings.",
+        "es": "Un barco en el patio de Jason aún muestra Los Santos en su GPS: un guiño discreto a GTA V. Extra: el tono de Michael está en los ajustes del teléfono.",
+        "pt-BR": "Um barco no quintal do Jason ainda mostra Los Santos no GPS: uma referência discreta ao GTA V. Bônus: o toque do Michael está nas configurações do celular.",
+        "de": "Ein Boot in Jasons Garten zeigt im GPS noch Los Santos: eine stille Anspielung auf GTA V. Bonus: Michaels Klingelton steckt in den Handy-Einstellungen.",
+        "it": "Una barca nel cortile di Jason ha ancora Los Santos sul GPS: un omaggio discreto a GTA V. Bonus: la suoneria di Michael è nelle impostazioni del telefono.",
+        "fr": "Un bateau dans le jardin de Jason affiche encore Los Santos sur son GPS : un clin d'œil discret à GTA V. Bonus : la sonnerie de Michael est dans les réglages du téléphone.",
+        "ru": "У лодки во дворе Джейсона на GPS всё ещё Los Santos — тихая отсылка к GTA V. Бонус: рингтон Майкла есть в настройках телефона.",
+        "ja": "ジェイソンの庭にあるボートのGPSには今もロスサントスが。GTA Vへのさりげないオマージュ。おまけ：スマホの設定にマイケルの着信音も。",
+        "ko": "제이슨 마당의 보트 GPS에 아직 로스 산토스가 떠 있어요. GTA V에 대한 조용한 오마주. 보너스: 휴대폰 설정에 마이클의 벨소리도 있어요."
+      },
+      "location": {
+        "en": "The front yard of Jason's safehouse in the Leonida Keys.",
+        "es": "El jardín delantero del refugio de Jason en los Leonida Keys.",
+        "pt-BR": "O quintal da frente do esconderijo do Jason nos Leonida Keys.",
+        "de": "Der Vorgarten von Jasons Unterschlupf in den Leonida Keys.",
+        "it": "Il cortile davanti al rifugio di Jason nelle Leonida Keys.",
+        "fr": "Le jardin devant la planque de Jason dans les Leonida Keys.",
+        "ru": "Двор перед убежищем Джейсона в Leonida Keys.",
+        "ja": "Leonida Keysにあるジェイソンの隠れ家の前庭。",
+        "ko": "Leonida Keys에 있는 제이슨 은신처의 앞마당."
+      },
+      "reward": {
+        "en": "Just the nod, plus Michael's ringtone",
+        "es": "Solo el guiño, más el tono de Michael",
+        "pt-BR": "Só a referência, mais o toque do Michael",
+        "de": "Nur die Anspielung, plus Michaels Klingelton",
+        "it": "Solo l'omaggio, più la suoneria di Michael",
+        "fr": "Juste le clin d'œil, plus la sonnerie de Michael",
+        "ru": "Только отсылка и рингтон Майкла",
+        "ja": "オマージュとマイケルの着信音",
+        "ko": "오마주와 마이클의 벨소리"
+      },
+      "steps": {
+        "en": [
+          "Climb onto the back of the boat in front of Jason's house.",
+          "Zoom in on the GPS at the helm: it shows the map of Los Santos.",
+          "Then open Settings > Ringtone on your phone and pick Wind Chimes: Michael's ringtone from GTA V."
+        ],
+        "es": [
+          "Súbete a la parte trasera del barco frente a la casa de Jason.",
+          "Acerca la vista al GPS del timón: muestra el mapa de Los Santos.",
+          "Después abre Ajustes > Tono en el teléfono y elige Wind Chimes: el tono de Michael en GTA V."
+        ],
+        "pt-BR": [
+          "Suba na traseira do barco em frente à casa do Jason.",
+          "Dê zoom no GPS do leme: ele mostra o mapa de Los Santos.",
+          "Depois abra Configurações > Toque no celular e escolha Wind Chimes: o toque do Michael no GTA V."
+        ],
+        "de": [
+          "Kletter hinten auf das Boot vor Jasons Haus.",
+          "Zoom auf das GPS am Steuer: Es zeigt die Karte von Los Santos.",
+          "Öffne dann Einstellungen > Klingelton am Handy und wähl Wind Chimes: Michaels Klingelton aus GTA V."
+        ],
+        "it": [
+          "Sali sul retro della barca davanti alla casa di Jason.",
+          "Zooma sul GPS al timone: mostra la mappa di Los Santos.",
+          "Poi apri Impostazioni > Suoneria sul telefono e scegli Wind Chimes: la suoneria di Michael in GTA V."
+        ],
+        "fr": [
+          "Montez à l'arrière du bateau devant la maison de Jason.",
+          "Zoomez sur le GPS de la barre : il affiche la carte de Los Santos.",
+          "Puis ouvrez Réglages > Sonnerie sur le téléphone et choisissez Wind Chimes : la sonnerie de Michael dans GTA V."
+        ],
+        "ru": [
+          "Залезь на корму лодки перед домом Джейсона.",
+          "Приблизь GPS у штурвала — на нём карта Los Santos.",
+          "Потом открой в телефоне Настройки > Рингтон и выбери Wind Chimes — это рингтон Майкла из GTA V."
+        ],
+        "ja": [
+          "ジェイソンの家の前のボートの後部に乗ります。",
+          "操舵席のGPSをズームするとロスサントスの地図が。",
+          "スマホの設定 > 着信音で「Wind Chimes」を選ぶと、GTA Vのマイケルの着信音です。"
+        ],
+        "ko": [
+          "제이슨 집 앞 보트 뒤쪽에 올라타세요.",
+          "조타석의 GPS를 확대하면 로스 산토스 지도가 보여요.",
+          "휴대폰 설정 > 벨소리에서 Wind Chimes를 고르면 GTA V 마이클의 벨소리예요."
+        ]
+      },
+      "map": [
+        {
+          "x": 599.5,
+          "y": 1142.6,
+          "r": 26.8
+        }
+      ],
+      "free": true,
+      "status": "green",
+      "evidence": [
+        {
+          "url": "https://games.gg/grand-theft-auto-vi/guides/grand-theft-auto-6-easter-eggs-and-secrets-known-clues/",
+          "source": "games.gg",
+          "source_type": "outlet",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.aoeah.com/news/4948--top-30-gta-6-best-easter-eggs--secrets-location--loot",
+          "source": "AOEAH",
+          "source_type": "fansite",
+          "date": "2026-11-28",
+          "claims": [
+            "exists",
+            "unlock",
+            "effect"
+          ],
+          "stance": "supports"
+        }
+      ],
+      "game_patch": null,
+      "added": "2026-11-28",
+      "last_checked": "2026-11-28",
+      "notes": "games.gg + AOEAH. Also: Settings > Ringtone > Wind Chimes is Michael's ringtone."
     }
   ]
 }

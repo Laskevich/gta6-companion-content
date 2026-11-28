@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated": "2026-11-23",
+  "updated": "2026-11-28",
   "items": [
     {
       "id": "money-250k",
@@ -96,10 +96,32 @@
             "unlock"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-22",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Unlock disputed: story (Altchar, iGeeksBlog) vs fence $250k (Shacknews, others). Code agreed."
     },
     {
@@ -210,10 +232,32 @@
             "unlock"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-22",
+      "last_checked": "2026-11-28",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
       "added": "2026-11-22"
     },
@@ -300,10 +344,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -423,7 +489,7 @@
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
+      "last_checked": "2026-11-28",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. 2026-11-23: code from GameSpot, GamesRadar, Mobalytics, Rare Thief; Dexerto alone lists an 8-input variant (L D R D U U R U).",
       "added": "2026-11-23"
     },
@@ -498,10 +564,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -522,7 +610,17 @@
         "ja": "落下ダメージを受けなくなります。",
         "ko": "낙하 피해를 받지 않아요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "up",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -553,7 +651,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -577,11 +675,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "parachute",
@@ -601,7 +722,17 @@
         "ja": "装備にパラシュートを追加します。",
         "ko": "장비에 낙하산을 추가해요."
       },
-      "sequence": null,
+      "sequence": [
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -632,7 +763,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -656,11 +787,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "body-armor",
@@ -748,10 +902,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -772,7 +948,16 @@
         "ja": "乗っている車両を完全に修理します。",
         "ko": "타고 있는 차량을 완전히 수리해요."
       },
-      "sequence": null,
+      "sequence": [
+        "right",
+        "down",
+        "down",
+        "right",
+        "down",
+        "right",
+        "right",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -803,7 +988,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -827,11 +1012,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "unlimited-nitrous",
@@ -851,7 +1059,16 @@
         "ja": "ニトロと燃料が無限になります。",
         "ko": "니트로와 연료가 줄지 않아요."
       },
-      "sequence": null,
+      "sequence": [
+        "right",
+        "down",
+        "down",
+        "right",
+        "down",
+        "right",
+        "right",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -882,7 +1099,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -906,11 +1123,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "max-ammo",
@@ -998,10 +1238,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1090,10 +1352,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1182,10 +1466,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1206,7 +1512,17 @@
         "ja": "すべての爆発物を弾薬満タンで入手します。",
         "ko": "모든 폭발 무기를 탄약을 가득 채워 받아요."
       },
-      "sequence": null,
+      "sequence": [
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1237,7 +1553,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1261,11 +1577,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "incendiary-ammo",
@@ -1285,7 +1624,18 @@
         "ja": "すべての弾丸が標的を燃やします。",
         "ko": "모든 총알이 대상을 불태워요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1316,7 +1666,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1340,11 +1690,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "exploding-bottles",
@@ -1364,7 +1737,17 @@
         "ja": "ボトルがダメージを受けると爆発します。",
         "ko": "병이 피해를 받으면 폭발해요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "up",
+        "left",
+        "left",
+        "right",
+        "down",
+        "down",
+        "up",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1395,7 +1778,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1419,11 +1802,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "explosive-shotgun",
@@ -1443,7 +1849,18 @@
         "ja": "爆発弾入りのショットガンを入手します。",
         "ko": "폭발탄이 장전된 샷건을 받아요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "right",
+        "down",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1474,7 +1891,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1498,11 +1915,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "hauners-h-at",
@@ -1522,7 +1962,17 @@
         "ja": "装備にHauners H-ATを追加します。",
         "ko": "장비에 Hauners H-AT를 추가해요."
       },
-      "sequence": null,
+      "sequence": [
+        "right",
+        "up",
+        "left",
+        "up",
+        "right",
+        "up",
+        "left",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1553,7 +2003,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1577,11 +2027,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "attack-force",
@@ -1755,10 +2228,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1846,10 +2341,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -1870,7 +2387,16 @@
         "ja": "Interstate Ambulanceを出現させます。",
         "ko": "Interstate Ambulance 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "right",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1901,7 +2427,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -1925,11 +2451,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "airboat-09",
@@ -1949,7 +2498,16 @@
         "ja": "Airboat 09を出現させます。",
         "ko": "Airboat 09 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -1980,7 +2538,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2004,11 +2562,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "bravado-banshee",
@@ -2028,7 +2609,16 @@
         "ja": "Bravado Bansheeを出現させます。",
         "ko": "Bravado Banshee 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2059,7 +2649,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2083,11 +2673,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "tuff-bmx",
@@ -2107,7 +2720,16 @@
         "ja": "Tuff BMXを出現させます。",
         "ko": "Tuff BMX 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2138,7 +2760,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2162,11 +2784,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "maibatsu-boomazoom",
@@ -2252,10 +2897,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2276,7 +2943,16 @@
         "ja": "Nagasaki Carbon RSを出現させます。",
         "ko": "Nagasaki Carbon RS 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2307,7 +2983,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2331,11 +3007,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "65-vapid-dominator",
@@ -2355,7 +3054,16 @@
         "ja": "'65 Vapid Dominatorを出現させます。",
         "ko": "'65 Vapid Dominator 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "left",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2386,7 +3094,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2410,11 +3118,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "progen-emerus",
@@ -2434,7 +3165,16 @@
         "ja": "Progen Emerusを出現させます。",
         "ko": "Progen Emerus 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2465,7 +3205,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2489,11 +3229,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "inflatable-flamingo",
@@ -2513,7 +3276,16 @@
         "ja": "Inflatable Flamingoを出現させます。",
         "ko": "Inflatable Flamingo 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2544,7 +3316,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2568,11 +3340,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "mtl-pumper",
@@ -2632,7 +3427,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2657,10 +3452,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Unlock condition from one source only. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2681,7 +3498,16 @@
         "ja": "Vapid Stanier G2 Taxiを出現させます。",
         "ko": "Vapid Stanier G2 Taxi 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "right",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2712,7 +3538,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2736,11 +3562,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "hauners-p-996-lazer",
@@ -2760,7 +3609,16 @@
         "ja": "Hauners P-996 Lazerを出現させます。",
         "ko": "Hauners P-996 Lazer 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "up",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2791,7 +3649,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2815,11 +3673,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "hvy-bulldozer",
@@ -2905,10 +3786,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -2929,7 +3832,16 @@
         "ja": "Lapwing Mallardを出現させます。",
         "ko": "Lapwing Mallard 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -2960,7 +3872,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -2984,11 +3896,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "brimstone-golfer",
@@ -3008,7 +3943,16 @@
         "ja": "Brimstone Golferを出現させます。",
         "ko": "Brimstone Golfer 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3039,7 +3983,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3063,11 +4007,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "hauners-rhino-tank",
@@ -3087,7 +4054,16 @@
         "ja": "Hauners Rhino Tankを出現させます。",
         "ko": "Hauners Rhino Tank 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "left",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3118,7 +4094,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3142,11 +4118,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "maibatsu-sanchez",
@@ -3166,7 +4165,16 @@
         "ja": "Maibatsu Sanchezを出現させます。",
         "ko": "Maibatsu Sanchez 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "right",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3197,7 +4205,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3221,11 +4229,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "nagasaki-sea-sparrow",
@@ -3245,7 +4276,16 @@
         "ja": "Nagasaki Sea Sparrowを出現させます。",
         "ko": "Nagasaki Sea Sparrow 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "up",
+        "up",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3276,7 +4316,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3300,11 +4340,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "speeder-700-gt",
@@ -3324,7 +4387,16 @@
         "ja": "Speeder 700 GTを出現させます。",
         "ko": "Speeder 700 GT 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "down",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3355,7 +4427,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3379,11 +4451,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "truffade-thrax",
@@ -3403,7 +4498,16 @@
         "ja": "Truffade Thraxを出現させます。",
         "ko": "Truffade Thrax 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "right",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3434,7 +4538,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3458,11 +4562,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "western-zombie-bobber",
@@ -3482,7 +4609,16 @@
         "ja": "Western Zombie Bobberを出現させます。",
         "ko": "Western Zombie Bobber 차량을 불러와요."
       },
-      "sequence": null,
+      "sequence": [
+        "left",
+        "up",
+        "right",
+        "down",
+        "left",
+        "left",
+        "up",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3513,7 +4649,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3537,11 +4673,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "move-time-forward",
@@ -3561,7 +4720,15 @@
         "ja": "時計を進めます。",
         "ko": "시계를 앞으로 돌려요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3592,7 +4759,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3616,11 +4783,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "pause-time-of-day",
@@ -3640,7 +4830,15 @@
         "ja": "時間の流れを止めます。",
         "ko": "시간의 흐름을 멈춰요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "right",
+        "up",
+        "down",
+        "right",
+        "up",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3671,7 +4869,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3695,11 +4893,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "cycle-weather",
@@ -3794,10 +5015,32 @@
             "unlock"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-22",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Unlock: reveal map (Shacknews, PureXbox, GamesRadar) vs story (Altchar, PowerPyx)."
     },
     {
@@ -3818,7 +5061,18 @@
         "ja": "暖かい金色のフィルターとワイドスクリーン枠。",
         "ko": "따뜻한 황금빛 필터와 와이드스크린 프레임."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "up",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3849,7 +5103,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3873,11 +5127,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "powdered-sugar",
@@ -3897,7 +5174,18 @@
         "ja": "世界が白くきらきら輝きます。",
         "ko": "세상이 하얗게 반짝여요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "up",
+        "right"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -3928,7 +5216,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -3952,11 +5240,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "pinhole",
@@ -3976,7 +5287,18 @@
         "ja": "ピンホールカメラ風の見た目。",
         "ko": "핀홀 카메라 느낌."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "up",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4007,7 +5329,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4031,11 +5353,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "neon-jungle",
@@ -4055,7 +5400,18 @@
         "ja": "世界にネオンの輝きを加えます。",
         "ko": "세상에 네온 빛을 더해요."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "up",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4086,7 +5442,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4110,11 +5466,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "yesteryear",
@@ -4134,7 +5513,18 @@
         "ja": "古い白黒テレビ風の見た目。",
         "ko": "오래된 흑백 TV 느낌."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "right",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4165,7 +5555,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4189,11 +5579,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "cataclysm",
@@ -4281,10 +5694,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4394,10 +5829,21 @@
             "sequence"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
+      "last_checked": "2026-11-28",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Code only on Shacknews (22.11); GameRiv/games.gg/iGeeksBlog still TBA.",
       "added": "2026-11-22"
     },
@@ -4508,10 +5954,21 @@
             "sequence"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
+      "last_checked": "2026-11-28",
       "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven. Code only on Shacknews (22.11); GameRiv/games.gg/iGeeksBlog still TBA.",
       "added": "2026-11-22"
     },
@@ -4533,7 +5990,18 @@
         "ja": "ぼやけてゆがんだフィルター。",
         "ko": "흐릿하고 일그러진 필터."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4564,7 +6032,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4588,11 +6056,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "dollhouse",
@@ -4680,10 +6171,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -4704,7 +6217,18 @@
         "ja": "紫と黄色のきらめく世界。",
         "ko": "반짝이는 보라색과 노란색 세상."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4735,7 +6259,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4759,11 +6283,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "fast-forward",
@@ -4783,7 +6330,18 @@
         "ja": "モーションブラーと流れる雲。",
         "ko": "모션 블러와 빠르게 흐르는 구름."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "down",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4814,7 +6372,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4838,11 +6396,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "fisheye",
@@ -4862,7 +6443,18 @@
         "ja": "魚眼レンズ風の見た目。",
         "ko": "어안 렌즈 화면."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "left",
+        "up"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -4893,7 +6485,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -4917,11 +6509,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "faded-glory",
@@ -5009,10 +6624,32 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-19",
+      "last_checked": "2026-11-28",
       "notes": "Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
     },
     {
@@ -5033,7 +6670,18 @@
         "ja": "ピクセル風の見た目。",
         "ko": "픽셀 화면."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "left",
+        "down"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -5064,7 +6712,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -5088,11 +6736,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     },
     {
       "id": "hellscape",
@@ -5112,7 +6783,18 @@
         "ja": "陽炎が揺れる赤橙色の世界。",
         "ko": "아지랑이가 피어오르는 붉은 주황빛 세상."
       },
-      "sequence": null,
+      "sequence": [
+        "down",
+        "down",
+        "up",
+        "right",
+        "right",
+        "up",
+        "left",
+        "left",
+        "left",
+        "left"
+      ],
       "unlock": {
         "after_story": true,
         "challenge": {
@@ -5143,7 +6825,7 @@
         "xsx"
       ],
       "free": false,
-      "status": "yellow",
+      "status": "green",
       "evidence": [
         {
           "url": "https://gamerant.com/all-grand-theft-auto-vi-gta-6-cheat-codes-list/",
@@ -5167,11 +6849,34 @@
             "effect"
           ],
           "stance": "supports"
+        },
+        {
+          "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-cheats/",
+          "source": "GamesRadar+",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
+        },
+        {
+          "url": "https://www.gamespot.com/articles/all-gta-6-cheats-and-how-to-unlock-them/",
+          "source": "GameSpot",
+          "source_type": "outlet",
+          "date": "2026-11-27",
+          "claims": [
+            "exists",
+            "sequence"
+          ],
+          "stance": "supports"
         }
       ],
       "game_patch": null,
-      "last_checked": "2026-11-23",
-      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven."
+      "last_checked": "2026-11-28",
+      "notes": "Code not published yet by any source. Both sources may share an upstream (Altchar credits PowerPyx); independence not proven.",
+      "added": "2026-11-28"
     }
   ]
 }
